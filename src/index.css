@@ -782,3 +782,99 @@ header {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--border-glow);
 }
+
+/* Roadmap Styles */
+.roadmap-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+}
+
+.roadmap-line {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 4px;
+  background: var(--border-light);
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.roadmap-line-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-start), var(--primary-end));
+  transition: width 0.4s ease;
+}
+
+.roadmap-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  min-width: 90px;
+}
+
+.roadmap-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bg-dark);
+  border: 3px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--text-muted);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.roadmap-node.unlocked .roadmap-circle {
+  border-color: var(--primary-start);
+  color: var(--text-primary);
+  background: hsla(263, 70%, 50%, 0.15);
+}
+
+.roadmap-node.active .roadmap-circle {
+  border-color: var(--primary-end);
+  color: var(--text-primary);
+  background: linear-gradient(135deg, var(--primary-start), var(--primary-end));
+  box-shadow: var(--shadow-glow);
+}
+
+.roadmap-node.completed .roadmap-circle {
+  border-color: var(--success);
+  color: var(--text-primary);
+  background: var(--success-glow);
+}
+
+.roadmap-label {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.roadmap-node.active .roadmap-label {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.roadmap-node.locked {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

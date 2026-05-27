@@ -74,6 +74,105 @@ export const LESSONS = {
       writing: [
         { id: "wri_beg2_1", question: "Rearrange the words: [breakfast / I / eat / morning / every]", correct: "I eat breakfast every morning", prompt: "Translate: ကျွန်တော် နေ့တိုင်း မနက်စာ စားပါတယ်" }
       ]
+    },
+    {
+      id: "beg_3",
+      title: "Family & Relationships",
+      titleMM: "မိသားစုနှင့် ပတ်သက်မှုများ",
+      description: "Learn how to talk about your family members and relationships.",
+      descriptionMM: "မိသားစုဝင်များနှင့် ဆွေမျိုးတော်စပ်မှုများအကြောင်း ပြောဆိုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Father", ipa: "/ˈfɑːðər/", mm: "ဖခင် / အဖေ", example: "My father is a doctor.", exampleMM: "ကျွန်တော့်အဖေက ဆရာဝန်တစ်ယောက်ပါ။" },
+        { word: "Mother", ipa: "/ˈmʌðər/", mm: "မိခင် / အမေ", example: "Her mother cooks delicious food.", exampleMM: "သူမအမေက အရသာရှိတဲ့ အစားအစာတွေ ချက်ပြုတ်တတ်တယ်။" },
+        { word: "Brother", ipa: "/ˈbrʌðər/", mm: "ညီအစ်ကိုမောင်နှမ / မောင်လေး / အစ်ကို", example: "Do you have a brother?", exampleMM: "မင်းမှာ ညီအစ်ကို မောင်နှမ ရှိသလား။" },
+        { word: "Sister", ipa: "/ˈsɪstər/", mm: "ညီမလေး / အစ်မ", example: "I have one younger sister.", exampleMM: "ကျွန်တော့်မှာ ညီမလေး တစ်ယောက်ရှိတယ်။" },
+        { word: "Parent", ipa: "/ˈperənt/", mm: "မိဘ", example: "I respect my parents.", exampleMM: "ကျွန်တော် ကျွန်တော့်မိဘတွေကို လေးစားပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_beg3_1", text: "I have one younger sister", audioText: "I have one younger sister", options: ["ကျွန်တော့်မှာ ညီမလေး တစ်ယောက်ရှိတယ်", "ကျွန်တော့်မှာ မောင်လေး တစ်ယောက်ရှိတယ်", "မိဘတွေကို ချစ်ခင်ပါ"], answer: "ကျွန်တော့်မှာ ညီမလေး တစ်ယောက်ရှိတယ်" }
+      ],
+      speaking: [
+        { id: "spe_beg3_1", text: "My family lives in a beautiful town.", instruction: "Read the sentence clearly:", instructionMM: "အောက်ပါ ဝါကျကို ရှင်းလင်းစွာ အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "A Family Gathering",
+        titleMM: "မိသားစု စုံညီပွဲ",
+        content: "Every Sunday, my family has a big dinner together. My father grills chicken in the garden, and my mother bakes delicious pies. My brother and sister set the table. We talk, laugh, and share stories about our week.",
+        contentMM: "တနင်္ဂနွေနေ့တိုင်း ကျွန်မတို့မိသားစု စုံစုံလင်လင် ညစာအတူတူ စားကြတယ်။ အဖေက ဥယျာဉ်ထဲမှာ ကြက်သားကင်ပြီး အမေက အရသာရှိတဲ့ ပိုင်မုန့်တွေ ဖုတ်တယ်။ မောင်လေးနဲ့ ညီမလေးက စားပွဲပြင်ကြတယ်။ ငါတို့ စကားပြောကြ၊ ရယ်မောကြပြီး တစ်ပတ်တာအကြောင်း မျှဝေကြပါတယ်။",
+        questions: [
+          { question: "When does the family gather?", options: ["Every Sunday", "Every Friday", "Only on holidays"], answer: "Every Sunday" },
+          { question: "Who grills chicken in the garden?", options: ["The father", "The mother", "The brother"], answer: "The father" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg3_1", question: "Rearrange the words: [sister / she / my / is]", correct: "she is my sister", prompt: "Translate: သူမက ကျွန်မရဲ့ ညီမဖြစ်ပါတယ်" }
+      ]
+    },
+    {
+      id: "beg_4",
+      title: "Food, Shopping & Numbers",
+      titleMM: "အစားအသောက်၊ ဈေးဝယ်ခြင်းနှင့် ကိန်းဂဏန်းများ",
+      description: "Learn vocabulary for ordering food, going shopping, and counting items.",
+      descriptionMM: "အစားအသောက်မှာယူခြင်း၊ ဈေးဝယ်ထွက်ခြင်းနှင့် ပစ္စည်းရေတွက်ခြင်းဆိုင်ရာ ဝေါဟာရများကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Delicious", ipa: "/dɪˈlɪʃəs/", mm: "အရသာရှိသော", example: "This noodle soup is delicious.", exampleMM: "ဒီမုန့်ဟင်းခါးက တကယ်အရသာရှိတယ်။" },
+        { word: "Market", ipa: "/ˈmɑːrkɪt/", mm: "ဈေး", example: "We buy fresh vegetables at the market.", exampleMM: "ကျွန်တော်တို့ ဈေးမှာ လတ်ဆတ်တဲ့ ဟင်းသီးဟင်းရွက်တွေ ဝယ်ကြတယ်။" },
+        { word: "Buy", ipa: "/baɪ/", mm: "ဝယ်ယူသည်", example: "I want to buy a new book.", exampleMM: "ကျွန်တော် စာအုပ်အသစ်တစ်အုပ် ဝယ်ချင်ပါတယ်။" },
+        { word: "Price", ipa: "/praɪs/", mm: "စျေးနှုန်း", example: "What is the price of this shirt?", exampleMM: "ဒီရှပ်အင်္ကျီရဲ့ စျေးနှုန်းက ဘယ်လောက်လဲ။" },
+        { word: "Hundred", ipa: "/ˈhʌndrəd/", mm: "ရာဂဏန်း / တစ်ရာ", example: "This pen costs two hundred kyats.", exampleMM: "ဒီဘောပင်က ကျပ်နှစ်ရာ ကျသင့်ပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_beg4_1", text: "This noodle soup is delicious", audioText: "This noodle soup is delicious", options: ["ဒီမုန့်ဟင်းခါးက တကယ်အရသာရှိတယ်", "ဒီဟင်းက အရသာမရှိဘူး", "စျေးနှုန်းက အရမ်းကြီးတယ်"], answer: "ဒီမုန့်ဟင်းခါးက တကယ်အရသာရှိတယ်" }
+      ],
+      speaking: [
+        { id: "spe_beg4_1", text: "How much does this cost?", instruction: "Ask the price clearly:", instructionMM: "အောက်ပါ မေးခွန်းကို အသံထွက်မေးပါ:" }
+      ],
+      reading: {
+        title: "At the Local Market",
+        titleMM: "ဒေသတွင်း ဈေးတစ်ခုတွင်",
+        content: "Su Su wants to buy fresh fruits. She walks to the local market in Yangon. The market is crowded. She asks the seller, 'How much are these apples?' The seller replies, 'They are five hundred kyats each.' Su Su buys four delicious apples.",
+        contentMM: "စုစုက လတ်ဆတ်တဲ့ သစ်သီးတွေ ဝယ်ချင်တယ်။ သူမ ရန်ကုန်က ဒေသတွင်းဈေးကို လမ်းလျှောက်သွားတယ်။ ဈေးထဲမှာ လူစည်ကားနေသည်။ သူမက ရောင်းသူကို 'ဒီပန်းသီးတွေ ဘယ်လောက်လဲ' လို့ မေးတယ်။ ရောင်းသူက 'တစ်လုံးကို ငါးရာကျပ်ပါ' လို့ ပြန်ပြောတယ်။ စုစုက အရသာရှိတဲ့ ပန်းသီး လေးလုံး ဝယ်ခဲ့ပါတယ်။",
+        questions: [
+          { question: "Where does Su Su go to buy fruits?", options: ["The supermarket", "The local market", "The bakery"], answer: "The local market" },
+          { question: "How much is one apple?", options: ["Two hundred kyats", "Five hundred kyats", "One thousand kyats"], answer: "Five hundred kyats" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg4_1", question: "Rearrange the words: [delicious / apples / buy / I / four]", correct: "I buy four delicious apples", prompt: "Translate: ကျွန်မ အရသာရှိတဲ့ ပန်းသီး လေးလုံး ဝယ်ပါတယ်" }
+      ]
+    },
+    {
+      id: "beg_5",
+      title: "Travel, Locations & Directions",
+      titleMM: "ခရီးသွားခြင်း၊ နေရာများနှင့် လမ်းညွှန်ချက်များ",
+      description: "Learn how to ask for directions and describe key travel locations.",
+      descriptionMM: "လမ်းညွှန်ချက်များ တောင်းဆိုပုံနှင့် ခရီးသွားလာရေး နေရာများအကြောင်း ပြောဆိုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Airport", ipa: "/ˈer-pɔːrt/", mm: "လေဆိပ်", example: "The airport is very modern.", exampleMM: "လေဆိပ်က တကယ်ကို ခေတ်မီပါတယ်။" },
+        { word: "Station", ipa: "/ˈsteɪʃn/", mm: "ဘူတာရုံ", example: "Where is the train station?", exampleMM: "မီးရထားဘူတာ ဘယ်မှာလဲ။" },
+        { word: "Map", ipa: "/mæp/", mm: "မြေပုံ", example: "Please look at the map.", exampleMM: "မြေပုံကို ကြည့်ပေးပါ။" },
+        { word: "Left", ipa: "/lɛft/", mm: "ဘယ်ဘက်", example: "Turn left at the next corner.", exampleMM: "နောက်ထောင့်မှာ ဘယ်ဘက်ကို ကွေ့ပါ။" },
+        { word: "Right", ipa: "/raɪt/", mm: "ညာဘက်", example: "The library is on the right.", exampleMM: "စာကြည့်တိုက်က ညာဘက်မှာ ရှိပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_beg5_1", text: "Turn left at the next corner", audioText: "Turn left at the next corner", options: ["နောက်ထောင့်မှာ ညာဘက်ကို ကွေ့ပါ", "နောက်ထောင့်မှာ ဘယ်ဘက်ကို ကွေ့ပါ", "ဖြောင့်ဖြောင့်သွားပါ"], answer: "နောက်ထောင့်မှာ ဘယ်ဘက်ကို ကွေ့ပါ" }
+      ],
+      speaking: [
+        { id: "spe_beg5_1", text: "Excuse me, where is the nearest station?", instruction: "Ask for directions politely:", instructionMM: "အောက်ပါအတိုင်း ယဉ်ကျေးစွာ လမ်းညွှန်ချက် တောင်းဆိုပါ:" }
+      ],
+      reading: {
+        title: "Lost in the City",
+        titleMM: "မြို့ထဲတွင် လမ်းပျောက်ခြင်း",
+        content: "A tourist wants to visit the Shwedagon Pagoda but gets lost. He opens a map on his phone, but the signal is weak. He asks a local person, 'Excuse me, how do I get to the pagoda?' The local person smiles and says, 'Go straight, then turn left. It is on your right.' The tourist says, 'Thank you so much!'",
+        contentMM: "ခရီးသွားတစ်ဦးသည် ရွှေတိဂုံဘုရားဖူးချင်သော်လည်း လမ်းပျောက်သွားသည်။ သူဖုန်းထဲက မြေပုံကို ဖွင့်ကြည့်သော်လည်း လိုင်းမကောင်းပေ။ သူက ဒေသခံတစ်ဦးကို 'တစ်ဆိတ်လောက်ပါ၊ ဘုရားကို ဘယ်လိုသွားရမလဲခင်ဗျာ' လို့ မေးတယ်။ ဒေသခံက ပြုံးပြီး 'တည့်တည့်သွားပြီး ဘယ်ဘက်ကွေ့ပါ။ ခင်ဗျာရဲ့ ညာဘက်မှာ ရှိပါလိမ့်မယ်' လို့ပြောတယ်။ ခရီးသွားက 'ကျေးဇူးအများကြီးတင်ပါတယ်' လို့ ပြောခဲ့ပါတယ်။",
+        questions: [
+          { question: "Where does the tourist want to visit?", options: ["The Shwedagon Pagoda", "The airport", "The train station"], answer: "The Shwedagon Pagoda" },
+          { question: "Which way should the tourist turn first after going straight?", options: ["Left", "Right", "Backwards"], answer: "Left" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg5_1", question: "Rearrange the words: [station / train / the / on / left / is / the]", correct: "the train station is on the left", prompt: "Translate: မီးရထားဘူတာရုံက ဘယ်ဘက်မှာ ရှိပါတယ်" }
+      ]
     }
   ],
   intermediate: [
