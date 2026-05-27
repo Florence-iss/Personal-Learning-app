@@ -173,6 +173,105 @@ export const LESSONS = {
       writing: [
         { id: "wri_beg5_1", question: "Rearrange the words: [station / train / the / on / left / is / the]", correct: "the train station is on the left", prompt: "Translate: မီးရထားဘူတာရုံက ဘယ်ဘက်မှာ ရှိပါတယ်" }
       ]
+    },
+    {
+      id: "beg_6",
+      title: "Asking for Help & Emergencies",
+      titleMM: "အကူအညီတောင်းခံခြင်းနှင့် အရေးပေါ်အခြေအနေများ",
+      description: "Learn how to ask for help when lost or during emergency situations.",
+      descriptionMM: "လမ်းပျောက်သည့်အခါ သို့မဟုတ် အရေးပေါ်အခြေအနေများတွင် အကူအညီတောင်းခံပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Help", ipa: "/hɛlp/", mm: "အကူအညီ", example: "Please help me carry this bag.", exampleMM: "ဒီအိတ်သယ်ဖို့ ကျွန်တော့်ကို ကူညီပေးပါ။" },
+        { word: "Lost", ipa: "/lɔst/", mm: "လမ်းပျောက်သော", example: "I am lost in this big city.", exampleMM: "ကျွန်တော် ဒီမြို့ကြီးထဲမှာ လမ်းပျောက်နေတယ်။" },
+        { word: "Police", ipa: "/pəˈlis/", mm: "ရဲတပ်ဖွဲ့", example: "Call the police immediately.", exampleMM: "ရဲကို ချက်ချင်းဖုန်းခေါ်လိုက်ပါ။" },
+        { word: "Doctor", ipa: "/ˈdɑktər/", mm: "ဆရာဝန်", example: "I need to see a doctor today.", exampleMM: "ကျွန်တော် ဒီနေ့ ဆရာဝန်နဲ့ တွေ့ဖို့ လိုအပ်တယ်။" },
+        { word: "Emergency", ipa: "/ɪˈmɜrdʒənsi/", mm: "အရေးပေါ်အခြေအနေ", example: "This is an absolute emergency.", exampleMM: "ဒါဟာ တကယ့်အရေးပေါ်အခြေအနေတစ်ခုပါ။" }
+      ],
+      listening: [
+        { id: "lis_beg6_1", text: "Call the police immediately", audioText: "Call the police immediately", options: ["ရဲကို ချက်ချင်းဖုန်းခေါ်လိုက်ပါ", "ဆရာဝန်နဲ့ သွားတွေ့ပါ", "ကျွန်တော့်ကို ကူညီပေးပါ"], answer: "ရဲကို ချက်ချင်းဖုန်းခေါ်လိုက်ပါ" }
+      ],
+      speaking: [
+        { id: "spe_beg6_1", text: "Excuse me, I am lost. Can you help me?", instruction: "Ask for help politely:", instructionMM: "အောက်ပါ အကူအညီတောင်းခံမှုကို ယဉ်ကျေးစွာ ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "Lost Wallet",
+        titleMM: "ပိုက်ဆံအိတ် ပျောက်ဆုံးခြင်း",
+        content: "A traveler lost his wallet at a Yangon bus stop. He was lost because his ID cards and money were inside. He walked to the nearest police station. The police officers helped him contact his embassy. It was a stressful emergency, but he found help.",
+        contentMM: "ခရီးသွားတစ်ဦးသည် ရန်ကုန်ဘတ်စ်ကားဂိတ်တစ်ခုတွင် ပိုက်ဆံအိတ် ပျောက်ဆုံးသွားခဲ့သည်။ ၎င်း၏ သတ်မှတ်ချက်ကတ်များနှင့် ငွေများ ပါသွားသဖြင့် သူ လမ်းပျောက်နေခဲ့သည်။ သူက အနီးဆုံး ရဲစခန်းသို့ လမ်းလျှောက်သွားခဲ့သည်။ ရဲတပ်ဖွဲ့ဝင်များက သူ့သံရုံးသို့ ဆက်သွယ်ရန် ကူညီပေးခဲ့ကြသည်။ ဒါဟာ စိတ်ဖိစီးစရာ အရေးပေါ်အခြေအနေတစ်ခုဖြစ်ပေမယ့် သူ အကူအညီ ရရှိခဲ့ပါတယ်။",
+        questions: [
+          { question: "Where did the traveler lose his wallet?", options: ["At a bus stop", "At the airport", "In a taxi"], answer: "At a bus stop" },
+          { question: "Who helped him contact his embassy?", options: ["His friend", "The police officers", "A doctor"], answer: "The police officers" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg6_1", question: "Rearrange the words: [need / a / I / see / doctor / to]", correct: "I need to see a doctor", prompt: "Translate: ကျွန်တော် ဆရာဝန်နဲ့ တွေ့ဖို့ လိုအပ်တယ်" }
+      ]
+    },
+    {
+      id: "beg_7",
+      title: "Weather & Seasons",
+      titleMM: "ရာသီဥတုနှင့် ရာသီဥတုအခြေအနေများ",
+      description: "Learn how to describe the weather conditions and seasons.",
+      descriptionMM: "ရာသီဥတုအခြေအနေများနှင့် ရာသီဥတုများအကြောင်း ဖော်ပြပြောဆိုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Rainy", ipa: "/ˈreɪni/", mm: "မိုးရွာသော", example: "It is a rainy afternoon.", exampleMM: "ဒါဟာ မိုးရွာနေတဲ့ ညနေခင်းတစ်ခုပါ။" },
+        { word: "Sunny", ipa: "/ˈsʌni/", mm: "နေသာသော", example: "I love sunny days at the beach.", exampleMM: "ကျွန်တော် ကမ်းခြေမှာ နေသာတဲ့နေ့တွေကို ကြိုက်တယ်။" },
+        { word: "Cold", ipa: "/koʊld/", mm: "အေးသော", example: "It gets very cold in December.", exampleMM: "ဒီဇင်ဘာလမှာ ရာသီဥတု တအားအေးတတ်တယ်။" },
+        { word: "Hot", ipa: "/hɑt/", mm: "ပူသော", example: "March is a hot month in Myanmar.", exampleMM: "မတ်လဟာ မြန်မာနိုင်ငံမှာ ပူပြင်းတဲ့လတစ်ခု ဖြစ်ပါတယ်။" },
+        { word: "Season", ipa: "/ˈsizn/", mm: "ရာသီ", example: "Monsoon is the rainy season.", exampleMM: "မုတ်သုံရာသီဟာ မိုးရာသီဖြစ်ပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_beg7_1", text: "It gets very cold in December", audioText: "It gets very cold in December", options: ["ဒီဇင်ဘာလမှာ ရာသီဥတု တအားအေးတတ်တယ်", "မတ်လဟာ ပူပြင်းတဲ့လဖြစ်တယ်", "ကမ်းခြေမှာ နေသာတယ်"], answer: "ဒီဇင်ဘာလမှာ ရာသီဥတု တအားအေးတတ်တယ်" }
+      ],
+      speaking: [
+        { id: "spe_beg7_1", text: "The weather is hot and sunny today.", instruction: "Read the weather forecast:", instructionMM: "အောက်ပါ ရာသီဥတုအခြေအနေကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "Seasons in Myanmar",
+        titleMM: "မြန်မာနိုင်ငံ၏ ရာသီဥတုများ",
+        content: "Myanmar has three main seasons: the hot season, the rainy season, and the cold season. The hot season starts in March. The rainy season begins in June, bringing heavy monsoon rains. December marks the start of the cold season, which is sunny but cool in the mornings.",
+        contentMM: "မြန်မာနိုင်ငံတွင် အဓိက ရာသီဥတု သုံးခုရှိသည် - နွေရာသီ (ပူပြင်းသောရာသီ)၊ မိုးရာသီနှင့် ဆောင်းရာသီ (အေးသောရာသီ)။ နွေရာသီသည် မတ်လတွင် စတင်သည်။ မိုးရာသီသည် ဇွန်လတွင် စတင်ပြီး ပြင်းထန်သော မုတ်သုံမိုးများကို သယ်ဆောင်လာသည်။ ဒီဇင်ဘာလသည် ဆောင်းရာသီ၏အစဖြစ်ပြီး နေသာသော်လည်း မနက်ခင်းပိုင်းတွင် အေးမြသည်။",
+        questions: [
+          { question: "When does the hot season start?", options: ["March", "June", "December"], answer: "March" },
+          { question: "How many main seasons does Myanmar have?", options: ["Two", "Three", "Four"], answer: "Three" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg7_1", question: "Rearrange the words: [rainy / monsoon / is / season / the]", correct: "monsoon is the rainy season", prompt: "Translate: မုတ်သုံရာသီဟာ မိုးရာသီဖြစ်ပါတယ်" }
+      ]
+    },
+    {
+      id: "beg_8",
+      title: "Visiting the British Council Classroom",
+      titleMM: "ဗြိတိသျှကောင်စီ စာသင်ခန်းသို့ သွားရောက်လည်ပတ်ခြင်း",
+      description: "Learn basic vocabulary for classroom objects and asking simple questions in a language center.",
+      descriptionMM: "ဘာသာစကားသင်တန်းကျောင်းရှိ စာသင်ခန်းသုံးပစ္စည်းများနှင့် ရိုးရှင်းသော မေးခွန်းများမေးဆိုပုံဆိုင်ရာ အခြေခံဝေါဟာရများကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Classroom", ipa: "/ˈklæsruːm/", mm: "စာသင်ခန်း", example: "The classroom is bright and clean.", exampleMM: "စာသင်ခန်းက လင်းထိန်ပြီး သန့်ရှင်းပါတယ်။" },
+        { word: "Homework", ipa: "/ˈhoʊmwɜːrk/", mm: "အိမ်စာ", example: "We have some English homework tonight.", exampleMM: "ကျွန်တော်တို့ ဒီနေ့ည အင်္ဂလိပ်စာအိမ်စာ အနည်းငယ်ရှိတယ်။" },
+        { word: "Dictionary", ipa: "/ˈdɪkʃəneri/", mm: "အဘိဓာန်", example: "Can I borrow your dictionary?", exampleMM: "မင်းရဲ့အဘိဓာန်ကို ခေတ္တငှားလို့ရမလား။" },
+        { word: "Question", ipa: "/ˈkwestʃən/", mm: "မေးခွန်း", example: "The student asked a simple question.", exampleMM: "ကျောင်းသားက ရိုးရှင်းတဲ့ မေးခွန်းတစ်ခု မေးခဲ့ပါတယ်။" },
+        { word: "Understand", ipa: "/ˌʌndərˈstænd/", mm: "နားလည်သည်", example: "I understand the teacher's lesson.", exampleMM: "ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_beg8_1", text: "I understand the teacher's lesson", audioText: "I understand the teacher's lesson", options: ["ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်", "အိမ်စာလုပ်ဖို့ မမေ့ပါနဲ့", "အဘိဓာန်ကို ပြန်ပေးပါ"], answer: "ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်" }
+      ],
+      speaking: [
+        { id: "spe_beg8_1", text: "Can you please repeat the question, teacher?", instruction: "Ask the teacher to repeat a question:", instructionMM: "ဆရာမကို မေးခွန်းပြန်မေးပေးရန် ယဉ်ကျေးစွာ ပြောဆိုပါ:" }
+      ],
+      reading: {
+        title: "First Day at the British Council",
+        titleMM: "ဗြိတိသျှကောင်စီတွင် ပထမဆုံးနေ့",
+        content: "Ko Ko visits the British Council library. He wants to learn English. He sees a modern classroom with many students. The teacher gives them a vocabulary homework. Ko Ko uses a bilingual dictionary to understand the new words. He is very happy to study here.",
+        contentMM: "ကိုကိုသည် ဗြိတိသျှကောင်စီ စာကြည့်တိုက်သို့ သွားရောက်လည်ပတ်သည်။ သူသည် အင်္ဂလိပ်စာ သင်ယူချင်သည်။ သူသည် ကျောင်းသားများစွာရှိသော ခေတ်မီစာသင်ခန်းတစ်ခုကို တွေ့ရသည်။ ဆရာမက သူတို့ကို ဝေါဟာရအိမ်စာ ပေးသည်။ ကိုကိုသည် စကားလုံးအသစ်များကို နားလည်ရန် ဘာသာပြန်အဘိဓာန်ကို အသုံးပြုသည်။ သူသည် ဤနေရာတွင် စာလေ့လာရသဖြင့် အလွန်ပျော်ရွှင်နေပါသည်။",
+        questions: [
+          { question: "Where does Ko Ko visit?", options: ["The British Council", "The local market", "The railway station"], answer: "The British Council" },
+          { question: "What does he use to understand new words?", options: ["A map", "A bilingual dictionary", "A newspaper"], answer: "A bilingual dictionary" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg8_1", question: "Rearrange the words: [borrow / I / your / dictionary / can]", correct: "can I borrow your dictionary", prompt: "Translate: မင်းရဲ့အဘိဓာန်ကို ကျွန်တော် ငှားလို့ရမလား" }
+      ]
     }
   ],
   intermediate: [
@@ -342,6 +441,106 @@ export const LESSONS = {
       writing: [
         { id: "wri_int5_1", question: "Rearrange the words: [privacy / online / settings / check / your]", correct: "check your online privacy settings", prompt: "Translate: သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ" }
       ]
+    },
+    {
+      id: "int_6",
+      title: "Restaurant & Dining Etiquette",
+      titleMM: "စားသောက်ဆိုင်နှင့် စားသောက်မှုပုံစံများ",
+      description: "Learn how to order food, interact with servers, and understand dining terms.",
+      descriptionMM: "အစားအသောက်မှာယူပုံ၊ ဝန်ဆောင်မှုပေးသူများနှင့် ဆက်သွယ်ပုံနှင့် စားသောက်မှုဆိုင်ရာ စကားလုံးများကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Menu", ipa: "/ˈmenjuː/", mm: "မီနူး / စားသောက်ဖွယ်ရာစာရင်း", example: "May I see the menu, please?", exampleMM: "မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ။" },
+        { word: "Order", ipa: "/ˈɔːrdər/", mm: "မှာယူသည်", example: "I would like to order pasta.", exampleMM: "ကျွန်တော် ပါစတာ တစ်ပွဲမှာချင်ပါတယ်။" },
+        { word: "Appetizer", ipa: "/ˈæpɪtaɪzər/", mm: "အမြည်းဟင်းလျာ", example: "We ordered soup as an appetizer.", exampleMM: "ကျွန်တော်တို့ စွပ်ပြုတ်ကို အမြည်းဟင်းလျာအနေနဲ့ မှာခဲ့ကြတယ်။" },
+        { word: "Entree", ipa: "/ˈɑːntreɪ/", mm: "ပင်မဟင်းလျာ", example: "The steak is my favorite entree.", exampleMM: "စတိတ်ကင်က ကျွန်တော် အကြိုက်ဆုံး ပင်မဟင်းလျာ ဖြစ်ပါတယ်။" },
+        { word: "Bill", ipa: "/bɪl/", mm: "ဘေလ်စာရင်း", example: "Could we have the bill, please?", exampleMM: "ဘေလ်လေး ရှင်းပေးလို့ ရမလားခင်ဗျာ။" }
+      ],
+      listening: [
+        { id: "lis_int6_1", text: "May I see the menu, please", audioText: "May I see the menu, please", options: ["မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ", "ဘေလ် ရှင်းပေးပါ", "ပါစတာ မှာယူပါ"], answer: "မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ" }
+      ],
+      speaking: [
+        { id: "spe_int6_1", text: "I would like to order the grilled fish, please.", instruction: "Order dinner politely:", instructionMM: "အောက်ပါ စားသောက်ဖွယ်ရာ မှာယူမှုကို ယဉ်ကျေးစွာ ပြောဆိုပါ:" }
+      ],
+      reading: {
+        title: "Dinner for Two",
+        titleMM: "နှစ်ယောက်စာ ညစာ",
+        content: "Htet Htet and her friend dined at a modern Italian restaurant. The waiter handed them the menu. For the appetizer, they ordered garlic bread. For the main entree, they both selected seafood pasta. Once they finished eating, Htet Htet requested the bill and paid.",
+        contentMM: "ထက်ထက်နှင့် သူမသူငယ်ချင်းသည် ခေတ်မီအီတလီ စားသောက်ဆိုင်တစ်ခုတွင် ညစာစားခဲ့ကြသည်။ စားပွဲထိုးက ၎င်းတို့အား မီနူးစာရင်း ပေးခဲ့သည်။ အမြည်းဟင်းလျာအတွက် ၎င်းတို့သည် ကြက်သွန်ဖြူပေါင်မုန့်ကို မှာခဲ့ကြသည်။ ပင်မဟင်းလျာအတွက် ၎င်းတို့နှစ်ဦးစလုံး ပင်လယ်စာပါစတာကို ရွေးချယ်ခဲ့ကြသည်။ စားသောက်ပြီးနောက် ထက်ထက်က ဘေလ်တောင်းပြီး ငွေပေးချေခဲ့သည်။",
+        questions: [
+          { question: "What did they order for the main entree?", options: ["Garlic bread", "Seafood pasta", "Steak"], answer: "Seafood pasta" },
+          { question: "What did Htet Htet request at the end?", options: ["The bill", "More bread", "The chef"], answer: "The bill" }
+        ]
+      },
+      writing: [
+        { id: "wri_int6_1", question: "Rearrange the words: [bill / we / please / have / the / could]", correct: "could we have the bill please", prompt: "Translate: ဘေလ်လေး ရှင်းပေးလို့ ရမလားခင်ဗျာ" }
+      ]
+    },
+    {
+      id: "int_7",
+      title: "Banking, Finance & Saving",
+      titleMM: "ဘဏ်လုပ်ငန်း၊ ဘဏ္ဍာရေးနှင့် စုဆောင်းငွေ",
+      description: "Learn how to open bank accounts, deposit/withdraw money, and transfer funds.",
+      descriptionMM: "ဘဏ်အကောင့်ဖွင့်ခြင်း၊ ငွေသွင်း/ငွေထုတ်ခြင်းနှင့် ငွေလွှဲပြောင်းခြင်းများကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Account", ipa: "/əˈkaʊnt/", mm: "ဘဏ်စာရင်း / အကောင့်", example: "I want to open a savings account.", exampleMM: "ကျွန်တော် စုငွေစာရင်းအကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်။" },
+        { word: "Deposit", ipa: "/dɪˈpɒzɪt/", mm: "အပ်နှံငွေ / ငွေသွင်းသည်", example: "I need to deposit some cash today.", exampleMM: "ကျွန်တော် ဒီနေ့ ငွေအနည်းငယ် သွင်းဖို့လိုအပ်တယ်။" },
+        { word: "Withdraw", ipa: "/wɪðˈdrɔː/", mm: "ငွေထုတ်ယူသည်", example: "She went to the ATM to withdraw money.", exampleMM: "သူမ ငွေထုတ်ဖို့ အေတီအမ်စက်ဆီ သွားခဲ့သည်။" },
+        { word: "Interest", ipa: "/ˈɪntrəst/", mm: "အတိုးနှုန်း / အတိုး", example: "The savings account earns high interest.", exampleMM: "ဤစုငွေစာရင်းသည် အတိုးနှုန်း မြင့်မားစွာရရှိသည်။" },
+        { word: "Transfer", ipa: "/trænsˈfɜːr/", mm: "လွှဲပြောင်းသည်", example: "Can I transfer money online?", exampleMM: "ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား။" }
+      ],
+      listening: [
+        { id: "lis_int7_1", text: "Can I transfer money online", audioText: "Can I transfer money online", options: ["ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား", "အကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်", "ငွေထုတ်ယူပါ"], answer: "ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား" }
+      ],
+      speaking: [
+        { id: "spe_int7_1", text: "I would like to deposit one hundred thousand kyats into my account.", instruction: "Perform a banking transaction:", instructionMM: "အောက်ပါ ငွေသွင်းခြင်း တောင်းဆိုမှုကို ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "Managing Money",
+        titleMM: "ငွေကြေးစီမံခန့်ခွဲမှု",
+        content: "Aung Aung visited the bank to manage his savings. He wanted to open a new savings account that offers five percent annual interest. The teller helped him deposit fifty thousand kyats. Later, he used his mobile application to transfer funds to his mother.",
+        contentMM: "အောင်အောင်သည် သူ၏စုဆောင်းငွေကို စီမံခန့်ခွဲရန် ဘဏ်သို့သွားခဲ့သည်။ သူသည် နှစ်စဉ်အတိုးနှုန်း ငါးရာခိုင်နှုန်းပေးသည့် စုငွေစာရင်းအသစ်တစ်ခု ဖွင့်လိုခဲ့သည်။ ဘဏ်ဝန်ထမ်းက သူ့အား ငါးသောင်းကျပ် အပ်နှံရန် ကူညီပေးခဲ့သည်။ နောက်ပိုင်းတွင် သူသည် မိခင်ဖြစ်သူထံ ငွေလွှဲရန် မိုဘိုင်းအပလီကေးရှင်းကို အသုံးပြုခဲ့သည်။",
+        questions: [
+          { question: "What interest rate does the new account offer?", options: ["Two percent", "Five percent", "Ten percent"], answer: "Five percent" },
+          { question: "What did Aung Aung do later via his app?", options: ["Withdrew cash", "Transferred funds to his mother", "Bought books"], answer: "Transferred funds to his mother" }
+        ]
+      },
+      writing: [
+        { id: "wri_int7_1", question: "Rearrange the words: [savings / open / want / a / account / to / I]", correct: "I want to open a savings account", prompt: "Translate: ကျွန်တော် စုငွေစာရင်းအကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်" }
+      ]
+    },
+    {
+      id: "int_8",
+      title: "Using Resources at the American Center",
+      titleMM: "အမေရိကန်စင်တာရှိ အရင်းအမြစ်များကို အသုံးပြုခြင်း",
+      description: "Learn how to talk about library membership, workshops, and speaking clubs at educational centers.",
+      descriptionMM: "ပညာရေးစင်တာများရှိ စာကြည့်တိုက်အသင်းဝင်ခြင်း၊ အလုပ်ရုံဆွေးနွေးပွဲများနှင့် စကားပြောကလပ်များအကြောင်း ပြောဆိုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Membership", ipa: "/ˈmembərʃɪp/", mm: "အသင်းဝင်ဖြစ်ခြင်း", example: "The annual library membership fee is very reasonable.", exampleMM: "နှစ်စဉ် စာကြည့်တိုက် အသင်းဝင်ကြေးက တကယ်ကို သင့်တင့်ပါတယ်။" },
+        { word: "Borrow", ipa: "/ˈbɑːroʊ/", mm: "ငှားရမ်းသည်", example: "You can borrow up to four books at a time.", exampleMM: "တစ်ကြိမ်လျှင် စာအုပ် လေးအုပ်အထိ ငှားရမ်းနိုင်ပါသည်။" },
+        { word: "Discussion", ipa: "/dɪˈskʌʃn/", mm: "ဆွေးနွေးညှိနှိုင်းခြင်း", example: "We had an active discussion in the English Club.", exampleMM: "ကျွန်တော်တို့ အင်္ဂလိပ်စာကလပ်မှာ တက်ကြွတဲ့ ဆွေးနွေးမှုတစ်ခု ပြုလုပ်ခဲ့ကြတယ်။" },
+        { word: "Resource", ipa: "/ˈriːsɔːrs/", mm: "အရင်းအမြစ် / ကိုးကားစရာ", example: "The library offers excellent online learning resources.", exampleMM: "စာကြည့်တိုက်က ကောင်းမွန်တဲ့ အွန်လိုင်းသင်ယူမှု အရင်းအမြစ်တွေကို ပံ့ပိုးပေးပါတယ်။" },
+        { word: "Workshop", ipa: "/ˈwɜːrkʃɑːp/", mm: "အလုပ်ရုံဆွေးနွေးပွဲ", example: "I attended a creative writing workshop yesterday.", exampleMM: "ကျွန်တော် မနေ့က ဖန်တီးမှုရှိသော စာရေးခြင်းဆိုင်ရာ အလုပ်ရုံဆွေးနွေးပွဲတစ်ခု တက်ရောက်ခဲ့သည်။" },
+        { word: "Access", ipa: "/ˈækses/", mm: "အသုံးပြုခွင့် ရယူသည်", example: "Members can access digital research databases.", exampleMM: "အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်။" }
+      ],
+      listening: [
+        { id: "lis_int8_1", text: "Members can access digital research databases", audioText: "Members can access digital research databases", options: ["အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်", "စာအုပ်များကို အချိန်မီ ပြန်ပေးပါ", "အလုပ်ရုံဆွေးနွေးပွဲကို တက်ရောက်ပါ"], answer: "အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်" }
+      ],
+      speaking: [
+        { id: "spe_int8_1", text: "I joined the American Center to access English speaking clubs.", instruction: "Explain your reasons for joining:", instructionMM: "အသင်းဝင်ရခြင်း အကြောင်းရင်းကို ပြောပြပါ:" }
+      ],
+      reading: {
+        title: "A Productive Day at the American Center",
+        titleMM: "အမေရိကန်စင်တာတွင် အကျိုးရှိသောနေ့တစ်နေ့",
+        content: "Min Min recently renewed his library membership at the American Center in Yangon. He loves the peaceful environment, which is perfect for studying. In the morning, he borrows two TOEFL preparation books. In the afternoon, he attends a workshop about public speaking. Finally, he joins the English Discussion Club, where he meets native speakers and improves his conversation skills.",
+        contentMM: "မင်းမင်းသည် မကြာသေးမီက ရန်ကုန်ရှိ အမေရိကန်စင်တာတွင် စာကြည့်တိုက်အသင်းဝင်သက်တမ်းကို တိုးမြှင့်ခဲ့သည်။ သူသည် စာလေ့လာရန် အလွန်ကောင်းမွန်သော ဆိတ်ငြိမ်အေးချမ်းသည့် ပတ်ဝန်းကျင်ကို နှစ်သက်သည်။ မနက်ပိုင်းတွင် သူသည် TOEFL ပြင်ဆင်မှု စာအုပ်နှစ်အုပ်ကို ငှားရမ်းသည်။ မွန်းလွဲပိုင်းတွင် လူထုရှေ့စကားပြောခြင်းဆိုင်ရာ အလုပ်ရုံဆွေးနွေးပွဲတစ်ခုသို့ တက်ရောက်သည်။ နောက်ဆုံးတွင် သူသည် အင်္ဂလိပ်စာဆွေးနွေးပွဲကလပ်သို့ ဝင်ရောက်ကာ မိခင်ဘာသာစကားပြောဆိုသူများနှင့် တွေ့ဆုံပြီး ၎င်း၏ စကားပြောစွမ်းရည်ကို မြှင့်တင်ခဲ့သည်။",
+        questions: [
+          { question: "Why does Min Min like the American Center?", options: ["Because of the peaceful study environment", "Because of the cheap food", "Because it is close to the market"], answer: "Because of the peaceful study environment" },
+          { question: "What club does Min Min join in the afternoon?", options: ["The English Discussion Club", "The Soccer Club", "The Chess Club"], answer: "The English Discussion Club" }
+        ]
+      },
+      writing: [
+        { id: "wri_int8_1", question: "Rearrange the words: [borrow / how / books / many / can / I]", correct: "how many books can I borrow", prompt: "Translate: ကျွန်တော် စာအုပ်ဘယ်နှအုပ် ငှားလို့ရမလဲ" }
+      ]
     }
   ],
   advanced: [
@@ -370,7 +569,7 @@ export const LESSONS = {
         title: "The Imperative of Green Technology",
         titleMM: "စိမ်းလန်းသောနည်းပညာ၏ အရေးပါမှု",
         content: "Transitioning to clean energy is no longer a futuristic aspiration; it is an immediate ecological necessity. The escalating concentration of greenhouse gases has forced governments worldwide to invest in renewable infrastructures. However, technological implementation alone is insufficient. True change requires systemic shifts in consumer behavior and regulatory frameworks that hold carbon emitters financially accountable.",
-        contentMM: "သန့်ရှင်းသောစွမ်းအင်သို့ ကူးပြောင်းခြင်းသည် အနာဂတ်ကာလ၏ မျှော်မှန်းချက်သက်သက် မဟုတ်တော့ဘဲ လက်ငင်းလုပ်ဆောင်ရမည့် သဘာဝပတ်ဝန်းကျင်ဆိုင်ရာ လိုအပ်ချက်တစ်ခု ဖြစ်သည်။ ဖန်လုံအိမ်ဓာတ်ငွေ့များ စဉ်ဆက်မပြတ် မြင့်တက်လာခြင်းကြောင့် ကမ္ဘာတစ်ဝန်းရှိ အစိုးရများသည် ပြန်လည်ပြည့်ဖြိုးမြဲ စွမ်းအင်အဆောက်အအုံများတွင် ရင်းနှီးမြှုပ်နှံရန် တွန်းအားပေးခြင်း ခံနေရသည်။ သို့သော် နည်းပညာပိုင်းဆိုင်ရာ အကောင်အထည်ဖော်မှု တစ်ခုတည်းဖြင့် မလုံလောက်ပါ။ စစ်မှန်သော အပြောင်းအလဲသည် စားသုံးသူများ၏ အလေ့အထစနစ်များ ပြောင်းလဲခြင်းနှင့် ကာဗွန်ထုတ်လွှတ်သူများကို ငွေကြေးအရ တာဝန်ခံစေမည့် စည်းမျဉ်းစည်းကမ်း မူဘောင်များ လိုအပ်သည်။",
+        contentMM: "သန့်ရှင်းသောစွမ်းအင်သို့ ကူးပြောင်းခြင်းသည် အနာგတ်ကာလ၏ မျှော်မှန်းချက်သက်သက် မဟုတ်တော့ဘဲ လက်ငင်းလုပ်ဆောင်ရမည့် သဘာဝပတ်ဝန်းကျင်ဆိုင်ရာ လိုအပ်ချက်တစ်ခု ဖြစ်သည်။ ဖန်လုံအိမ်ဓာတ်ငွေ့များ စဉ်ဆက်မပြတ် မြင့်တက်လာခြင်းကြောင့် ကမ္ဘာတစ်ဝန်းရှိ အစိုးရများသည် ပြန်လည်ပြည့်ဖြိုးမြဲ စွမ်းအင်အဆောက်အအုံများတွင် ရင်းနှီးမြှုပ်နှံရန် တွန်းအားပေးခြင်း ခံနေရသည်။ သို့သော် နည်းပညာပိုင်းဆိုင်ရာ အကောင်အထည်ဖော်မှု တစ်ခုတည်းဖြင့် မလုံလောက်ပါ။ စစ်မှန်သော အပြောင်းအလဲသည် စားသုံးသူများ၏ အလေ့အထစနစ်များ ပြောင်းလဲခြင်းနှင့် ကာဗွန်ထုတ်လွှတ်သူများကို ငွေကြေးအရ တာဝန်ခံစေမည့် စည်းမျဉ်းစည်းကမ်း မူဘောင်များ လိုအပ်သည်။",
         questions: [
           { question: "What is clean energy described as in the passage?", options: ["An immediate ecological necessity", "A cheap alternative", "A futuristic luxury"], answer: "An immediate ecological necessity" },
           { question: "What is required alongside technological implementation?", options: ["Tax cuts for corporations", "Systemic shifts in consumer behavior", "More fossil fuels"], answer: "Systemic shifts in consumer behavior" }
@@ -416,7 +615,7 @@ export const LESSONS = {
     {
       id: "adv_3",
       title: "Art, Philosophy & Critical Thinking",
-      titleMM: "အနုပညာ၊ ဒဿနိကဗေဒနှင့် ဝေဖန်ပိုင်းခြားတွေးခေါ်မှု",
+      titleMM: "အနုပညာ၊ ဒေသနိကဗေဒနှင့် ဝေဖန်ပိုင်းခြားတွေးခေါ်မှု",
       description: "Examine existential philosophy, aesthetic values in art, and cognitive biases.",
       descriptionMM: "ဖြစ်တည်မှုဆိုင်ရာ ဒဿနိကဗေဒ၊ အနုပညာ၏ အလှအပတန်ဖိုးများနှင့် သိမြင်မှုဆိုင်ရာ ဘက်လိုက်မှုများကို ဆန်းစစ်ပါ။",
       vocabulary: [
@@ -451,7 +650,7 @@ export const LESSONS = {
       title: "Global Economics & Finance",
       titleMM: "ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေးနှင့် ဘဏ္ဍာရေး",
       description: "Discuss macroeconomic indices, inflation, recession, and asset allocation.",
-      descriptionMM: "မက်ခရိုစီးပွားရေး ညွှန်းကိန်းများ၊ ငွေဖောင်းပမှု၊ စီးပွားရေးကျဆင်းမှုနှင့် ပိုင်ဆိုင်မှုခွဲဝေမှုများကို ဆွေးနွေးပါ။",
+      descriptionMM: "မက်ခရိုစီးပွားရေး ညွှန်းကိန်းများ၊ ငွေဖောင်းပွမှု၊ စီးပွားရေးကျဆင်းမှုနှင့် ပိုင်ဆိုင်မှုခွဲဝေမှုများကို ဆွေးနွေးပါ။",
       vocabulary: [
         { word: "Inflation", ipa: "/ɪnˈfleɪʃn/", mm: "ငွေဖောင်းပွမှု", example: "Inflation reduces the purchasing power of money.", exampleMM: "ငွေဖောင်းပွမှုသည် ငွေကြေး၏ ဝယ်ယူနိုင်စွမ်းအားကို လျော့နည်းစေသည်။" },
         { word: "Recession", ipa: "/rɪˈseʃn/", mm: "စီးပွားရေးကျဆင်းမှု / စီးပွားပျက်ကပ်", example: "The country is struggling to recover from a mild recession.", exampleMM: "ထိုနိုင်ငံသည် အပျော့စား စီးပွားပျက်ကပ်မှ နာလန်ထူရန် ရုန်းကန်နေရသည်။" },
@@ -484,7 +683,7 @@ export const LESSONS = {
       title: "Science, Space & Innovation",
       titleMM: "သိပ္ပံပညာ၊ အာကာသနှင့် ဆန်းသစ်တီထွင်မှု",
       description: "Discuss space exploration, astrophysics, and technological breakthroughs.",
-      descriptionMM: "အာကာသစူးစမ်းလေ့လာရေး၊ ရူပဗေဒနှင့် นည်းပညာဆိုင်ရာ အောင်မြင်မှုများကို ဆွေးနွေးပါ။",
+      descriptionMM: "အာကာသစူးစမ်းလေ့လာရေး၊ ရူပဗေဒနှင့် နည်းပညာဆိုင်ရာ အောင်မြင်မှုများကို ဆွေးနွေးပါ။",
       vocabulary: [
         { word: "Cosmology", ipa: "/kɒzˈmɒlədʒi/", mm: "စကြာဝဠာဗေဒ", example: "Cosmology studies the origin and evolution of the universe.", exampleMM: "စကြာဝဠာဗေဒသည် စကြာဝဠာ၏ မူလအစနှင့် ဖွံ့ဖြိုးတိုးတက်မှုကို လေ့လာသည်။" },
         { word: "Hypothesis", ipa: "/haɪˈpɒθəsɪs/", mm: "အယူအဆ / အဆိုပြုချက်", example: "Scientists formulated a new hypothesis.", exampleMM: "သိပ္ပံပညာရှင်များသည် အယူအဆအသစ်တစ်ခုကို ဖော်ထုတ်ခဲ့ကြသည်။" },
@@ -510,6 +709,106 @@ export const LESSONS = {
       },
       writing: [
         { id: "wri_adv5_1", question: "Rearrange the words: [industries / revolutionize / AI / will / multiple]", correct: "AI will revolutionize multiple industries", prompt: "Translate: အေအိုင်သည် လုပ်ငန်းအများအပြားကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်" }
+      ]
+    },
+    {
+      id: "adv_6",
+      title: "Law, Politics & Governance",
+      titleMM: "ဥပဒေ၊ နိုင်ငံရေးနှင့် အုပ်ချုပ်မှုစနစ်",
+      description: "Discuss constitutional frameworks, legislative bills, and democratic systems.",
+      descriptionMM: "ဖွဲ့စည်းပုံအခြေခံဥပဒေ မူဘောင်များ၊ ဥပဒေကြမ်းများနှင့် ဒီမိုကရေစီစနစ်များအကြောင်း ဆွေးနွေးပါ။",
+      vocabulary: [
+        { word: "Constitution", ipa: "/ˌkɒnstɪˈtjuːʃn/", mm: "ဖွဲ့စည်းပုံအခြေခံဥပဒေ", example: "The constitution protects citizens' basic rights.", exampleMM: "ဖွဲ့စည်းပုံအခြေခံဥပဒေက နိုင်ငံသားတွေရဲ့ အခြေခံအခွင့်အရေးတွေကို ကာကွယ်ပေးတယ်။" },
+        { word: "Legislation", ipa: "/ˌledʒɪsˈleɪʃn/", mm: "ဥပဒေပြုရေး / ပြဋ္ဌာန်းဥပဒေ", example: "The new legislation will take effect next month.", exampleMM: "ဥပဒေအသစ်သည် နောက်လတွင် စတင်အာဏာသက်ရောက်မည်။" },
+        { word: "Jurisdiction", ipa: "/ˌdʒʊərɪsˈdɪkʃn/", mm: "တရားစီရင်ပိုင်ခွင့်", example: "This case falls under federal jurisdiction.", exampleMM: "ဤအမှုသည် ပြည်ထောင်စု၏ တရားစီရင်ပိုင်ခွင့်အောက်တွင် ကျရောက်သည်။" },
+        { word: "Democracy", ipa: "/dɪˈmɒkrəsi/", mm: "ဒီမိုကရေစီစနစ်", example: "Voting is a vital component of a democracy.", exampleMM: "မဲပေးခြင်းသည် ဒီမိုကရေစီစနစ်၏ အရေးကြီးသော အစိတ်အပိုင်းတစ်ခုဖြစ်သည်။" },
+        { word: "Sovereignty", ipa: "/ˈsɒvrənti/", mm: "အချုပ်အခြာအာဏာ", example: "The nation defended its state sovereignty.", exampleMM: "ထိုနိုင်ငံသည် မိမိ၏ အချုပ်အခြာအာဏာကို ကာကွယ်ခဲ့သည်။" }
+      ],
+      listening: [
+        { id: "lis_adv6_1", text: "Voting is a vital component of a democracy", audioText: "Voting is a vital component of a democracy", options: ["မဲပေးခြင်းသည် ဒီမိုကရေစီစနစ်၏ အရေးကြီးသော အစိတ်အပိုင်းတစ်ခုဖြစ်သည်", "ဖွဲ့စည်းပုံအခြေခံဥပဒေက အခွင့်အရေးကို ကာကွယ်ပေးသည်", "ဥပဒေအသစ်သည် နောက်လတွင် စတင်အာဏာသက်ရောက်မည်"], answer: "မဲပေးခြင်းသည် ဒီမိုကရေစီစနစ်၏ အရေးကြီးသော အစိတ်အပိုင်းတစ်ခုဖြစ်သည်" }
+      ],
+      speaking: [
+        { id: "spe_adv6_1", text: "A constitution establishes the legal framework for democratic governance.", instruction: "Speak with formal political articulation:", instructionMM: "အောက်ပါ စာကြောင်းကို တရားဝင် နိုင်ငံရေးအသံထွက်ဟန်ဖြင့် ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "The Pillars of Governance",
+        titleMM: "အုပ်ချုပ်ရေး၏ မဏ္ဍိုင်များ",
+        content: "Democratic governance requires solid legal legislation to protect state sovereignty. Under the constitution, various branches of government possess specific legal jurisdiction. This division ensures that no single entity can override the civil liberties of citizens, forming the foundation of a modern democracy.",
+        contentMM: "ဒီမိုကရေစီ အုပ်ချုပ်မှုစနစ်သည် နိုင်ငံတော်အချုပ်အခြာအာဏာကို ကာကွယ်ရန် ခိုင်မာသော ဥပဒေပြုရေးစနစ် လိုအပ်သည်။ ဖွဲ့စည်းပုံအခြေခံဥပဒေအရ အစိုးရ၏ မတူညီသော ကဏ္ဍများသည် သတ်မှတ်ထားသော တရားစီရင်ပိုင်ခွင့် အာဏာများ ရှိကြသည်။ ဤသို့ ခွဲဝေထားခြင်းက မည်သည့်အဖွဲ့အစည်းတစ်ခုမျှ နိုင်ငံသားများ၏ လွတ်လပ်ခွင့်ကို လွှမ်းမိုးခြင်းမပြုနိုင်ရန် အာမခံချက်ပေးပြီး ခေတ်သစ်ဒီမိုကရေစီ၏ အခြေခံအုတ်မြစ် ဖြစ်လာသည်။",
+        questions: [
+          { question: "What does democratic governance require to protect sovereignty?", options: ["Heavy taxation", "Solid legal legislation", "A large army"], answer: "Solid legal legislation" },
+          { question: "What ensures that no single entity can override civil liberties?", options: ["Division of legal jurisdiction", "The absolute power of one ruler", "Online public voting"], answer: "Division of legal jurisdiction" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv6_1", question: "Rearrange the words: [protects / constitution / basic / the / rights]", correct: "the constitution protects basic rights", prompt: "Translate: ဖွဲ့စည်းပုံအခြေခံဥပဒေက အခြေခံအခွင့်အရေးများကို ကာကွယ်ပေးသည်" }
+      ]
+    },
+    {
+      id: "adv_7",
+      title: "Psychology & Human Behavior",
+      titleMM: "စိတ်ပညာနှင့် လူ့အမူအကျင့်",
+      description: "Examine behavioral motivation, cognitive perception, and subconscious triggers.",
+      descriptionMM: "လူတို့၏ အမူအကျင့်လှုံ့ဆော်မှု၊ သိမြင်မှုခံယူချက်နှင့် မသိစိတ်၏ လွှမ်းမိုးမှုများကို ဆန်းစစ်ပါ။",
+      vocabulary: [
+        { word: "Subconscious", ipa: "/ˌsʌbˈkɒnʃəs/", mm: "မသိစိတ် / စိတ်အောက်ခြေ", example: "Dreams reflect our subconscious fears.", exampleMM: "အိပ်မက်များသည် ကျွန်ုပ်တို့၏ မသိစိတ်ထဲက ကြောက်ရွံ့မှုများကို ထင်ဟပ်စေသည်။" },
+        { word: "Cognition", ipa: "/kɒɡˈnɪʃn/", mm: "သိမြင်မှုစွမ်းရည် / ဦးနှောက်၏ မှတ်သားတွေးခေါ်မှု", example: "Cognition processes help us solve complex problems.", exampleMM: "သိမြင်မှုဖြစ်စဉ်များသည် ရှုပ်ထွေးသောပြဿနာများကို ဖြေရှင်းရန် အထောက်အကူပြုသည်။" },
+        { word: "Empathy", ipa: "/ˈempəθi/", mm: "ကိုယ်ချင်းစာစိတ် / စာနာစိတ်", example: "Empathy is essential for human connection.", exampleMM: "ကိုယ်ချင်းစာစိတ်သည် လူမှုဆက်ဆံရေးအတွက် မရှိမဖြစ်လိုအပ်သည်။" },
+        { word: "Perception", ipa: "/pəˈsepʃn/", mm: "ခံယူချက် / အမြင် / သိရှိနားလည်မှု", example: "Her perception of the event was different.", exampleMM: "ထိုအဖြစ်အပျက်အပေါ် သူမ၏အမြင်က ကွဲပြားခြားနားခဲ့သည်။" },
+        { word: "Motivation", ipa: "/ˌmoʊtɪˈveɪʃn/", mm: "လှုံ့ဆော်မှု / စိတ်အားထက်သန်မှု", example: "Success is a powerful motivation.", exampleMM: "အောင်မြင်မှုသည် အားကောင်းသော စိတ်ဓာတ်လှုံ့ဆော်မှုတစ်ခု ဖြစ်သည်။" }
+      ],
+      listening: [
+        { id: "lis_adv7_1", text: "Success is a powerful motivation", audioText: "Success is a powerful motivation", options: ["အောင်မြင်မှုသည် အားကောင်းသော လှုံ့ဆော်မှုဖြစ်သည်", "ကိုယ်ချင်းစာစိတ်က အရေးကြီးသည်", "အိပ်မက်များက မသိစိတ်ကို ဖော်ပြသည်"], answer: "အောင်မြင်မှုသည် အားကောင်းသော လှုံ့ဆော်မှုဖြစ်သည်" }
+      ],
+      speaking: [
+        { id: "spe_adv7_1", text: "Empathy bridges the gap between different social perceptions.", instruction: "Speak with academic clarity:", instructionMM: "အောက်ပါ စိတ်ပညာစာကြောင်းကို ရှင်းလင်းစွာ ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "The Workings of the Mind",
+        titleMM: "စိတ်၏ လည်ပတ်ပုံများ",
+        content: "Human behavior is guided by a mix of conscious cognition and subconscious drives. Emotional intelligence highlights empathy as the core skill to build social bonds. Additionally, our initial perception of others is heavily influenced by past memories, forming the primary motivation for daily interpersonal interactions.",
+        contentMM: "လူ့အမူအကျင့်များသည် သတိရှိသော သိမြင်မှုနှင့် မသိစိတ်၏ တွန်းအားများ ပေါင်းစပ်မှုဖြင့် လမ်းညွှန်ခြင်းခံရသည်။ စိတ်ခံစားမှုဆိုင်ရာ ဉာဏ်ရည်က လူမှုစည်းနှောင်မှုများ တည်ဆောက်ရန် ကိုယ်ချင်းစာစိတ်ကို အဓိကကျွမ်းကျင်မှုအဖြစ် ဖော်ပြသည်။ ထို့အပြင် အခြားသူများအပေါ် ကျွန်ုပ်တို့၏ ကနဦးခံယူချက်သည် အတိတ်က အမှတ်ရစရာများ၏ လွှမ်းမိုးမှုကို များစွာခံရပြီး နေ့စဉ်လူမှုဆက်ဆံရေးအတွက် အဓိက လှုံ့ဆော်မှုဖြစ်စေသည်။",
+        questions: [
+          { question: "What is highlighted as the core skill to build social bonds?", options: ["High IQ", "Empathy", "Financial status"], answer: "Empathy" },
+          { question: "What is human behavior guided by?", options: ["Only conscious logic", "Conscious cognition and subconscious drives", "Pure animal instincts"], answer: "Conscious cognition and subconscious drives" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv7_1", question: "Rearrange the words: [reflect / dreams / subconscious / fears / our]", correct: "dreams reflect our subconscious fears", prompt: "Translate: အိပ်မက်များသည် ကျွန်ုပ်တို့၏ မသိစိတ်ထဲက ကြောက်ရွံ့မှုများကို ဖော်ပြသည်" }
+      ]
+    },
+    {
+      id: "adv_8",
+      title: "Mastering Exams at the British Council",
+      titleMM: "ဗြိတိသျှကောင်စီတွင် စာမေးပွဲများကို ထူးချွန်စွာ အောင်မြင်ခြင်း",
+      description: "Understand IELTS and TOEFL testing procedures, academic speaking criteria, and advanced learning methodologies.",
+      descriptionMM: "IELTS နှင့် TOEFL စာမေးပွဲ ဖြေဆိုမှု လုပ်ငန်းစဉ်များ၊ ပညာရပ်ဆိုင်ရာ စကားပြောအကဲဖြတ်မှု စံနှုန်းများနှင့် အဆင့်မြင့် သင်ယူမှု နည်းစနစ်များကို နားလည်သဘောပေါက်စေရန်။",
+      vocabulary: [
+        { word: "Assessor", ipa: "/əˈsesər/", mm: "အကဲဖြတ်သူ / စစ်ဆေးသူ", example: "The IELTS assessor evaluates coherence and grammatical range.", exampleMM: "IELTS အကဲဖြတ်သူသည် ဆက်စပ်ဆီလျော်မှုနှင့် သဒ္ဒါကျယ်ပြန့်မှုကို အကဲဖြတ်သည်။" },
+        { word: "Band score", ipa: "/bænd skɔːr/", mm: "ရမှတ်အဆင့်", example: "She achieved an overall band score of 8.0 on her test.", exampleMM: "သူမသည် စာမေးပွဲတွင် စုစုပေါင်း ရမှတ်အဆင့် ၈.၀ ရရှိခဲ့သည်။" },
+        { word: "Fluency", ipa: "/ˈfluːənsi/", mm: "ချောမွေ့စွာ ပြောနိုင်စွမ်း", example: "Fluency and pronunciation are critical for the speaking exam.", exampleMM: "စကားပြောစာမေးပွဲအတွက် ချောမွေ့စွာပြောနိုင်စွမ်းနှင့် အသံထွက်က အလွန်အရေးကြီးသည်။" },
+        { word: "Criterion", ipa: "/kraɪˈtɪriən/", mm: "သတ်မှတ်ချက် / စံနှုန်း", example: "Lexical resource is one key grading criterion.", exampleMM: "ဝေါဟာရကြွယ်ဝမှုသည် အမှတ်ပေးသည့် အဓိကစံနှုန်းတစ်ခုဖြစ်သည်။" },
+        { word: "Proficiency", ipa: "/prəˈfɪʃnsi/", mm: "ကျွမ်းကျင်ပိုင်နိုင်မှု", example: "The course is designed to elevate your linguistic proficiency.", exampleMM: "သင်တန်းကို သင်၏ ဘာသာစကားကျွမ်းကျင်ပိုင်နိုင်မှုကို မြှင့်တင်ရန် ဒီဇိုင်းထုတ်ထားသည်။" },
+        { word: "Preparation", ipa: "/ˌprepəˈreɪʃn/", mm: "ပြင်ဆင်ခြင်း", example: "Intensive preparation is necessary for academic modules.", exampleMM: "ပညာရပ်ဆိုင်ရာ မော်ဂျူးများအတွက် အပြင်းအထန် ပြင်ဆင်ရန် လိုအပ်သည်။" }
+      ],
+      listening: [
+        { id: "lis_adv8_1", text: "Fluency and pronunciation are critical for the speaking exam", audioText: "Fluency and pronunciation are critical for the speaking exam", options: ["စကားပြောစာမေးပွဲအတွက် ချောမွေ့စွာပြောနိုင်စွမ်းနှင့် အသံထွက်က အလွန်အရေးကြီးသည်", "အကဲဖြတ်သူသည် သဒ္ဒါကျယ်ပြန့်မှုကို အမှတ်ပေးသည်", "ပညာရပ်ဆိုင်ရာ ပြင်ဆင်မှုသည် လိုအပ်သည်"], answer: "စကားပြောစာမေးပွဲအတွက် ချောမွေ့စွာပြောနိုင်စွမ်းနှင့် အသံထွက်က အလွန်အရေးကြီးသည်" }
+      ],
+      speaking: [
+        { id: "spe_adv8_1", text: "Achieving a high band score requires consistent practice and extensive vocabulary.", instruction: "Deliver this test advisory clearly:", instructionMM: "အောက်ပါ စာမေးပွဲ အကြံပြုချက်ကို အသံထွက်ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "Preparing for the IELTS Exam at the British Council",
+        titleMM: "ဗြိတိသျှကောင်စီတွင် IELTS စာမေးပွဲအတွက် ပြင်ဆင်ခြင်း",
+        content: "Thida wants to pursue a master's degree in London, so she registers for the IELTS exam at the British Council in Yangon. To prepare, she registers for their official prep course. The instructor explains the four scoring criteria: fluency, lexical resource, grammatical range, and pronunciation. Thida spends hours practicing academic writing and taking mock exams. On test day, she feels confident and manages to impress the assessor, achieving her target band score.",
+        contentMM: "သီတာသည် လန်ဒန်တွင် မာစတာဘွဲ့ ဆက်လက်သင်ယူလိုသဖြင့် ရန်ကုန်ရှိ ဗြိတိသျှကောင်စီတွင် IELTS စာမေးပွဲ ဖြေဆိုရန် စာရင်းသွင်းခဲ့သည်။ ပြင်ဆင်ရန်အတွက် သူမသည် ၎င်းတို့၏ တရားဝင်ပြင်ဆင်မှုသင်တန်းကို တက်ရောက်ခဲ့သည်။ ဆရာက အမှတ်ပေးစံနှုန်း လေးခုကို ရှင်းပြသည် - ချောမွေ့စွာ ပြောဆိုနိုင်မှု၊ ဝေါဟာရကြွယ်ဝမှု၊ သဒ္ဒါအသုံးပြုမှု ကျယ်ပြန့်မှုနှင့် အသံထွက်တို့ဖြစ်သည်။ သီတာသည် ပညာရပ်ဆိုင်ရာ စာရေးခြင်းကို လေ့ကျင့်ပြီး အစမ်းစာမေးပွဲများ ဖြေဆိုရန် နာရီပေါင်းများစွာ အသုံးပြုခဲ့သည်။ စာမေးပွဲဖြေဆိုသည့်နေ့တွင် သူမသည် ယုံကြည်မှုအပြည့်ရှိပြီး အကဲဖြတ်စစ်ဆေးသူအား စိတ်ကျေနပ်မှုပေးနိုင်ခဲ့ကာ သူမ၏ ရည်မှန်းထားသော ရမှတ်အဆင့်ကို ရရှိခဲ့သည်။",
+        questions: [
+          { question: "Why did Thida register for the IELTS exam?", options: ["To pursue a master's degree in London", "To work as a police officer", "To travel as a tourist"], answer: "To pursue a master's degree in London" },
+          { question: "What did the instructor explain to the students?", options: ["The four scoring criteria", "How to use a map", "The weather forecast in Yangon"], answer: "The four scoring criteria" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv8_1", question: "Rearrange the words: [requires / score / practice / high / consistent / achieving / a]", correct: "achieving a high score requires consistent practice", prompt: "Translate: မြင့်မားသောရမှတ်ရရှိရန် အမြဲမပြတ်လေ့ကျင့်မှု လိုအပ်သည်" }
       ]
     }
   ]

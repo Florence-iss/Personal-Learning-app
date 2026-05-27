@@ -1,6 +1,6 @@
 # SpeakEasy English - Detailed Course Syllabus & Study Guide
 
-This document provides a detailed breakdown of the 15-step English learning curriculum designed with Burmese support, spanning Beginner, Intermediate, and Advanced levels.
+This document provides a detailed breakdown of the 24-step English learning curriculum designed with Burmese support, spanning Beginner, Intermediate, and Advanced levels.
 
 ---
 
@@ -73,6 +73,42 @@ This document provides a detailed breakdown of the 15-step English learning curr
   - **Reading Passage**: "Lost in the City" (A tourist finding the Shwedagon Pagoda using directions from a local).
   - **Speaking Practice**: Inquiring "Excuse me, where is the nearest station?".
 
+### Step 6: Asking for Help & Emergencies
+- **Focus**: Ask for help when lost or during emergency situations.
+- **Key Vocabulary**:
+  - `Help` (အကူအညီ)
+  - `Lost` (လမ်းပျောက်သော)
+  - `Police` (ရဲတပ်ဖွဲ့)
+  - `Doctor` (ဆရာဝန်)
+  - `Emergency` (အရေးပေါ်အခြေအနေ)
+- **Practice Content**:
+  - **Reading Passage**: "Lost Wallet" (A traveler seeking assistance at a Yangon police station after losing his wallet).
+  - **Speaking Practice**: Asking "Excuse me, I am lost. Can you help me?".
+
+### Step 7: Weather & Seasons
+- **Focus**: Describe the weather conditions and seasons.
+- **Key Vocabulary**:
+  - `Rainy` (မိုးရွာသော)
+  - `Sunny` (နေသာသော)
+  - `Cold` (အေးသော)
+  - `Hot` (ပူသော)
+  - `Season` (ရာသီ)
+- **Practice Content**:
+  - **Reading Passage**: "Seasons in Myanmar" (The hot season, the rainy monsoon season, and the cool winter months).
+  - **Listening prompt**: Comprehending temperature and weather updates.
+
+### Step 8: Visiting the British Council Classroom
+- **Focus**: Classroom objects, asking the teacher questions, and doing homework at a language center.
+- **Key Vocabulary**:
+  - `Classroom` (စာသင်ခန်း)
+  - `Homework` (အိမ်စာ)
+  - `Dictionary` (အဘိဓာန်)
+  - `Question` (မေးခွန်း)
+  - `Understand` (နားလည်သည်)
+- **Practice Content**:
+  - **Reading Passage**: "First Day at the British Council" (Ko Ko visiting the British Council library and classroom to study English vocabulary).
+  - **Speaking Practice**: Asking "Can you please repeat the question, teacher?".
+
 ---
 
 ## 📗 Intermediate Course (B1/B2)
@@ -136,6 +172,41 @@ This document provides a detailed breakdown of the 15-step English learning curr
 - **Practice Content**:
   - **Reading Passage**: "The Digital Era" (Balancing social media applications, privacy safety, and screen time).
 
+### Step 6: Restaurant & Dining Etiquette
+- **Focus**: Order food, interact with servers, and understand dining terms.
+- **Key Vocabulary**:
+  - `Menu` (မီနူး / စားသောက်ဖွယ်ရာစာရင်း)
+  - `Order` (မှာယူသည်)
+  - `Appetizer` (အမြည်းဟင်းလျာ)
+  - `Entree` (ပင်မဟင်းလျာ)
+  - `Bill` (ဘေလ်စာရင်း)
+- **Practice Content**:
+  - **Reading Passage**: "Dinner for Two" (Ordering garlic bread, seafood pasta, and requesting the bill at an Italian restaurant).
+
+### Step 7: Banking, Finance & Saving
+- **Focus**: Open bank accounts, deposit/withdraw money, and transfer funds.
+- **Key Vocabulary**:
+  - `Account` (ဘဏ်စာရင်း / အကောင့်)
+  - `Deposit` (အပ်နှံငွေ / ငွေသွင်းသည်)
+  - `Withdraw` (ငွေထုတ်ယူသည်)
+  - `Interest` (အတိုးနှုန်း / အတိုး)
+  - `Transfer` (လွှဲပြောင်းသည်)
+- **Practice Content**:
+  - **Reading Passage**: "Managing Money" (Opening a savings account, depositing funds, and performing mobile transfers).
+
+### Step 8: Using Resources at the American Center
+- **Focus**: Library membership, borrowing books, speaking clubs, and educational workshops.
+- **Key Vocabulary**:
+  - `Membership` (အသင်းဝင်ဖြစ်ခြင်း)
+  - `Borrow` (ငှားရမ်းသည်)
+  - `Discussion` (ဆွေးနွေးညှိနှိုင်းခြင်း)
+  - `Resource` (အရင်းအမြစ် / ကိုးကားစရာ)
+  - `Workshop` (အလုပ်ရုံဆွေးနွေးပွဲ)
+  - `Access` (အသုံးပြုခွင့် ရယူသည်)
+- **Practice Content**:
+  - **Reading Passage**: "A Productive Day at the American Center" (Min Min renewing his membership, borrowing TOEFL materials, and joining the English Speaking Club).
+  - **Speaking Practice**: Speaking the sentence: "I joined the American Center to access English speaking clubs."
+
 ---
 
 ## 📙 Advanced Course (C1/C2)
@@ -152,7 +223,7 @@ This document provides a detailed breakdown of the 15-step English learning curr
   - `Ecological` (ဂေဟစနစ်ဆိုင်ရာ)
   - `Accountable` (တာဝန်ခံမှုရှိသော)
 - **Practice Content**:
-  - **Reading Passage**: "The Imperative of Green Technology" (Esclating greenhouse gases and consumer accountability).
+  - **Reading Passage**: "The Imperative of Green Technology" (Escalating greenhouse gases and consumer accountability).
 
 ### Step 2: Business Leadership & Strategy
 - **Focus**: Analyze mergers, acquisitions, team dynamics, and revenue streams.
@@ -197,3 +268,38 @@ This document provides a detailed breakdown of the 15-step English learning curr
   - `Expedition` (ရှာဖွေရေးခရီးစဉ်)
 - **Practice Content**:
   - **Reading Passage**: "The Next Frontier" (Astrophysics, Mars expeditions, and propulsion innovations).
+
+### Step 6: Law, Politics & Governance
+- **Focus**: Discuss constitutional frameworks, legislative bills, and democratic systems.
+- **Key Vocabulary**:
+  - `Constitution` (ဖွဲ့စည်းပုံအခြေခံဥပဒေ)
+  - `Legislation` (ဥပဒေပြုရေး / ပြဋ္ဌာန်းဥပဒေ)
+  - `Jurisdiction` (တရားစီရင်ပိုင်ခွင့်)
+  - `Democracy` (ဒီမိုကရေစီစနစ်)
+  - `Sovereignty` (အချုပ်အခြာအာဏာ)
+- **Practice Content**:
+  - **Reading Passage**: "The Pillars of Governance" (Constitutional separation of powers protecting civil liberties).
+
+### Step 7: Psychology & Human Behavior
+- **Focus**: Examine behavioral motivation, cognitive perception, and subconscious triggers.
+- **Key Vocabulary**:
+  - `Subconscious` (မသိစိတ် / စိတ်အောက်ခြေ)
+  - `Cognition` (သိမြင်မှုစွမ်းရည်)
+  - `Empathy` (ကိုယ်ချင်းစာစိတ် / စာနာစိတ်)
+  - `Perception` (ခံယူချက် / အမြင်)
+  - `Motivation` (လှုံ့ဆော်မှု / စိတ်အားထက်သန်မှု)
+- **Practice Content**:
+  - **Reading Passage**: "The Workings of the Mind" (Conscious cognition, empathy, and past memory cues).
+
+### Step 8: Mastering Exams at the British Council
+- **Focus**: IELTS/TOEFL testing procedures, grading criteria, academic speaking/writing, and overseas studies.
+- **Key Vocabulary**:
+  - `Assessor` (အကဲဖြတ်သူ / စစ်ဆေးသူ)
+  - `Band score` (ရမှတ်အဆင့်)
+  - `Fluency` (ချောမွေ့စွာ ပြောနိုင်စွမ်း)
+  - `Criterion` (သတ်မှတ်ချက် / စံနှုန်း)
+  - `Proficiency` (ကျွမ်းကျင်ပိုင်နိုင်မှု)
+  - `Preparation` (ပြင်ဆင်ခြင်း)
+- **Practice Content**:
+  - **Reading Passage**: "Preparing for the IELTS Exam at the British Council" (Thida taking a preparation course, studying the grading criteria, and achieving her target band score).
+  - **Speaking Practice**: Practicing: "Achieving a high band score requires consistent practice and extensive vocabulary."

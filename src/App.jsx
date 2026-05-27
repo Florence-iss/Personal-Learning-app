@@ -7,7 +7,8 @@ import WritingPractice from "./components/WritingPractice";
 import { 
   BookOpen, Mic, Volume2, Edit3, Award, Globe, 
   Flame, Star, Check, Lock, StarOff, 
-  X, ChevronLeft, ChevronRight, Play, Eye
+  X, ChevronLeft, ChevronRight, Play, Eye,
+  Sun, Moon
 } from "lucide-react";
 
 export default function App() {
@@ -25,6 +26,11 @@ export default function App() {
   // Flashcard Deck State
   const [activeFlashcardIdx, setActiveFlashcardIdx] = useState(null);
   const [flashcardFlipped, setFlashcardFlipped] = useState(false);
+
+  // Theme State (default to "light")
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("english_learner_theme") || "light";
+  });
 
   const translations = UI_TRANSLATIONS[lang];
   const lessons = LESSONS[activeLevel] || [];
@@ -55,6 +61,12 @@ export default function App() {
   useEffect(() => {
     setActiveLessonIdx(0);
   }, [activeLevel]);
+
+  // Synchronize theme with document attribute and localStorage
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("english_learner_theme", theme);
+  }, [theme]);
 
   const handleToggleLang = () => {
     setLang((prev) => (prev === "en" ? "mm" : "en"));
@@ -249,6 +261,15 @@ export default function App() {
             <Flame size={18} fill={streak > 0 ? "var(--warning)" : "transparent"} />
             <span>{streak} {lang === "en" ? "Days" : "ရက်"}</span>
           </div>
+
+          <button 
+            className="lang-toggle-btn" 
+            onClick={() => setTheme(prev => prev === "light" ? "dark" : "light")}
+            title={lang === "en" ? "Toggle theme" : "သီးမ်ပြောင်းလဲရန်"}
+            style={{ padding: "0.6rem", borderRadius: "50%", minWidth: "38px", minHeight: "38px", display: "inline-flex", justifyContent: "center", alignItems: "center" }}
+          >
+            {theme === "light" ? <Moon size={16} /> : <Sun size={16} />}
+          </button>
 
           <button className="lang-toggle-btn" onClick={handleToggleLang}>
             <Globe size={16} />
@@ -607,19 +628,19 @@ export default function App() {
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <span>Beginner Course Path:</span>
                 <span>
-                  {LESSONS.beginner.filter(l => isLessonCompleted(l.id)).length} / 5 Steps
+                  {LESSONS.beginner.filter(l => isLessonCompleted(l.id)).length} / {LESSONS.beginner.length} Steps
                 </span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <span>Intermediate Course Path:</span>
                 <span>
-                  {LESSONS.intermediate.filter(l => isLessonCompleted(l.id)).length} / 5 Steps
+                  {LESSONS.intermediate.filter(l => isLessonCompleted(l.id)).length} / {LESSONS.intermediate.length} Steps
                 </span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <span>Advanced Course Path:</span>
                 <span>
-                  {LESSONS.advanced.filter(l => isLessonCompleted(l.id)).length} / 5 Steps
+                  {LESSONS.advanced.filter(l => isLessonCompleted(l.id)).length} / {LESSONS.advanced.length} Steps
                 </span>
               </div>
             </div>
