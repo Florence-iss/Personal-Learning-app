@@ -2,10 +2,13 @@ import React, { useState, useEffect } from "react";
 import { LESSONS, UI_TRANSLATIONS } from "./data/lessons";
 import ListeningPractice from "./components/ListeningPractice";
 import SpeakingPractice from "./components/SpeakingPractice";
-import ReactConfetti from "canvas-confetti"; // Let's make it super premium with standard confetti if we can, or we can use native triggers
 import ReadingPractice from "./components/ReadingPractice";
 import WritingPractice from "./components/WritingPractice";
-import { BookOpen, Mic, Volume2, Edit3, Award, Globe, HelpCircle, Flame, Star, Check, Lock, ChevronRight } from "lucide-react";
+import { 
+  BookOpen, Mic, Volume2, Edit3, Award, Globe, 
+  Flame, Star, Check, Lock, StarOff, 
+  X, ChevronLeft, ChevronRight, Play, Eye
+} from "lucide-react";
 
 export default function App() {
   const [lang, setLang] = useState("en"); // "en" or "mm"
@@ -14,19 +17,37 @@ export default function App() {
   const [activeExercise, setActiveExercise] = useState(null); // "listening", "speaking", "reading", "writing"
   const [progress, setProgress] = useState({});
 
+  // Streak & Gamification State
+  const [streak, setStreak] = useState(0);
+  const [lastPracticeDate, setLastPracticeDate] = useState("");
+  const [starredWords, setStarredWords] = useState([]);
+  
+  // Flashcard Deck State
+  const [activeFlashcardIdx, setActiveFlashcardIdx] = useState(null);
+  const [flashcardFlipped, setFlashcardFlipped] = useState(false);
+
   const translations = UI_TRANSLATIONS[lang];
   const lessons = LESSONS[activeLevel] || [];
   const currentLesson = lessons[activeLessonIdx] || null;
 
-  // Load progress from localStorage on component mount
+  // Load progress, streak, and starred words from localStorage on mount
   useEffect(() => {
     const savedProgress = localStorage.getItem("english_burmese_learner_progress");
+    const savedStreak = localStorage.getItem("english_learner_streak");
+    const savedDate = localStorage.getItem("english_learner_last_practice_date");
+    const savedWords = localStorage.getItem("english_learner_starred_words");
+
     if (savedProgress) {
-      try {
-        setProgress(JSON.parse(savedProgress));
-      } catch (err) {
-        console.error("Error loading progress: ", err);
-      }
+      try { setProgress(JSON.parse(savedProgress)); } catch (e) {}
+    }
+    if (savedStreak) {
+      setStreak(parseInt(savedStreak, 10));
+    }
+    if (savedDate) {
+      setLastPracticeDate(savedDate);
+    }
+    if (savedWords) {
+      try { setStarredWords(JSON.parse(savedWords)); } catch (e) {}
     }
   }, []);
 
@@ -46,6 +67,7 @@ export default function App() {
     window.speechSynthesis.speak(utterance);
   };
 
+  // Streak updates on exercise completion
   const handleCompleteExercise = (type, score) => {
     if (!currentLesson) return;
     const progressKey = `${currentLesson.id}_${type}`;
@@ -56,31 +78,49 @@ export default function App() {
     setProgress(newProgress);
     localStorage.setItem("english_burmese_learner_progress", JSON.stringify(newProgress));
 
-    // Throw confetti on complete for premium feel!
-    try {
-      if (typeof window !== "undefined") {
-        const duration = 2 * 1000;
-        const animationEnd = Date.now() + duration;
-        const defaults = { startVelocity: 25, spread: 360, ticks: 50, zIndex: 9999 };
+    // Update Streak
+    const today = new Date().toDateString();
+    let newStreak = streak;
 
-        const randomInRange = (min, max) => Math.random() * (max - min) + min;
+    if (lastPracticeDate !== today) {
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yesterdayStr = yesterday.toDateString();
 
-        const interval = setInterval(function() {
-          const timeLeft = animationEnd - Date.now();
-
-          if (timeLeft <= 0) {
-            return clearInterval(interval);
-          }
-
-          const particleCount = 40 * (timeLeft / duration);
-          // Confetti left and right
-          window.confetti?.({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
-          window.confetti?.({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
-        }, 250);
+      if (lastPracticeDate === yesterdayStr) {
+        newStreak = streak + 1;
+      } else {
+        newStreak = 1; // Reset or start new streak
       }
-    } catch (e) {
-      console.warn("Confetti effect failed silently", e);
+
+      setStreak(newStreak);
+      setLastPracticeDate(today);
+      localStorage.setItem("english_learner_streak", newStreak.toString());
+      localStorage.setItem("english_learner_last_practice_date", today);
     }
+
+    // Trigger canvas confetti if available in window scope
+    try {
+      window.confetti?.({
+        particleCount: 80,
+        spread: 80,
+        origin: { y: 0.6 }
+      });
+    } catch (e) {}
+  };
+
+  // Starred dictionary utilities
+  const handleToggleStarWord = (wordObj) => {
+    let updated;
+    const isAlreadyStarred = starredWords.some(w => w.word === wordObj.word);
+    
+    if (isAlreadyStarred) {
+      updated = starredWords.filter(w => w.word !== wordObj.word);
+    } else {
+      updated = [...starredWords, wordObj];
+    }
+    setStarredWords(updated);
+    localStorage.setItem("english_learner_starred_words", JSON.stringify(updated));
   };
 
   // Helper functions for learning path locks & completion
@@ -100,7 +140,6 @@ export default function App() {
     if (idx === 0) return true;
     const prevLesson = lessons[idx - 1];
     if (!prevLesson) return false;
-    // Unlocked if previous lesson has at least 1 skill completed (encouraging milestone progression)
     return getLessonCompletionCount(prevLesson.id) > 0;
   };
 
@@ -125,7 +164,24 @@ export default function App() {
 
   const overallProgressVal = calculateTotalProgress();
 
-  // Switch to active practice view
+  // Dynamic badge checks
+  const getBadges = () => {
+    const beginnerCompleted = LESSONS.beginner.every(l => isLessonCompleted(l.id));
+    const speakingCompleted = Object.keys(LESSONS).some(lvl => 
+      LESSONS[lvl].some(l => isSkillCompleted(l.id, "speaking"))
+    );
+
+    return [
+      { id: "streak", name: "Streak Starter", nameMM: "လေ့လာမှု စတင်သူ", desc: "Have a streak of 1 or more days", descMM: "လေ့လာမှု နေ့စဉ်ရက် ဆက်တိုက်ရှိခြင်း", active: streak >= 1 },
+      { id: "collector", name: "Word Collector", nameMM: "ဝေါဟာရ စုဆောင်းသူ", desc: "Star 3 or more vocabulary words", descMM: "ဝေါဟာရ ၃ ခုနှင့်အထက် စုဆောင်းခြင်း", active: starredWords.length >= 3 },
+      { id: "speaker", name: "Orator", nameMM: "စကားပြော ကောင်းသူ", desc: "Complete any Speaking practice", descMM: "ပြောဆိုခြင်း လေ့ကျင့်ခန်း ပြီးမြောက်ခြင်း", active: speakingCompleted },
+      { id: "beginner", name: "Beginner Graduate", nameMM: "အခြေခံအဆင့် ပြီးမြောက်သူ", desc: "Complete all Beginner lessons", descMM: "အခြေခံအဆင့် သင်ခန်းစာအားလုံး ပြီးခြင်း", active: beginnerCompleted }
+    ];
+  };
+
+  const badges = getBadges();
+
+  // Active practice renderer
   const renderActivePractice = () => {
     if (!currentLesson) return null;
 
@@ -187,10 +243,18 @@ export default function App() {
           <p>{translations.subtitle}</p>
         </div>
 
-        <button className="lang-toggle-btn" onClick={handleToggleLang}>
-          <Globe size={16} />
-          {translations.toggleLang}
-        </button>
+        <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+          {/* Streak Indicator */}
+          <div className="streak-badge" title={lang === "en" ? `${streak} Days Streak` : `${streak} ရက် ဆက်တိုက်လေ့လာမှု`}>
+            <Flame size={18} fill={streak > 0 ? "var(--warning)" : "transparent"} />
+            <span>{streak} {lang === "en" ? "Days" : "ရက်"}</span>
+          </div>
+
+          <button className="lang-toggle-btn" onClick={handleToggleLang}>
+            <Globe size={16} />
+            {translations.toggleLang}
+          </button>
+        </div>
       </header>
 
       {/* Main Grid: Roadmap + Lesson Content + Sidebar */}
@@ -254,7 +318,7 @@ export default function App() {
 
           {/* Active Lesson Card Details */}
           {currentLesson && (
-            <div className="glass-card" style={{ display: "flex", flexDirection: "column", gap: "0.5rem", position: "relative" }}>
+            <div className="glass-card" style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span style={{ fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.05em", color: "var(--text-muted)", fontWeight: "700" }}>
                   Selected Step {activeLessonIdx + 1}
@@ -380,34 +444,48 @@ export default function App() {
               </h2>
               
               <div className="vocab-grid">
-                {currentLesson.vocabulary.map((vocab, index) => (
-                  <div key={index} className="vocab-card">
-                    <div className="vocab-header">
-                      <span className="vocab-word">{vocab.word}</span>
-                      <button 
-                        className="lang-toggle-btn"
-                        onClick={() => handleSpeakWord(vocab.word)}
-                        style={{ padding: "0.3rem 0.5rem", borderRadius: "50%", minWidth: "30px", minHeight: "30px", justifyContent: "center" }}
-                        title="Pronounce word"
-                      >
-                        <Volume2 size={14} />
-                      </button>
+                {currentLesson.vocabulary.map((vocab, index) => {
+                  const isStarred = starredWords.some(w => w.word === vocab.word);
+                  return (
+                    <div key={index} className="vocab-card">
+                      <div className="vocab-header">
+                        <span className="vocab-word">{vocab.word}</span>
+                        <div style={{ display: "flex", gap: "0.3rem" }}>
+                          {/* Star Toggle Button */}
+                          <button 
+                            className={`save-star-btn ${isStarred ? "starred" : ""}`}
+                            onClick={() => handleToggleStarWord(vocab)}
+                            title={isStarred ? "Remove Bookmark" : "Bookmark Word"}
+                          >
+                            <Star size={16} fill={isStarred ? "var(--warning)" : "transparent"} />
+                          </button>
+                          
+                          <button 
+                            className="lang-toggle-btn"
+                            onClick={() => handleSpeakWord(vocab.word)}
+                            style={{ padding: "0.3rem 0.5rem", borderRadius: "50%", minWidth: "30px", minHeight: "30px", justifyContent: "center" }}
+                            title="Pronounce word"
+                          >
+                            <Volume2 size={14} />
+                          </button>
+                        </div>
+                      </div>
+                      
+                      <div className="vocab-ipa">{vocab.ipa}</div>
+                      
+                      <div className="vocab-mean" lang="my">
+                        {vocab.mm}
+                      </div>
+                      
+                      <div className="vocab-example">
+                        <strong>Ex:</strong> {vocab.example}
+                        <p lang="my" style={{ opacity: 0.85, fontSize: "0.8rem", marginTop: "0.2rem" }}>
+                          ({vocab.exampleMM})
+                        </p>
+                      </div>
                     </div>
-                    
-                    <div className="vocab-ipa">{vocab.ipa}</div>
-                    
-                    <div className="vocab-mean" lang="my">
-                      {vocab.mm}
-                    </div>
-                    
-                    <div className="vocab-example">
-                      <strong>Ex:</strong> {vocab.example}
-                      <p lang="my" style={{ opacity: 0.85, fontSize: "0.8rem", marginTop: "0.2rem" }}>
-                        ({vocab.exampleMM})
-                      </p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}
@@ -448,6 +526,69 @@ export default function App() {
             </div>
           </div>
 
+          {/* Starred Words panel (My Dictionary) */}
+          <div className="glass-card">
+            <h3 style={{ fontFamily: "var(--font-heading)", fontSize: "1.1rem", fontWeight: "700", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "0.4rem" }}>
+              <Star size={16} className="text-indigo" fill="var(--warning)" />
+              {lang === "en" ? "Starred Words" : "မှတ်သားထားသော စာလုံးများ"} ({starredWords.length})
+            </h3>
+            
+            {starredWords.length > 0 ? (
+              <div>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", maxHeight: "140px", overflowY: "auto", marginBottom: "1rem", padding: "0.25rem 0" }}>
+                  {starredWords.map((vocab, index) => (
+                    <span 
+                      key={index} 
+                      className="writing-answer-word"
+                      onClick={() => handleSpeakWord(vocab.word)}
+                      style={{ fontSize: "0.75rem", padding: "0.3rem 0.6rem", display: "inline-flex", gap: "0.2rem", alignItems: "center" }}
+                    >
+                      {vocab.word}
+                      <Volume2 size={10} />
+                    </span>
+                  ))}
+                </div>
+                <button 
+                  className="btn-primary"
+                  onClick={() => {
+                    setActiveFlashcardIdx(0);
+                    setFlashcardFlipped(false);
+                  }}
+                  style={{ width: "100%", padding: "0.6rem", fontSize: "0.85rem", justifyContent: "center" }}
+                >
+                  <Play size={14} /> Review Flashcards
+                </button>
+              </div>
+            ) : (
+              <p style={{ fontSize: "0.8rem", color: "var(--text-muted)", fontStyle: "italic" }}>
+                {lang === "en" ? "Star vocabulary words in lessons to add them here." : "သင်ခန်းစာများရှိ ဝေါဟာရများအား စတားနှိပ်၍ ဤနေရာတွင် သိမ်းဆည်းပါ။"}
+              </p>
+            )}
+          </div>
+
+          {/* Gamification Achievements Box */}
+          <div className="glass-card">
+            <h3 style={{ fontFamily: "var(--font-heading)", fontSize: "1.1rem", fontWeight: "700", marginBottom: "0.25rem" }}>
+              {lang === "en" ? "Achievements" : "အောင်မြင်မှုဆုတံဆိပ်များ"}
+            </h3>
+            <div className="badges-grid">
+              {badges.map((badge, idx) => (
+                <div 
+                  key={idx} 
+                  className={`badge-item ${badge.active ? "unlocked" : ""}`}
+                  title={lang === "en" ? badge.desc : badge.descMM}
+                >
+                  <div className="badge-icon-wrapper">
+                    <Award size={24} />
+                  </div>
+                  <span className="badge-title-text">
+                    {lang === "en" ? badge.name : badge.nameMM}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Progress Tracker Card */}
           <div className="glass-card progress-box">
             <div className="progress-header">
@@ -472,13 +613,13 @@ export default function App() {
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <span>Intermediate Course Path:</span>
                 <span>
-                  {LESSONS.intermediate.filter(l => isLessonCompleted(l.id)).length} / 1 Step
+                  {LESSONS.intermediate.filter(l => isLessonCompleted(l.id)).length} / 5 Steps
                 </span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <span>Advanced Course Path:</span>
                 <span>
-                  {LESSONS.advanced.filter(l => isLessonCompleted(l.id)).length} / 1 Step
+                  {LESSONS.advanced.filter(l => isLessonCompleted(l.id)).length} / 5 Steps
                 </span>
               </div>
             </div>
@@ -487,6 +628,113 @@ export default function App() {
         </aside>
 
       </div>
+
+      {/* 3D Flashcard Review Overlay Modal */}
+      {activeFlashcardIdx !== null && starredWords.length > 0 && (
+        <div className="flashcard-modal-backdrop">
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", alignItems: "center" }}>
+            
+            {/* Control Header */}
+            <div style={{ width: "100%", maxWidth: "420px", display: "flex", justifyContent: "space-between", alignItems: "center", color: "var(--text-primary)" }}>
+              <span style={{ fontWeight: "700" }}>
+                Card {activeFlashcardIdx + 1} of {starredWords.length}
+              </span>
+              <button 
+                className="lang-toggle-btn"
+                onClick={() => setActiveFlashcardIdx(null)}
+                style={{ padding: "0.4rem", borderRadius: "50%", minWidth: "32px", minHeight: "32px", justifyContent: "center" }}
+              >
+                <X size={16} />
+              </button>
+            </div>
+
+            {/* Flashcard Frame */}
+            <div 
+              className={`flashcard-container ${flashcardFlipped ? "flipped" : ""}`}
+              onClick={() => setFlashcardFlipped(!flashcardFlipped)}
+            >
+              <div className="flashcard-inner">
+                {/* Front Side */}
+                <div className="flashcard-front">
+                  <span style={{ fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--text-muted)" }}>
+                    English Word
+                  </span>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                    <h2 style={{ fontSize: "2.8rem", fontWeight: "800", letterSpacing: "-0.02em" }}>
+                      {starredWords[activeFlashcardIdx].word}
+                    </h2>
+                    <span style={{ fontSize: "1rem", color: "var(--text-muted)", fontStyle: "italic" }}>
+                      {starredWords[activeFlashcardIdx].ipa}
+                    </span>
+                  </div>
+                  <button 
+                    className="lang-toggle-btn"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSpeakWord(starredWords[activeFlashcardIdx].word);
+                    }}
+                  >
+                    <Volume2 size={16} /> Pronounce
+                  </button>
+                  <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
+                    💡 Tap card to flip and view Burmese meaning
+                  </span>
+                </div>
+
+                {/* Back Side */}
+                <div className="flashcard-back">
+                  <span style={{ fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--primary-end)" }}>
+                    Burmese Translation
+                  </span>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", width: "100%" }}>
+                    <h3 lang="my" style={{ fontSize: "2.2rem", fontWeight: "700", color: "var(--text-primary)" }}>
+                      {starredWords[activeFlashcardIdx].mm}
+                    </h3>
+                  </div>
+                  <div style={{ width: "100%", padding: "1rem", borderTop: "1px dashed hsla(217, 30%, 30%, 0.3)", textAlign: "left", fontSize: "0.85rem" }}>
+                    <strong style={{ color: "var(--primary-end)" }}>Ex:</strong> {starredWords[activeFlashcardIdx].example}
+                    <p lang="my" style={{ opacity: 0.85, marginTop: "0.25rem", color: "var(--text-secondary)" }}>
+                      ({starredWords[activeFlashcardIdx].exampleMM})
+                    </p>
+                  </div>
+                  <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
+                    💡 Tap card to flip back to English
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Navigation controls */}
+            <div style={{ display: "flex", gap: "1.5rem", width: "100%", maxWidth: "420px", justifyContent: "center" }}>
+              <button 
+                className="btn-secondary"
+                disabled={activeFlashcardIdx === 0}
+                onClick={() => {
+                  setActiveFlashcardIdx(prev => prev - 1);
+                  setFlashcardFlipped(false);
+                }}
+                style={{ opacity: activeFlashcardIdx === 0 ? 0.5 : 1 }}
+              >
+                <ChevronLeft size={18} /> Prev
+              </button>
+
+              <button 
+                className="btn-secondary"
+                disabled={activeFlashcardIdx === starredWords.length - 1}
+                onClick={() => {
+                  setActiveFlashcardIdx(prev => prev + 1);
+                  setFlashcardFlipped(false);
+                }}
+                style={{ opacity: activeFlashcardIdx === starredWords.length - 1 ? 0.5 : 1 }}
+              >
+                Next <ChevronRight size={18} />
+              </button>
+            </div>
+
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }
