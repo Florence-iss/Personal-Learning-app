@@ -210,6 +210,138 @@ export const LESSONS = {
       writing: [
         { id: "wri_int1_1", question: "Rearrange the words: [prefer / tea / coffee / over / I]", correct: "I prefer tea over coffee", prompt: "Translate: ကျွန်တော် ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်" }
       ]
+    },
+    {
+      id: "int_2",
+      title: "Travel Planning & Accommodations",
+      titleMM: "ခရီးသွားလာမှု စီစဉ်ခြင်းနှင့် တည်းခိုနေထိုင်မှုများ",
+      description: "Learn how to make reservations, discuss itineraries, and book hotel rooms.",
+      descriptionMM: "ဘွတ်ကင်လုပ်ခြင်း၊ ခရီးစဉ်ဆွေးနွေးခြင်းနှင့် ဟိုတယ်အခန်းကြိုတင်မှာယူခြင်းများကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Reservation", ipa: "/ˌrezərˈveɪʃn/", mm: "ကြိုတင်ဘွတ်ကင်လုပ်ခြင်း", example: "I made a hotel reservation.", exampleMM: "ကျွန်တော် ဟိုတယ်ဘွတ်ကင်တစ်ခု လုပ်ခဲ့ပါတယ်။" },
+        { word: "Itinerary", ipa: "/aɪˈtɪnərer(i)/", mm: "ခရီးစဉ်အစီအစဉ်", example: "We should plan our itinerary first.", exampleMM: "ငါတို့ ခရီးစဉ်အစီအစဉ်ကို အရင်ဆွဲသင့်တယ်။" },
+        { word: "Departure", ipa: "/dɪˈpɑːrtʃər/", mm: "ထွက်ခွာချိန် / ထွက်ခွာခြင်း", example: "The departure time is 9 AM.", exampleMM: "ထွက်ခွာချိန်က မနက် ၉ နာရီဖြစ်ပါတယ်။" },
+        { word: "Destination", ipa: "/ˌdestɪˈneɪʃn/", mm: "ဆိုက်ရောက်မည့်နေရာ", example: "Bagan is our final destination.", exampleMM: "ပုဂံက ငါတို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်တယ်။" },
+        { word: "Explore", ipa: "/ɪkˈsplɔːr/", mm: "ရှာဖွေစူးစမ်းသည်", example: "We want to explore the local ruins.", exampleMM: "ကျွန်တော်တို့ ဒေသတွင်း ရှေးဟောင်းအပျက်အစီးတွေကို ရှာဖွေစူးစမ်းချင်ပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_int2_1", text: "Bagan is our final destination", audioText: "Bagan is our final destination", options: ["ပုဂံက ငါတို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်တယ်", "ငါတို့ ပုဂံကို သွားချင်တယ်", "ထွက်ခွာချိန်က မနက် ၉ နာရီဖြစ်တယ်"], answer: "ပုဂံက ငါတို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်တယ်" }
+      ],
+      speaking: [
+        { id: "spe_int2_1", text: "I would like to confirm my room reservation.", instruction: "Speak this room request:", instructionMM: "အောက်ပါ အခန်းကြိုတင်ဘွတ်ကင်အတည်ပြုချက်ကို ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "Planning the Summer Escape",
+        titleMM: "နွေရာသီ အပန်းဖြေခရီး စီစဉ်ခြင်း",
+        content: "Ko Ko and Nandar are organizing their annual trip. Nandar has already made a reservation at a beachfront resort in Ngapali. They are revising their itinerary to make sure they have enough time to explore nearby fishing villages and local seafood markets.",
+        contentMM: "ကိုကိုနှင့် နန္ဒာတို့သည် ၎င်းတို့၏ နှစ်ပတ်လည်ခရီးစဉ်ကို စီစဉ်နေကြသည်။ နန္ဒာက ငပလီရှိ ကမ်းခြေအပန်းဖြေစခန်းတစ်ခုတွင် အခန်းကြိုတင်ဘွတ်ကင်လုပ်ထားပြီးဖြစ်သည်။ ၎င်းတို့သည် အနီးနားရှိ တံငါရွာများနှင့် လတ်ဆတ်သော ပင်လယ်စာစျေးများကို ရှာဖွေစူးစမ်းရန် လုံလောက်သောအချိန်ရရှိစေရန် ၎င်းတို့၏ ခရီးစဉ်အစီအစဉ်ကို ပြန်လည်ပြင်ဆင်နေကြသည်။",
+        questions: [
+          { question: "Where is the resort located?", options: ["Bagan", "Ngapali", "Yangon"], answer: "Ngapali" },
+          { question: "Why are they revising their itinerary?", options: ["To find cheaper flights", "To have time to explore nearby villages", "Because Ko Ko is sick"], answer: "To have time to explore nearby villages" }
+        ]
+      },
+      writing: [
+        { id: "wri_int2_1", question: "Rearrange the words: [made / reservation / a / hotel / I]", correct: "I made a hotel reservation", prompt: "Translate: ကျွန်တော် ဟိုတယ်ဘွတ်ကင်တစ်ခု လုပ်ခဲ့ပါတယ်" }
+      ]
+    },
+    {
+      id: "int_3",
+      title: "Job Interviews & Careers",
+      titleMM: "အလုပ်အင်တာဗျူးများနှင့် အသက်မွေးဝမ်းကျောင်းများ",
+      description: "Master vocabulary for job hunting, speaking in interviews, and workplace culture.",
+      descriptionMM: "အလုပ်ရှာဖွေခြင်း၊ အင်တာဗျူးဖြေဆိုခြင်းနှင့် လုပ်ငန်းခွင်ယဉ်ကျေးမှုဆိုင်ရာ ဝေါဟာရများကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Interview", ipa: "/ˈɪntərvjuː/", mm: "လူတွေ့မေးမြန်းခြင်း / အင်တာဗျူး", example: "I have a job interview tomorrow.", exampleMM: "ကျွန်တော့်မှာ မနက်ဖြန် အလုပ်အင်တာဗျူးတစ်ခု ရှိပါတယ်။" },
+        { word: "Experience", ipa: "/ɪkˈspɪəriəns/", mm: "အတွေ့အကြုံ", example: "She has five years of experience.", exampleMM: "သူမတွင် အတွေ့အကြုံ ငါးနှစ်ရှိသည်။" },
+        { word: "Skill", ipa: "/skɪl/", mm: "ကျွမ်းကျင်မှု / စွမ်းရည်", example: "Communication is an essential skill.", exampleMM: "ပြောဆိုဆက်ဆံရေးသည် မရှိမဖြစ်လိုအပ်သော ကျွမ်းကျင်မှုတစ်ခုဖြစ်သည်။" },
+        { word: "Qualification", ipa: "/ˌkwɒlɪfɪˈkeɪʃn/", mm: "အရည်အချင်း / လက်မှတ်", example: "What qualifications do you possess?", exampleMM: "မင်းမှာ ဘယ်လိုအရည်အချင်းတွေ ရှိသလဲ။" },
+        { word: "Salary", ipa: "/ˈsæləri/", mm: "လစာ", example: "The job offers a competitive salary.", exampleMM: "ဤအလုပ်သည် ကောင်းမွန်သော လစာကို ပေးဆောင်သည်။" }
+      ],
+      listening: [
+        { id: "lis_int3_1", text: "Communication is an essential skill", audioText: "Communication is an essential skill", options: ["ဆက်သွယ်ပြောဆိုရေးက မရှိမဖြစ်လိုအပ်တဲ့ ကျွမ်းကျင်မှုတစ်ခုဖြစ်တယ်", "သူမမှာ အတွေ့အကြုံ ငါးနှစ်ရှိတယ်", "ကျွန်တော့်မှာ အင်တာဗျူးတစ်ခုရှိတယ်"], answer: "ဆက်သွယ်ပြောဆိုရေးက မရှိမဖြစ်လိုအပ်တဲ့ ကျွမ်းကျင်မှုတစ်ခုဖြစ်တယ်" }
+      ],
+      speaking: [
+        { id: "spe_int3_1", text: "I have extensive experience in software development.", instruction: "Speak with professional confidence:", instructionMM: "အောက်ပါ စာကြောင်းကို လုပ်ငန်းခွင်သုံး ယုံကြည်ချက်ရှိစွာ ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "Landing the Dream Job",
+        titleMM: "အိပ်မက်အလုပ်ကို ရရှိခြင်း",
+        content: "Kyaw Kyaw applied for a Project Manager position. During the interview, he detailed his five years of management experience. The interviewers were impressed by his interpersonal skills and technical qualifications. He was offered a package with a competitive starting salary.",
+        contentMM: "ကျော်ကျော်သည် ပရောဂျက်မန်နေဂျာ ရာထူးအတွက် လျှောက်ထားခဲ့သည်။ အင်တာဗျူးအတွင်း သူ၏ စီမံခန့်ခွဲမှု အတွေ့အကြုံ ငါးနှစ်အကြောင်းကို အသေးစိတ် ရှင်းပြခဲ့သည်။ အင်တာဗျူးမေးမြန်းသူများသည် သူ၏ လူမှုဆက်ဆံရေးစွမ်းရည်နှင့် နည်းပညာဆိုင်ရာ အရည်အချင်းများကို သဘောကျခဲ့ကြသည်။ သူ့ကို ကောင်းမွန်သော စတင်လစာဖြင့် အလုပ်ကမ်းလှမ်းခဲ့သည်။",
+        questions: [
+          { question: "What position did Kyaw Kyaw apply for?", options: ["Sales Representative", "Project Manager", "Software Engineer"], answer: "Project Manager" },
+          { question: "What impressed the interviewers?", options: ["His dynamic clothing", "His interpersonal skills and qualifications", "His school grades"], answer: "His interpersonal skills and qualifications" }
+        ]
+      },
+      writing: [
+        { id: "wri_int3_1", question: "Rearrange the words: [job / interview / tomorrow / have / a / I]", correct: "I have a job interview tomorrow", prompt: "Translate: ကျွန်တော့်မှာ မနက်ဖြန် အလုပ်အင်တာဗျူးတစ်ခု ရှိပါတယ်" }
+      ]
+    },
+    {
+      id: "int_4",
+      title: "Health, Fitness & Wellness",
+      titleMM: "ကျန်းမာရေး၊ ကြံ့ခိုင်ရေးနှင့် နေကောင်းကျန်းမာမှု",
+      description: "Discuss healthy habits, diet planning, medical symptoms, and remedies.",
+      descriptionMM: "ကျန်းမာသော အလေ့အထများ၊ အစားအသောက်စီမံခြင်း၊ ရောဂါလက္ခဏာများနှင့် ကုသမှုများကို ဆွေးနွေးပါ။",
+      vocabulary: [
+        { word: "Nutrition", ipa: "/njuˈtrɪʃn/", mm: "အာဟာရ", example: "Good nutrition is key to physical health.", exampleMM: "ကောင်းမွန်သောအာဟာရသည် ခန္ဓာကိုယ်ကျန်းမာရေးအတွက် သော့ချက်ဖြစ်သည်။" },
+        { word: "Exercise", ipa: "/ˈeksərsaɪz/", mm: "လေ့ကျင့်ခန်းလုပ်သည်", example: "You should exercise regularly.", exampleMM: "မင်း ပုံမှန် လေ့ကျင့်ခန်းလုပ်သင့်တယ်။" },
+        { word: "Symptom", ipa: "/ˈsɪmptəm/", mm: "ရောဂါလက္ခဏာ", example: "A headache is a common symptom.", exampleMM: "ခေါင်းကိုက်ခြင်းသည် အဖြစ်များသော ရောဂါလက္ခဏာတစ်ခုဖြစ်သည်။" },
+        { word: "Prescription", ipa: "/prɪˈskrɪpʃn/", mm: "ဆရာဝန်ဆေးညွှန်း", example: "The pharmacist filled my prescription.", exampleMM: "ဆေးဝါးပညာရှင်က ကျွန်တော့်ဆေးညွှန်းအတိုင်း ဆေးထုတ်ပေးခဲ့သည်။" },
+        { word: "Recovery", ipa: "/rɪˈkʌvəri/", mm: "ပြန်လည်ကောင်းမွန်လာခြင်း", example: "We wish you a speedy recovery.", exampleMM: "သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_int4_1", text: "We wish you a speedy recovery", audioText: "We wish you a speedy recovery", options: ["သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်", "ပုံမှန် လေ့ကျင့်ခန်းလုပ်ပါ", "အာဟာရပြည့်ဝအောင် စားပါ"], answer: "သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်" }
+      ],
+      speaking: [
+        { id: "spe_int4_1", text: "Healthy eating and regular exercise reduce stress.", instruction: "Speak this health tip clearly:", instructionMM: "အောက်ပါ ကျန်းမာရေးအကြံပြုချက်ကို ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "A Balanced Lifestyle",
+        titleMM: "မျှတသော နေထိုင်မှုပုံစံ",
+        content: "Min Htet used to feel sluggish. He consulted a dietitian who advised improving his daily nutrition and taking regular exercise. He began eating more green vegetables and jogging daily. After a month, his energy levels surged, showing the power of physical wellness.",
+        contentMM: "မင်းထက်သည် အရင်က လူပန်းနွမ်းနယ်သလို ခံစားရလေ့ရှိသည်။ သူက အာဟာရပညာရှင်တစ်ဦးနှင့် တိုင်ပင်ခဲ့ပြီး နေ့စဉ်အာဟာရကို မြှင့်တင်ရန်နှင့် ပုံမှန်လေ့ကျင့်ခန်းလုပ်ရန် အကြံပြုခဲ့သည်။ သူသည် အစိမ်းရောင်ဟင်းသီးဟင်းရွက်များကို ပိုမိုစားသုံးပြီး နေ့စဉ်ပြေးခဲ့သည်။ တစ်လအခြေအနေတွင် ခန္ဓာကိုယ်ကျန်းမာရေး၏ စွမ်းအားကြောင့် သူ၏ စွမ်းအင်များ သိသိသာသာ တိုးတက်လာခဲ့သည်။",
+        questions: [
+          { question: "What advice did the dietitian give?", options: ["To sleep longer", "To improve nutrition and exercise", "To take vitamins"], answer: "To improve nutrition and exercise" },
+          { question: "How did Min Htet feel after a month?", options: ["Sluggish", "Energetic", "Sick"], answer: "Energetic" }
+        ]
+      },
+      writing: [
+        { id: "wri_int4_1", question: "Rearrange the words: [exercise / should / regularly / you]", correct: "you should exercise regularly", prompt: "Translate: မင်း ပုံမှန် လေ့ကျင့်ခန်းလုပ်သင့်တယ်" }
+      ]
+    },
+    {
+      id: "int_5",
+      title: "Technology & Social Media",
+      titleMM: "နည်းပညာနှင့် လူမှုကွန်ရက် မီဒီယာ",
+      description: "Discuss how online platforms, gadgets, and networks influence daily lives.",
+      descriptionMM: "အွန်လိုင်းပလပ်ဖောင်းများ၊ နည်းပညာပစ္စည်းများနှင့် ကွန်ရက်များက နေ့စဉ်ဘဝအပေါ် မည်သို့လွှမ်းမိုးကြောင်း ဆွေးနွေးပါ။",
+      vocabulary: [
+        { word: "Device", ipa: "/dɪˈvaɪs/", mm: "စက်ပစ္စည်း / ကိရိယာ", example: "Keep your mobile devices charged.", exampleMM: "သင့်မိုဘိုင်းဖုန်း စက်ပစ္စည်းများကို အားသွင်းထားပါ။" },
+        { word: "Application", ipa: "/ˌæplɪˈkeɪʃn/", mm: "အပလီကေးရှင်း / ဆော့ဖ်ဝဲ", example: "Install the language learning application.", exampleMM: "ဘာသာစကားလေ့လာရေး အပလီကေးရှင်းကို ထည့်သွင်းပါ။" },
+        { word: "Privacy", ipa: "/ˈprɪvəsi/", mm: "ကိုယ်ရေးကိုယ်တာလုံခြုံမှု", example: "Check your online privacy settings.", exampleMM: "သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ။" },
+        { word: "Network", ipa: "/ˈnetwɜːrk/", mm: "ကွန်ရက်", example: "The internet network is very slow today.", exampleMM: "ဒီနေ့ အင်တာနက်ကွန်ရက်က အရမ်းနှေးနေတယ်။" },
+        { word: "Trending", ipa: "/ˈtrendɪŋ/", mm: "ရေပန်းစားနေသော / ခေတ်စားသော", example: "What topics are trending on Twitter?", exampleMM: "တွစ်တာပေါ်မှာ ဘယ်အကြောင်းအရာတွေ ရေပန်းစားနေလဲ။" }
+      ],
+      listening: [
+        { id: "lis_int5_1", text: "Check your online privacy settings", audioText: "Check your online privacy settings", options: ["အင်တာနက်ကွန်ရက်ကို စစ်ဆေးပါ", "သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ", "အပလီကေးရှင်းကို ထည့်သွင်းပါ"], answer: "သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ" }
+      ],
+      speaking: [
+        { id: "spe_int5_1", text: "Technology connects people around the globe instantly.", instruction: "Speak this tech fact clearly:", instructionMM: "အောက်ပါ စာကြောင်းကို သဘာဝကျကျ ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "The Digital Era",
+        titleMM: "ဒစ်ဂျစ်တယ် ခေတ်သမယ",
+        content: "Almost everyone carries a smart device nowadays. Social media applications allow us to stay connected, but they also raise concerns about personal privacy. Keeping security networks strong and managing screen time are crucial habits in this highly connected digital era.",
+        contentMM: "ယနေ့ခေတ်တွင် လူတိုင်းနီးပါးသည် စမတ်ကျသည့် စက်ပစ္စည်းတစ်ခုကို ဆောင်ထားကြသည်။ လူမှုကွန်ရက် အပလီကေးရှင်းများသည် ကျွန်ုပ်တို့ကို အဆက်အသွယ်မပြတ်စေရန် ကူညီပေးသော်လည်း ကိုယ်ရေးကိုယ်တာ လုံခြုံမှုဆိုင်ရာ စိုးရိမ်မှုများကိုလည်း မြင့်တက်စေသည်။ လုံခြုံရေးကွန်ရက်များကို ခိုင်မာအောင်ထားရှိခြင်းနှင့် ဖုန်းသုံးချိန်ကို ထိန်းညှိခြင်းသည် ဤဒစ်ဂျစ်တယ်ခေတ်တွင် အလွန်အရေးကြီးသော အလေ့အထများဖြစ်သည်။",
+        questions: [
+          { question: "What do social media applications raise concerns about?", options: ["Internet costs", "Personal privacy", "Battery life"], answer: "Personal privacy" },
+          { question: "What is a crucial habit mentioned in the passage?", options: ["Buying expensive devices", "Managing screen time", "Using many apps"], answer: "Managing screen time" }
+        ]
+      },
+      writing: [
+        { id: "wri_int5_1", question: "Rearrange the words: [privacy / online / settings / check / your]", correct: "check your online privacy settings", prompt: "Translate: သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ" }
+      ]
     }
   ],
   advanced: [
@@ -246,6 +378,138 @@ export const LESSONS = {
       },
       writing: [
         { id: "wri_adv1_1", question: "Rearrange the words: [mitigate / steps / to / emissions / taken / carbon / must / be]", correct: "steps must be taken to mitigate carbon emissions", prompt: "Translate: ကာဗွန်ထုတ်လွှတ်မှုကို လျှော့ချသက်သာစေရန် ခြေလှမ်းများ လုပ်ဆောင်ရမည်" }
+      ]
+    },
+    {
+      id: "adv_2",
+      title: "Business Leadership & Strategy",
+      titleMM: "စီးပွားရေးဆိုင်ရာ ခေါင်းဆောင်မှုနှင့် မဟာဗျူဟာ",
+      description: "Discuss mergers, acquisitions, leadership traits, and corporate financial leverage.",
+      descriptionMM: "ကုမ္ပဏီများပူးပေါင်းခြင်း၊ ခေါင်းဆောင်မှုပုံစံများနှင့် ကော်ပိုရိတ်ဘဏ္ဍာရေး မဟာဗျူဟာများကို ဆွေးနွေးပါ။",
+      vocabulary: [
+        { word: "Acquisition", ipa: "/ˌækwɪˈzɪʃn/", mm: "ဝယ်ယူပိုင်ဆိုင်ခြင်း / ပေါင်းစည်းခြင်း", example: "The company announced its latest tech acquisition.", exampleMM: "ကုမ္ပဏီက ၎င်းတို့၏ နောက်ဆုံး နည်းပညာကုမ္ပဏီ ဝယ်ယူပိုင်ဆိုင်မှုကို ကြေညာခဲ့သည်။" },
+        { word: "Consensus", ipa: "/kənˈsensəs/", mm: "ဘုံသဘောတူညီချက်", example: "The board members reached a consensus on the plan.", exampleMM: "ဒါရိုက်တာဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်။" },
+        { word: "Leverage", ipa: "/ˈliːvərɪdʒ/", mm: "အခွင့်ကောင်းယူအသုံးချသည် / အရှိန်မြှင့်တင်သည်", example: "We must leverage our existing client relationships.", exampleMM: "ကျွန်ုပ်တို့သည် လက်ရှိဖောက်သည်များနှင့် ရင်းနှီးမှုကို အခွင့်ကောင်းယူ အသုံးချရမည်။" },
+        { word: "Revenue", ipa: "/ˈrevənjuː/", mm: "ဝင်ငွေ / ဘဏ္ဍာငွေ", example: "Annual revenue grew by fifteen percent.", exampleMM: "နှစ်စဉ်ဝင်ငွေသည် တစ်ဆယ့်ငါးရာခိုင်နှုန်း တိုးတက်လာခဲ့သည်။" },
+        { word: "Synergy", ipa: "/ˈsɪnөрдʒi/", mm: "ပူးပေါင်းဆောင်ရွက်မှု အကျိုးသက်ရောက်မှု", example: "The merger created strong operational synergy.", exampleMM: "ကုမ္ပဏီနှစ်ခု ပေါင်းစည်းခြင်းကြောင့် အလွန်ကောင်းမွန်သော ပူးပေါင်းလုပ်ဆောင်မှု အကျိုးသက်ရောက်မှုကို ရရှိစေခဲ့သည်။" }
+      ],
+      listening: [
+        { id: "lis_adv2_1", text: "The board members reached a consensus on the plan", audioText: "The board members reached a consensus on the plan", options: ["ဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်", "နှစ်စဉ်ဝင်ငွေသည် ဆယ့်ငါးရာခိုင်နှုန်း တိုးတက်လာသည်", "ကုမ္ပဏီနှစ်ခု ပေါင်းစည်းခဲ့သည်"], answer: "ဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်" }
+      ],
+      speaking: [
+        { id: "spe_adv2_1", text: "Effective leaders delegate authority and foster collaborative synergies.", instruction: "Speak with authoritative corporate emphasis:", instructionMM: "အောက်ပါ စီးပွားရေးဆိုင်ရာ စာကြောင်းကို လေးနက်စွာ ဖတ်ကြားပါ:" }
+      ],
+      reading: {
+        title: "The Logic of Mergers",
+        titleMM: "ကုမ္ပဏီများ ပူးပေါင်းခြင်း၏ ကျိုးကြောင်းဆီလျော်မှု",
+        content: "Corporate expansion often relies on strategic acquisitions rather than organic growth. When two major tech giants merge, executives look for operational synergy to streamline costs and maximize revenue. However, without a consensus among stakeholders regarding corporate culture, such ventures risk high friction and potential failure despite strong financial leverage.",
+        contentMM: "ကော်ပိုရိတ် တိုးချဲ့မှုများသည် ပုံမှန်တိုးတက်မှုထက် မဟာဗျူဟာမြောက် ဝယ်ယူပေါင်းစည်းမှုများအပေါ် မကြာခဏ အမှီပြုလေ့ရှိသည်။ နည်းပညာဘီလူးကြီးနှစ်ခု ပူးပေါင်းသောအခါ စရိတ်စကများ လျှော့ချရန်နှင့် ဝင်ငွေအမြင့်ဆုံးဖြစ်စေရန် လုပ်ငန်းလည်ပတ်မှုဆိုင်ရာ ပူးပေါင်းဆောင်ရွက်မှု အကျိုးသက်ရောက်မှုကို ရှာဖွေကြသည်။ သို့သော် ကော်ပိုရိတ်ယဉ်ကျေးမှုနှင့် ပတ်သက်၍ သက်ဆိုင်သူများအကြား ဘုံသဘောတူညီချက်မရှိပါက ကောင်းမွန်သော ဘဏ္ဍာရေးအရှိန်အဟုန်များ ရှိနေသော်လည်း လုပ်ငန်းများတွင် ပဋိပက္ခများနှင့် ကျရှုံးမှုများ ဖြစ်ပေါ်လာနိုင်သည်။",
+        questions: [
+          { question: "What do executives look for when tech giants merge?", options: ["Lower stock prices", "Operational synergy", "Employee layoffs"], answer: "Operational synergy" },
+          { question: "What happens if there is no consensus on corporate culture?", options: ["Revenue doubles", "The venture risks high friction and potential failure", "Stockholders get tax cuts"], answer: "The venture risks high friction and potential failure" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv2_1", question: "Rearrange the words: [reached / a / board / consensus / the / members]", correct: "the board members reached a consensus", prompt: "Translate: ဒါရိုက်တာဘုတ်အဖွဲ့ဝင်များသည် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်" }
+      ]
+    },
+    {
+      id: "adv_3",
+      title: "Art, Philosophy & Critical Thinking",
+      titleMM: "အနုပညာ၊ ဒဿနိကဗေဒနှင့် ဝေဖန်ပိုင်းခြားတွေးခေါ်မှု",
+      description: "Examine existential philosophy, aesthetic values in art, and cognitive biases.",
+      descriptionMM: "ဖြစ်တည်မှုဆိုင်ရာ ဒဿနိကဗေဒ၊ အနုပညာ၏ အလှအပတန်ဖိုးများနှင့် သိမြင်မှုဆိုင်ရာ ဘက်လိုက်မှုများကို ဆန်းစစ်ပါ။",
+      vocabulary: [
+        { word: "Aesthetic", ipa: "/esˈθetɪk/", mm: "အလှအပနှင့် သုခုမပညာဆိုင်ရာ", example: "The building has a modern aesthetic value.", exampleMM: "ဤအဆောက်အအုံသည် ခေတ်မီသောအလှအပ တန်ဖိုးရှိသည်။" },
+        { word: "Existential", ipa: "/ˌeɡzɪˈstenʃl/", mm: "ဖြစ်တည်မှုဆိုင်ရာ / ဘဝဖြစ်တည်မှုဆိုင်ရာ", example: "Existential questions help us find meaning in life.", exampleMM: "ဖြစ်တည်မှုဆိုင်ရာ မေးခွန်းများသည် ဘဝ၏ အဓိပ္ပာယ်ကို ရှာဖွေရန် အထောက်အကူပြုသည်။" },
+        { word: "Perspective", ipa: "/pəˈspektɪv/", mm: "ရှုထောင့် / အမြင်", example: "Try to understand the problem from his perspective.", exampleMM: "ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ရန် ကြိုးစားပါ။" },
+        { word: "Interpret", ipa: "/ɪnˈtɜːrprɪt/", mm: "အနက်ဖွင့်ဆိုသည် / ဘာသာပြန်ဆိုသည်", example: "Art critics interpret the meaning of paintings.", exampleMM: "အနုပညာဝေဖန်ရေးသမားများသည် ပန်းချီကားများ၏ အဓိပ္ပာယ်ကို အနက်ဖွင့်ဆိုကြသည်။" },
+        { word: "Cognitive", ipa: "/ˈkɒɡnətɪv/", mm: "သိမြင်မှုဆိုင်ရာ / ဦးနှောက်၏လုပ်ဆောင်မှုဆိုင်ရာ", example: "Cognitive development is fast in early childhood.", exampleMM: "အစောပိုင်း ကလေးဘဝတွင် သိမြင်မှုဆိုင်ရာ ဖွံ့ဖြိုးမှုသည် မြန်ဆန်သည်။" }
+      ],
+      listening: [
+        { id: "lis_adv3_1", text: "Try to understand the problem from his perspective", audioText: "Try to understand the problem from his perspective", options: ["ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ရန် ကြိုးစားပါ", "ပန်းချီကားများ၏ အဓိပ္ပာယ်ကို အနက်ဖွင့်ဆိုပါ", "အစောပိုင်း ကလေးဘဝတွင် ဖွံ့ဖြိုးမှု မြန်ဆန်သည်"], answer: "ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ရန် ကြိုးစားပါ" }
+      ],
+      speaking: [
+        { id: "spe_adv3_1", text: "Aesthetics and existential analysis define contemporary philosophy.", instruction: "Speak with intellectual cadence:", instructionMM: "အောက်ပါ စာကြောင်းကို ဒဿနိကဗေဒဆိုင်ရာ အသံထွက်ဟန်ဖြင့် ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "The Interpretation of Modern Art",
+        titleMM: "ခေတ်ပြိုင်အနုပညာကို အနက်ဖွင့်ဆိုခြင်း",
+        content: "Viewing modern art requires a shift in perspective. Instead of seeking realistic representations, observers must examine the underlying aesthetic. Each painting triggers existential questions, encouraging viewers to interpret the visual symbols. However, cognitive biases can distort our initial reaction, highlighting the importance of critical thinking in art appreciation.",
+        contentMM: "ခေတ်ပြိုင်အနုပညာကို ကြည့်ရှုခြင်းသည် ရှုထောင့်ကို ပြောင်းလဲရန် လိုအပ်သည်။ အမြင်အာရုံအတိုင်း လက်တွေ့ပုံဖော်ချက်များကို ရှာဖွေမည့်အစား ကြည့်ရှုသူများသည် အရင်းခံအလှအပကို ဆန်းစစ်ရမည်ဖြစ်သည်။ ပန်းချီကားတစ်ချပ်စီသည် ဖြစ်တည်မှုဆိုင်ရာ မေးခွန်းများကို လှုံ့ဆော်ပေးပြီး မြင်ကွင်းဆိုင်ရာ သင်္ကေတများကို အနက်ဖွင့်ဆိုရန် တွန်းအားပေးသည်။ သို့သော် သိမြင်မှုဆိုင်ရာ ဘက်လိုက်မှုများက ကျွန်ုပ်တို့၏ ကနဦးတုံ့ပြန်မှုကို လွဲချော်စေနိုင်သဖြင့် အနုပညာကို တန်ဖိုးထားတတ်စေရန် ဝေဖန်ပိုင်းခြားတွေးခေါ်မှုက အရေးကြီးကြောင်း ဖော်ပြနေသည်။",
+        questions: [
+          { question: "What does viewing modern art require?", options: ["Expensive entry tickets", "A shift in perspective", "Academic degrees"], answer: "A shift in perspective" },
+          { question: "What can distort our initial reaction to art?", options: ["Cognitive biases", "Lighting conditions", "Other people's opinions"], answer: "Cognitive biases" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv3_1", question: "Rearrange the words: [understand / from / perspective / his / the / problem]", correct: "understand the problem from his perspective", prompt: "Translate: ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ပါ" }
+      ]
+    },
+    {
+      id: "adv_4",
+      title: "Global Economics & Finance",
+      titleMM: "ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေးနှင့် ဘဏ္ဍာရေး",
+      description: "Discuss macroeconomic indices, inflation, recession, and asset allocation.",
+      descriptionMM: "မက်ခရိုစီးပွားရေး ညွှန်းကိန်းများ၊ ငွေဖောင်းပမှု၊ စီးပွားရေးကျဆင်းမှုနှင့် ပိုင်ဆိုင်မှုခွဲဝေမှုများကို ဆွေးနွေးပါ။",
+      vocabulary: [
+        { word: "Inflation", ipa: "/ɪnˈfleɪʃn/", mm: "ငွေဖောင်းပွမှု", example: "Inflation reduces the purchasing power of money.", exampleMM: "ငွေဖောင်းပွမှုသည် ငွေကြေး၏ ဝယ်ယူနိုင်စွမ်းအားကို လျော့နည်းစေသည်။" },
+        { word: "Recession", ipa: "/rɪˈseʃn/", mm: "စီးပွားရေးကျဆင်းမှု / စီးပွားပျက်ကပ်", example: "The country is struggling to recover from a mild recession.", exampleMM: "ထိုနိုင်ငံသည် အပျော့စား စီးပွားပျက်ကပ်မှ နာလန်ထူရန် ရုန်းကန်နေရသည်။" },
+        { word: "Asset", ipa: "/ˈæset/", mm: "ပိုင်ဆိုင်မှု / အက်ဆက်", example: "Real estate is a solid long-term asset.", exampleMM: "အိမ်ခြံမြေသည် ခိုင်မာသော ရေရှည်ပိုင်ဆိုင်မှု ဖြစ်သည်။" },
+        { word: "Liability", ipa: "/ˌlaɪəˈbɪləti/", mm: "ပေးရန်တာဝန် / ကြွေးမြီ", example: "Loan debt is a significant financial liability.", exampleMM: "ချေးငွေကြွေးမြီသည် ကြီးမားသော ဘဏ္ဍာရေးဆိုင်ရာ ပေးရန်တာဝန်ဖြစ်သည်။" },
+        { word: "Capital", ipa: "/ˈkæpɪtl/", mm: "အရင်းအနှီး / မတည်ငွေ", example: "We need more venture capital to scale our startup.", exampleMM: "ကျွန်ုပ်တို့၏ လုပ်ငန်းသစ်ကို ချဲ့ထွင်ရန် အရင်းအနှီး ပိုမိုလိုအပ်သည်။" }
+      ],
+      listening: [
+        { id: "lis_adv4_1", text: "Inflation reduces the purchasing power of money", audioText: "Inflation reduces the purchasing power of money", options: ["ငွေဖောင်းပွမှုက ငွေကြေးရဲ့ ဝယ်ယူနိုင်စွမ်းကို လျှော့ချပေးတယ်", "အိမ်ခြံမြေက ရေရှည်ပိုင်ဆိုင်မှု ဖြစ်တယ်", "ချေးငွေကြွေးမြီက ပေးရန်တာဝန် ဖြစ်တယ်"], answer: "ငွေဖောင်းပွမှုက ငွေကြေးရဲ့ ဝယ်ယူနိုင်စွမ်းကို လျှော့ချပေးတယ်" }
+      ],
+      speaking: [
+        { id: "spe_adv4_1", text: "During a recession, central banks lower interest rates to stimulate capital markets.", instruction: "Speak with economist cadence:", instructionMM: "အောက်ပါ စီးပွားရေးဝါကျကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "Navigating the Market Cycle",
+        titleMM: "စျေးကွက်သံသရာကို ဖြတ်သန်းခြင်း",
+        content: "Understanding macroeconomics requires balancing assets and liabilities. When inflation escalates, the purchasing power of currency declines, prompting central banks to raise rates. If the economy cools too quickly, it enters a recession, during which companies struggle to raise capital. Diversifying assets remains the key strategy to weather these fluctuations.",
+        contentMM: "မက်ခရိုစီးပွားရေးကို နားလည်ရန်မှာ ပိုင်ဆိုင်မှုများနှင့် ကြွေးမြီတာဝန်များကို မျှတအောင် ထိန်းညှိခြင်း လိုအပ်သည်။ ငွေဖောင်းပွမှု မြင့်တက်လာသောအခါ ငွေကြေး၏ ဝယ်ယူနိုင်စွမ်းအား ကျဆင်းသွားပြီး ဗဟိုဘဏ်များက အတိုးနှုန်းမြှင့်ရန် တွန်းအားပေးသည်။ စီးပွားရေးသည် လျင်မြန်စွာ အေးခဲသွားပါက စီးပွားပျက်ကပ်သို့ ရောက်ရှိကာ ကုမ္ပဏီများမှာ မတည်ရင်းနှီးငွေ ရှာဖွေရန် ရုန်းကန်ရသည်။ ပိုင်ဆိုင်မှုများကို ပုံစံမျိုးစုံ ခွဲဝေထားခြင်းက ဤစျေးကွက်လှုပ်ခတ်မှုများကို ရင်ဆိုင်ကျော်ဖြတ်ရန် အဓိက မဟာဗျူဟာဖြစ်သည်။",
+        questions: [
+          { question: "What happens when inflation escalates?", options: ["Purchasing power of currency declines", "Interest rates go down to zero", "Recession ends instantly"], answer: "Purchasing power of currency declines" },
+          { question: "What is the key strategy to weather market fluctuations?", options: ["Taking more bank loans", "Diversifying assets", "Holding only cash"], answer: "Diversifying assets" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv4_1", question: "Rearrange the words: [purchasing / power / currency / declines / of / the]", correct: "the purchasing power of currency declines", prompt: "Translate: ငွေကြေး၏ ဝယ်ယူနိုင်စွမ်းအား ကျဆင်းသွားသည်" }
+      ]
+    },
+    {
+      id: "adv_5",
+      title: "Science, Space & Innovation",
+      titleMM: "သိပ္ပံပညာ၊ အာကာသနှင့် ဆန်းသစ်တီထွင်မှု",
+      description: "Discuss space exploration, astrophysics, and technological breakthroughs.",
+      descriptionMM: "အာကာသစူးစမ်းလေ့လာရေး၊ ရူပဗေဒနှင့် นည်းပညာဆိုင်ရာ အောင်မြင်မှုများကို ဆွေးနွေးပါ။",
+      vocabulary: [
+        { word: "Cosmology", ipa: "/kɒzˈmɒlədʒi/", mm: "စကြာဝဠာဗေဒ", example: "Cosmology studies the origin and evolution of the universe.", exampleMM: "စကြာဝဠာဗေဒသည် စကြာဝဠာ၏ မူလအစနှင့် ဖွံ့ဖြိုးတိုးတက်မှုကို လေ့လာသည်။" },
+        { word: "Hypothesis", ipa: "/haɪˈpɒθəsɪs/", mm: "အယူအဆ / အဆိုပြုချက်", example: "Scientists formulated a new hypothesis.", exampleMM: "သိပ္ပံပညာရှင်များသည် အယူအဆအသစ်တစ်ခုကို ဖော်ထုတ်ခဲ့ကြသည်။" },
+        { word: "Quantum", ipa: "/ˈkwɒntəm/", mm: "ကွမ်တမ် / အက်တမ်အောက်အမှုန်ဆိုင်ရာ", example: "Quantum computers solve calculations instantly.", exampleMM: "ကွမ်တမ်ကွန်ပျူတာများသည် တွက်ချက်မှုများကို ချက်ချင်းဖြေရှင်းပေးနိုင်သည်။" },
+        { word: "Revolutionize", ipa: "/ˌrevəˈluːʃənaɪz/", mm: "တော်လှန်ပြောင်းလဲစေသည်", example: "AI will revolutionize multiple industries.", exampleMM: "အေအိုင်သည် လုပ်ငန်းအများအပြားကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်။" },
+        { word: "Expedition", ipa: "/ˌekspəˈdɪʃn/", mm: "ရှာဖွေရေးခရီးစဉ်", example: "The Arctic expedition gathered climate data.", exampleMM: "အာတိတ် ရှာဖွေရေးခရီးစဉ်က ရာသီဥတုဆိုင်ရာ အချက်အလက်များကို စုဆောင်းခဲ့သည်။" }
+      ],
+      listening: [
+        { id: "lis_adv5_1", text: "AI will revolutionize multiple industries", audioText: "AI will revolutionize multiple industries", options: ["အေအိုင်က လုပ်ငန်းအများစုကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်", "စကြာဝဠာဗေဒက စကြာဝဠာကို လေ့လာသည်", "သိပ္ပံပညာရှင်များက အယူအဆအသစ်ကို ရေးဆွဲသည်"], answer: "အေအိုင်က လုပ်ငန်းအများစုကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်" }
+      ],
+      speaking: [
+        { id: "spe_adv5_1", text: "Astronauts embarking on deep-space expeditions test the limits of technology.", instruction: "Speak with clear scientific cadence:", instructionMM: "အောက်ပါ သိပ္ပံဆိုင်ရာ စာကြောင်းကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "The Next Frontier",
+        titleMM: "နောက်ထပ် နယ်မြေအသစ်",
+        content: "Space exploration has transitioned from a government project to a global innovation hub. While early cosmology focused on observations, modern expeditions aim to colonize planets. Testing quantum hypotheses and building advanced rocket propulsion will revolutionize how humans perceive our place in the universe.",
+        contentMM: "အာကာသစူးစမ်းလေ့လာရေးသည် အစိုးရပရောဂျက်တစ်ခုအဖြစ်မှ ကမ္ဘာလုံးဆိုင်ရာ ဆန်းသစ်တီထွင်မှုဗဟိုချက်အဖြစ်သို့ ကူးပြောင်းလာခဲ့သည်။ ရှေးဦးစကြာဝဠာဗေဒသည် စောင့်ကြည့်လေ့လာမှုများအပေါ် အာရုံစိုက်ခဲ့သော်လည်း ခေတ်သစ်ရှာဖွေရေးခရီးစဉ်များသည် ဂြိုဟ်များပေါ်တွင် အခြေချနေထိုင်ရန် ရည်ရွယ်သည်။ ကွမ်တမ်အယူအဆများကို စမ်းသပ်ခြင်းနှင့် အဆင့်မြင့်ဒုံးပျံတွန်းကန်အားများ တည်ဆောက်ခြင်းသည် လူသားတို့၏ စကြာဝဠာအတွင်း နေရာယူမှုကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်။",
+        questions: [
+          { question: "What is the aim of modern space expeditions?", options: ["To study Earth only", "To colonize planets", "To build space telescopes"], answer: "To colonize planets" },
+          { question: "What will quantum testing and rocket propulsion revolutionize?", options: ["Standard cell phones", "How humans perceive our place in the universe", "Global shipping speeds"], answer: "How humans perceive our place in the universe" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv5_1", question: "Rearrange the words: [industries / revolutionize / AI / will / multiple]", correct: "AI will revolutionize multiple industries", prompt: "Translate: အေအိုင်သည် လုပ်ငန်းအများအပြားကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်" }
       ]
     }
   ]
