@@ -117,6 +117,18 @@ export const LESSONS = {
           "text": "Nice to meet you, teacher.",
           "instruction": "Read the polite greeting aloud:",
           "instructionMM": "အောက်ပါ ယဉ်ကျေးသော နှုတ်ဆက်စကားကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg1_4",
+          "text": "I am happy to study English here.",
+          "instruction": "Read the expression of happiness:",
+          "instructionMM": "ပျော်ရွှင်မှုကို ဖော်ပြသော အောက်ပါစကားကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg1_5",
+          "text": "Where are you from, my friend?",
+          "instruction": "Read the question aloud:",
+          "instructionMM": "အောက်ပါ မေးခွန်းကို အသံထွက်မေးပါ:"
         }
       ],
       "reading": {
@@ -283,6 +295,18 @@ export const LESSONS = {
           "text": "I watch TV in the evening.",
           "instruction": "Read the daily activity aloud:",
           "instructionMM": "အောက်ပါ နေ့စဉ်လှုပ်ရှားမှုကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg2_4",
+          "text": "I eat lunch at twelve o'clock.",
+          "instruction": "Read the daily timeline:",
+          "instructionMM": "အောက်ပါ အချိန်ဇယားကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg2_5",
+          "text": "We go to sleep early at night.",
+          "instruction": "Read the routine habit:",
+          "instructionMM": "အောက်ပါ လုပ်ရိုးလုပ်စဉ်အလေ့အထကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -428,6 +452,18 @@ export const LESSONS = {
           "text": "Do you have a brother?",
           "instruction": "Ask the question clearly:",
           "instructionMM": "အောက်ပါ မေးခွန်းကို အသံထွက်မေးမြန်းပါ:"
+        },
+        {
+          "id": "spe_beg3_4",
+          "text": "My mother is a very kind person.",
+          "instruction": "Read the description of mother:",
+          "instructionMM": "အမေကို ဖော်ပြသည့်စကားကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg3_5",
+          "text": "I have one brother and two sisters.",
+          "instruction": "Read the sibling description:",
+          "instructionMM": "မောင်နှမများအကြောင်း ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -573,6 +609,18 @@ export const LESSONS = {
           "text": "I want to buy a new book.",
           "instruction": "State your wish clearly:",
           "instructionMM": "အောက်ပါ လိုလားချက်ကို အသံထွက်ဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_beg4_4",
+          "text": "How much does this apple cost?",
+          "instruction": "Ask the price of the item:",
+          "instructionMM": "ပစ္စည်းစျေးနှုန်းကို အသံထွက်မေးပါ:"
+        },
+        {
+          "id": "spe_beg4_5",
+          "text": "I want to buy fresh fruits.",
+          "instruction": "Read the shopping request:",
+          "instructionMM": "ဝယ်ယူလိုသော ဆန္ဒကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -718,6 +766,18 @@ export const LESSONS = {
           "text": "The library is on the right.",
           "instruction": "Explain the location clearly:",
           "instructionMM": "အောက်ပါ တည်နေရာကို ရှင်းလင်းစွာ ရှင်းပြပါ:"
+        },
+        {
+          "id": "spe_beg5_4",
+          "text": "Go straight and turn left at the corner.",
+          "instruction": "Read the direction command:",
+          "instructionMM": "လမ်းညွှန်ချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg5_5",
+          "text": "Is the train station near here?",
+          "instruction": "Ask for location proximity:",
+          "instructionMM": "တည်နေရာအကွာအဝေးကို အသံထွက်မေးပါ:"
         }
       ],
       "reading": {
@@ -863,6 +923,18 @@ export const LESSONS = {
           "text": "This is an absolute emergency.",
           "instruction": "Alert about an emergency clearly:",
           "instructionMM": "အောက်ပါ အရေးပေါ်အခြေအနေကို ရှင်းလင်းစွာ အသိပေးဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_beg6_4",
+          "text": "Please call a doctor quickly.",
+          "instruction": "Read the emergency request:",
+          "instructionMM": "အရေးပေါ်တောင်းဆိုမှုကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg6_5",
+          "text": "I cannot find my passport.",
+          "instruction": "Read the lost item statement:",
+          "instructionMM": "ပစ္စည်းပျောက်ဆုံးမှုဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -1008,6 +1080,18 @@ export const LESSONS = {
           "text": "Monsoon is the rainy season.",
           "instruction": "Read the season fact clearly:",
           "instructionMM": "အောက်ပါ ရာသီဥတုအချက်အလက်ကို ရှင်းလင်းစွာ ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg7_4",
+          "text": "It is very cold in the winter months.",
+          "instruction": "Read the seasonal description:",
+          "instructionMM": "ရာသီဥတုဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_beg7_5",
+          "text": "I like sunny weather very much.",
+          "instruction": "Read the personal preference:",
+          "instructionMM": "ကိုယ်ပိုင်ကြိုက်နှစ်သက်မှုကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -1153,6 +1237,18 @@ export const LESSONS = {
           "text": "The classroom is bright and clean.",
           "instruction": "Describe the room clearly:",
           "instructionMM": "အခန်းအခြေအနေကို ရှင်းလင်းစွာ ဖော်ပြပြောဆိုပါ:"
+        },
+        {
+          "id": "spe_beg8_4",
+          "text": "Where is the British Council classroom?",
+          "instruction": "Ask for the classroom location:",
+          "instructionMM": "စာသင်ခန်းတည်နေရာကို အသံထွက်မေးပါ:"
+        },
+        {
+          "id": "spe_beg8_5",
+          "text": "We study English vocabulary together.",
+          "instruction": "Read the classroom activity:",
+          "instructionMM": "စာသင်ခန်းလှုပ်ရှားမှုကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -1314,6 +1410,18 @@ export const LESSONS = {
           "text": "Photography requires both patience and a creative eye.",
           "instruction": "Deliver this hobby fact clearly:",
           "instructionMM": "အောက်ပါ ဝါသနာဆိုင်ရာ အချက်အလက်ကို ရှင်းလင်းစွာ ဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_int1_4",
+          "text": "I enjoy taking photos of nature.",
+          "instruction": "Read the hobby interest:",
+          "instructionMM": "ဝါသနာစိတ်ဝင်စားမှုကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_int1_5",
+          "text": "Cooking helps me unwind after work.",
+          "instruction": "Read the leisure activity description:",
+          "instructionMM": "အားလပ်ချိန်လုပ်ဆောင်ချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -1459,6 +1567,18 @@ export const LESSONS = {
           "text": "We want to explore the historical temples.",
           "instruction": "Express your travel interest clearly:",
           "instructionMM": "ခရီးသွားစိတ်ဝင်စားမှုကို ရှင်းလင်းစွာ ပြောကြားပါ:"
+        },
+        {
+          "id": "spe_int2_4",
+          "text": "I need to confirm my hotel reservation.",
+          "instruction": "Read the booking task:",
+          "instructionMM": "ဘွတ်ကင်အတည်ပြုချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_int2_5",
+          "text": "What is the departure time of our flight?",
+          "instruction": "Ask for the flight schedule:",
+          "instructionMM": "လေယာဉ်ထွက်ခွာချိန်ကို အသံထွက်မေးပါ:"
         }
       ],
       "reading": {
@@ -1604,6 +1724,18 @@ export const LESSONS = {
           "text": "I want to apply for the manager position.",
           "instruction": "State application intent clearly:",
           "instructionMM": "အောက်ပါ လျှောက်ထားလိုမှုကို အသံထွက်ဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_int3_4",
+          "text": "I have five years of experience in sales.",
+          "instruction": "State your career experience:",
+          "instructionMM": "လုပ်ငန်းအတွေ့အကြုံကို အသံထွက်ဖော်ပြပါ:"
+        },
+        {
+          "id": "spe_int3_5",
+          "text": "What are the qualifications for this position?",
+          "instruction": "Ask about job requirements:",
+          "instructionMM": "အလုပ်အကိုင်လိုအပ်ချက်ကို အသံထွက်မေးပါ:"
         }
       ],
       "reading": {
@@ -1749,6 +1881,18 @@ export const LESSONS = {
           "text": "The doctor wrote a new prescription.",
           "instruction": "Read the doctor statement clearly:",
           "instructionMM": "အောက်ပါ ဆရာဝန်ဆေးညွှန်းအကြောင်းကို ဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_int4_4",
+          "text": "A balanced diet improves your nutrition.",
+          "instruction": "Read the health advice:",
+          "instructionMM": "ကျန်းမာရေးအကြံပေးချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_int4_5",
+          "text": "I need to fill this prescription at the pharmacy.",
+          "instruction": "Read the medical request:",
+          "instructionMM": "ဆေးဝယ်ယူရန် တောင်းဆိုမှုကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -1894,6 +2038,18 @@ export const LESSONS = {
           "text": "Install the language learning application now.",
           "instruction": "Deliver this instruction clearly:",
           "instructionMM": "အောက်ပါ ညွှန်ကြားချက်ကို ရှင်းလင်းစွာ ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_int5_4",
+          "text": "You should protect your personal privacy online.",
+          "instruction": "Read the digital safety advice:",
+          "instructionMM": "အွန်လိုင်းကိုယ်ရေးကိုယ်တာလုံခြုံရေး အကြံပေးချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_int5_5",
+          "text": "I downloaded a new application on my phone.",
+          "instruction": "Read the technology statement:",
+          "instructionMM": "နည်းပညာဆိုင်ရာဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -2039,6 +2195,18 @@ export const LESSONS = {
           "text": "Could we have the bill, please?",
           "instruction": "Request the bill politely:",
           "instructionMM": "အောက်ပါအတိုင်း ယဉ်ကျေးစွာ ဘေလ်တောင်းဆိုပါ:"
+        },
+        {
+          "id": "spe_int6_4",
+          "text": "Could we have the menu, please?",
+          "instruction": "Request the restaurant menu politely:",
+          "instructionMM": "မီနူးကို ယဉ်ကျေးစွာ အသံထွက်တောင်းဆိုပါ:"
+        },
+        {
+          "id": "spe_int6_5",
+          "text": "I would like to order the seafood pasta.",
+          "instruction": "Order the main dish:",
+          "instructionMM": "ပင်မဟင်းလျာ မှာယူမှုကို အသံထွက်ပြောပါ:"
         }
       ],
       "reading": {
@@ -2184,6 +2352,18 @@ export const LESSONS = {
           "text": "I want to open a savings account today.",
           "instruction": "State banking request clearly:",
           "instructionMM": "ဘဏ်အကောင့်ဖွင့်လိုမှုကို ရှင်းလင်းစွာ ပြောကြားပါ:"
+        },
+        {
+          "id": "spe_int7_4",
+          "text": "I want to deposit money into my savings account.",
+          "instruction": "State your banking intention:",
+          "instructionMM": "ဘဏ်လုပ်ငန်းရည်ရွယ်ချက်ကို အသံထွက်ပြောပါ:"
+        },
+        {
+          "id": "spe_int7_5",
+          "text": "How much interest does this account earn?",
+          "instruction": "Inquire about interest rates:",
+          "instructionMM": "အတိုးနှုန်းအကြောင်း အသံထွက်မေးမြန်းပါ:"
         }
       ],
       "reading": {
@@ -2336,6 +2516,18 @@ export const LESSONS = {
           "text": "We had an active discussion in the English Club.",
           "instruction": "Describe class activities clearly:",
           "instructionMM": "အင်္ဂလိပ်စာကလပ် ဆွေးနွေးမှုကို ရှင်းလင်းစွာ ဖတ်ပြပါ:"
+        },
+        {
+          "id": "spe_int8_4",
+          "text": "I want to register for the upcoming workshop.",
+          "instruction": "Request workshop registration:",
+          "instructionMM": "အလုပ်ရုံဆွေးနွေးပွဲ မှတ်ပုံတင်ခြင်းကို အသံထွက်ပြောပါ:"
+        },
+        {
+          "id": "spe_int8_5",
+          "text": "Does the library have resources for TOEFL preparation?",
+          "instruction": "Ask about exam resources:",
+          "instructionMM": "စာမေးပွဲအရင်းအမြစ်များအကြောင်း အသံထွက်မေးပါ:"
         }
       ],
       "reading": {
@@ -2497,6 +2689,18 @@ export const LESSONS = {
           "text": "We must hold carbon emitters financially accountable.",
           "instruction": "Read the regulatory policy statement aloud:",
           "instructionMM": "အောက်ပါ စည်းမျဉ်းမူဝါဒ ဖော်ပြချက်ကို အသံထွက်ဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_adv1_4",
+          "text": "Renewable energy is essential to mitigate climate change.",
+          "instruction": "Read the environmental argument:",
+          "instructionMM": "ပတ်ဝန်းကျင်ဆိုင်ရာ အငြင်းပွားမှုကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv1_5",
+          "text": "Corporations must be held accountable for ecological damage.",
+          "instruction": "Read the advocacy statement:",
+          "instructionMM": "တိုက်တွန်းနှိုးဆော်ချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -2642,6 +2846,18 @@ export const LESSONS = {
           "text": "The company announced its latest tech acquisition in Asia.",
           "instruction": "Read the corporate announcement aloud:",
           "instructionMM": "အောက်ပါ ကော်ပိုရိတ် ကြေညာချက်ကို အသံထွက်ဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_adv2_4",
+          "text": "We need to leverage our strengths to increase revenue.",
+          "instruction": "Read the strategic business plan:",
+          "instructionMM": "စီးပွားရေးမဟာဗျူဟာအစီအစဉ်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv2_5",
+          "text": "The acquisition created a synergy between both companies.",
+          "instruction": "Read the merger outcome description:",
+          "instructionMM": "ပူးပေါင်းဆောင်ရွက်မှုရလဒ်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -2787,6 +3003,18 @@ export const LESSONS = {
           "text": "Art critics interpret the meaning of abstract paintings.",
           "instruction": "Read the art criticism statement clearly:",
           "instructionMM": "အောက်ပါ အနုပညာဝေဖန်မှုဆိုင်ရာ ဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv3_4",
+          "text": "Aesthetic judgments are often influenced by cultural backgrounds.",
+          "instruction": "Read the philosophical analysis:",
+          "instructionMM": "ဒဿနိကဗေဒဆိုင်ရာ ဆန်းစစ်ချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv3_5",
+          "text": "We must identify cognitive biases to think critically.",
+          "instruction": "Read the critical thinking guide:",
+          "instructionMM": "ဝေဖန်ပိုင်းခြားတွေးခေါ်မှု လမ်းညွှန်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -2932,6 +3160,18 @@ export const LESSONS = {
           "text": "Loan debt is a significant financial liability for any business.",
           "instruction": "Read the financial statement clearly:",
           "instructionMM": "အောက်ပါ ဘဏ္ဍာရေးဆိုင်ရာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv4_4",
+          "text": "Inflation decreases the purchasing power of the currency.",
+          "instruction": "Read the economic fact:",
+          "instructionMM": "စီးပွားရေးဆိုင်ရာ အချက်အလက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv4_5",
+          "text": "Diversifying your assets helps minimize financial risks.",
+          "instruction": "Read the financial advice:",
+          "instructionMM": "ဘဏ္ဍာရေးအကြံပေးချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -3077,6 +3317,18 @@ export const LESSONS = {
           "text": "Cosmology studies the origin and evolution of the universe.",
           "instruction": "Read the scientific definition clearly:",
           "instructionMM": "အောက်ပါ သိပ္ပံပညာရပ် ဆိုင်ရာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv5_4",
+          "text": "The scientific hypothesis must be tested through experiments.",
+          "instruction": "Read the science rule:",
+          "instructionMM": "သိပ္ပံဆိုင်ရာ စည်းမျဉ်းကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv5_5",
+          "text": "Quantum computers will revolutionize data processing speed.",
+          "instruction": "Read the innovation prediction:",
+          "instructionMM": "တီထွင်ဆန်းသစ်မှု ခန့်မှန်းချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -3222,6 +3474,18 @@ export const LESSONS = {
           "text": "The nation defended its state sovereignty and borders.",
           "instruction": "Read the sovereignty statement aloud:",
           "instructionMM": "အောက်ပါ အချုပ်အခြာအာဏာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ကြားပါ:"
+        },
+        {
+          "id": "spe_adv6_4",
+          "text": "The constitution guarantees the protection of civil liberties.",
+          "instruction": "Read the legal definition:",
+          "instructionMM": "ဥပဒေဆိုင်ရာ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv6_5",
+          "text": "Legislative bills require a consensus to become law.",
+          "instruction": "Read the governance statement:",
+          "instructionMM": "အုပ်ချုပ်ရေးဆိုင်ရာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -3367,6 +3631,18 @@ export const LESSONS = {
           "text": "Our dreams often reflect our deepest subconscious fears.",
           "instruction": "Read the subconscious theory aloud:",
           "instructionMM": "အောက်ပါ မသိစိတ်သီအိုရီကို ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv7_4",
+          "text": "Empathy helps us build stronger relationships with others.",
+          "instruction": "Read the psychological benefit:",
+          "instructionMM": "စိတ်ပညာဆိုင်ရာ အကျိုးကျေးဇူးကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv7_5",
+          "text": "Subconscious cues can trigger emotional reactions without awareness.",
+          "instruction": "Read the behavioral analysis:",
+          "instructionMM": "အပြုအမူဆိုင်ရာ ဆန်းစစ်ချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -3519,6 +3795,18 @@ export const LESSONS = {
           "text": "The course is designed to elevate your linguistic proficiency.",
           "instruction": "Read the course objective aloud:",
           "instructionMM": "အောက်ပါ သင်တန်းရည်ရွယ်ချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv8_4",
+          "text": "The assessor evaluates your speaking fluency and accuracy.",
+          "instruction": "Read the exam evaluation criteria:",
+          "instructionMM": "စာမေးပွဲအကဲဖြတ်မှုစံနှုန်းကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_adv8_5",
+          "text": "Academic writing requires a clear structure and formal vocabulary.",
+          "instruction": "Read the writing guidelines:",
+          "instructionMM": "ရေးသားခြင်းလမ်းညွှန်ချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -3666,6 +3954,18 @@ export const LESSONS = {
           "text": "Use the article 'a' before consonants.",
           "instruction": "Read the article rule aloud:",
           "instructionMM": "အောက်ပါ အာတီကယ်စည်းမျဉ်းကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram1_4",
+          "text": "An apple a day keeps the doctor away.",
+          "instruction": "Read the article-rich proverb:",
+          "instructionMM": "အာတီကယ်များပါသော အောက်ပါပုံပြင်စကားကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram1_5",
+          "text": "They gave him a book for his birthday.",
+          "instruction": "Read the pronoun-noun pattern:",
+          "instructionMM": "နာမ်စား-နာမ်ပုံစံကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -3811,6 +4111,18 @@ export const LESSONS = {
           "text": "The sun rises in the east.",
           "instruction": "Read the factual statement aloud:",
           "instructionMM": "အောက်ပါ အမှန်တရားဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram2_4",
+          "text": "She teaches English, but today she is resting.",
+          "instruction": "Contrast routine with present action:",
+          "instructionMM": "လုပ်ရိုးလုပ်စဉ်နှင့် လက်ရှိလုပ်ရပ်ကို နှိုင်းယှဉ်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram2_5",
+          "text": "The sun rises in the east and sets in the west.",
+          "instruction": "Read the general truth in present simple:",
+          "instructionMM": "ပစ္စုပ္ပန်ရိုးရိုးရှိ အထွေထွေအမှန်တရားကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -3956,6 +4268,18 @@ export const LESSONS = {
           "text": "I will call you tomorrow morning.",
           "instruction": "Read the future simple promise:",
           "instructionMM": "အောက်ပါ အနာဂတ်ကာလ ကတိစကားကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram3_4",
+          "text": "We bought a car last year, and we will travel soon.",
+          "instruction": "Read the past and future sentence:",
+          "instructionMM": "အတိတ်နှင့် အနာဂတ်ပါသော ဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram3_5",
+          "text": "I did not see the movie yesterday.",
+          "instruction": "Read the negative past statement:",
+          "instructionMM": "အငြင်းပြအတိတ်ဝါကျကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -4101,6 +4425,18 @@ export const LESSONS = {
           "text": "This is the most beautiful place in the city.",
           "instruction": "Read the superlative sentence aloud:",
           "instructionMM": "အောက်ပါ အမြင့်ဆုံးနှိုင်းယှဉ်မှု ဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram4_4",
+          "text": "He drives carefully, making him a very safe driver.",
+          "instruction": "Read the adjective-adverb sentence:",
+          "instructionMM": "နာမဝိသေသနနှင့် ကြိယာဝိသေသနပါသော ဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram4_5",
+          "text": "This is the most interesting story I have ever read.",
+          "instruction": "Read the superlative comparison:",
+          "instructionMM": "အသာလွန်ဆုံး နှိုင်းယှဉ်ချက်ဝါကျကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -4246,6 +4582,18 @@ export const LESSONS = {
           "text": "Have you ever traveled to another country?",
           "instruction": "Ask the experience question aloud:",
           "instructionMM": "အောက်ပါ အတွေ့အကြုံမေးခွန်းကို အသံထွက်မေးမြန်းပါ:"
+        },
+        {
+          "id": "spe_gram5_4",
+          "text": "I have already finished dinner when she called.",
+          "instruction": "Correct tense usage description:",
+          "instructionMM": "မှန်ကန်သော ကာလအသုံးပြုမှုဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram5_5",
+          "text": "Have you ever traveled to another country?",
+          "instruction": "Ask a present perfect experience question:",
+          "instructionMM": "ပစ္စုပ္ပန်ပြီးစီးကာလ မေးခွန်းကို အသံထွက်မေးပါ:"
         }
       ],
       "reading": {
@@ -4391,6 +4739,18 @@ export const LESSONS = {
           "text": "You should consult a doctor if the symptom persists.",
           "instruction": "Read the advice sentence aloud:",
           "instructionMM": "အောက်ပါ အကြံပေးဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram6_4",
+          "text": "You should study hard so that you can pass the exam.",
+          "instruction": "Read the advice and conjunction sentence:",
+          "instructionMM": "အကြံပေးချက်နှင့် စကားစပ်ဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram6_5",
+          "text": "Although she was tired, she had to complete the work.",
+          "instruction": "Read the contrast and obligation sentence:",
+          "instructionMM": "ဆန့်ကျင်ဘက်နှင့် မဖြစ်မနေတာဝန်ဝါကျကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -4536,6 +4896,18 @@ export const LESSONS = {
           "text": "I wish we had hired more qualified experts.",
           "instruction": "Read the regret expression aloud:",
           "instructionMM": "အောက်ပါ နောင်တဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram7_4",
+          "text": "If you heat ice, it melts into water.",
+          "instruction": "Read the zero conditional fact:",
+          "instructionMM": "အခြေအနေပြရိုးရိုးအမှန်တရားကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram7_5",
+          "text": "I wish I had studied harder for the final test.",
+          "instruction": "Read the expression of past regret:",
+          "instructionMM": "အတိတ်နောင်တ ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -4681,6 +5053,18 @@ export const LESSONS = {
           "text": "The law was established by the parliament last year.",
           "instruction": "Read the passive sentence clearly:",
           "instructionMM": "အောက်ပါ ကံပဓာနဝါကျကို ရှင်းလင်းစွာ အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram8_4",
+          "text": "The book, which was written by a teacher, was published.",
+          "instruction": "Read the passive clause sentence:",
+          "instructionMM": "ကံပဓာနဝါကျခွဲကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram8_5",
+          "text": "Many languages are spoken in the office.",
+          "instruction": "Read the passive voice statement:",
+          "instructionMM": "ကံပဓာနဝါကျကို အသံထွက်ဖတ်ပါ:"
         }
       ],
       "reading": {
@@ -4826,6 +5210,18 @@ export const LESSONS = {
           "text": "We decided to postpone the meeting until next Monday.",
           "instruction": "Read the infinitive verb pattern sentence aloud:",
           "instructionMM": "အခြေခံကြိယာပုံစံပါဝင်သော အောက်ပါဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram9_4",
+          "text": "She suggested going to the park instead of staying home.",
+          "instruction": "Read the gerund suggestion sentence:",
+          "instructionMM": "ကြိယာနာမ်အကြံပြုချက်ဝါကျကို အသံထွက်ဖတ်ပါ:"
+        },
+        {
+          "id": "spe_gram9_5",
+          "text": "The teacher told us to study the rules daily.",
+          "instruction": "Read the reported command sentence:",
+          "instructionMM": "တစ်ဆင့်ပြန်ပြောအမိန့်ဝါကျကို အသံထွက်အမိန့်ပေးပါ:"
         }
       ],
       "reading": {
