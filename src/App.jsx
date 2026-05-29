@@ -13,7 +13,7 @@ import {
 
 export default function App() {
   const [lang, setLang] = useState("en"); // "en" or "mm"
-  const [activeLevel, setActiveLevel] = useState("beginner"); // "beginner", "intermediate", "advanced"
+  const [activeLevel, setActiveLevel] = useState("beginner"); // "beginner", "intermediate", "advanced", "grammar"
   const [activeLessonIdx, setActiveLessonIdx] = useState(0);
   const [activeExercise, setActiveExercise] = useState(null); // "listening", "speaking", "reading", "writing"
   const [progress, setProgress] = useState({});
@@ -179,6 +179,7 @@ export default function App() {
   // Dynamic badge checks
   const getBadges = () => {
     const beginnerCompleted = LESSONS.beginner.every(l => isLessonCompleted(l.id));
+    const grammarCompleted = LESSONS.grammar && LESSONS.grammar.every(l => isLessonCompleted(l.id));
     const speakingCompleted = Object.keys(LESSONS).some(lvl => 
       LESSONS[lvl].some(l => isSkillCompleted(l.id, "speaking"))
     );
@@ -187,7 +188,8 @@ export default function App() {
       { id: "streak", name: "Streak Starter", nameMM: "လေ့လာမှု စတင်သူ", desc: "Have a streak of 1 or more days", descMM: "လေ့လာမှု နေ့စဉ်ရက် ဆက်တိုက်ရှိခြင်း", active: streak >= 1 },
       { id: "collector", name: "Word Collector", nameMM: "ဝေါဟာရ စုဆောင်းသူ", desc: "Star 3 or more vocabulary words", descMM: "ဝေါဟာရ ၃ ခုနှင့်အထက် စုဆောင်းခြင်း", active: starredWords.length >= 3 },
       { id: "speaker", name: "Orator", nameMM: "စကားပြော ကောင်းသူ", desc: "Complete any Speaking practice", descMM: "ပြောဆိုခြင်း လေ့ကျင့်ခန်း ပြီးမြောက်ခြင်း", active: speakingCompleted },
-      { id: "beginner", name: "Beginner Graduate", nameMM: "အခြေခံအဆင့် ပြီးမြောက်သူ", desc: "Complete all Beginner lessons", descMM: "အခြေခံအဆင့် သင်ခန်းစာအားလုံး ပြီးခြင်း", active: beginnerCompleted }
+      { id: "beginner", name: "Beginner Graduate", nameMM: "အခြေခံအဆင့် ပြီးမြောက်သူ", desc: "Complete all Beginner lessons", descMM: "အခြေခံအဆင့် သင်ခန်းစာအားလုံး ပြီးခြင်း", active: beginnerCompleted },
+      { id: "grammar", name: "Grammar Master", nameMM: "သဒ္ဒါကျွမ်းကျင်သူ", desc: "Complete all Grammar & Tenses lessons", descMM: "သဒ္ဒါနှင့် ကာလများ သင်ခန်းစာအားလုံး ပြီးခြင်း", active: grammarCompleted }
     ];
   };
 
@@ -544,6 +546,14 @@ export default function App() {
                 <span>{translations.advanced}</span>
                 <span style={{ fontSize: "0.75rem", opacity: 0.8 }}>C1/C2</span>
               </button>
+
+              <button 
+                className={`level-btn ${activeLevel === "grammar" ? "active" : ""}`}
+                onClick={() => setActiveLevel("grammar")}
+              >
+                <span>{translations.grammarTenses}</span>
+                <span style={{ fontSize: "0.75rem", opacity: 0.8 }}>Grammar</span>
+              </button>
             </div>
           </div>
 
@@ -626,21 +636,27 @@ export default function App() {
 
             <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", fontSize: "0.85rem", color: "var(--text-secondary)" }}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <span>Beginner Course Path:</span>
+                <span>{lang === "en" ? "Beginner Course Path:" : "အခြေခံအဆင့် လမ်းကြောင်း:"}</span>
                 <span>
                   {LESSONS.beginner.filter(l => isLessonCompleted(l.id)).length} / {LESSONS.beginner.length} Steps
                 </span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <span>Intermediate Course Path:</span>
+                <span>{lang === "en" ? "Intermediate Course Path:" : "အလယ်အလတ်အဆင့် လမ်းကြောင်း:"}</span>
                 <span>
                   {LESSONS.intermediate.filter(l => isLessonCompleted(l.id)).length} / {LESSONS.intermediate.length} Steps
                 </span>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <span>Advanced Course Path:</span>
+                <span>{lang === "en" ? "Advanced Course Path:" : "အဆင့်မြင့်အဆင့် လမ်းကြောင်း:"}</span>
                 <span>
                   {LESSONS.advanced.filter(l => isLessonCompleted(l.id)).length} / {LESSONS.advanced.length} Steps
+                </span>
+              </div>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <span>{lang === "en" ? "Grammar & Tenses Path:" : "သဒ္ဒါနှင့် ကာလများ လမ်းကြောင်း:"}</span>
+                <span>
+                  {LESSONS.grammar.filter(l => isLessonCompleted(l.id)).length} / {LESSONS.grammar.length} Steps
                 </span>
               </div>
             </div>

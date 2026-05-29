@@ -1,6 +1,6 @@
 # SpeakEasy English - Detailed Course Syllabus & Study Guide
 
-This document provides a detailed breakdown of the 33-step English learning curriculum designed with Burmese support, spanning Beginner, Intermediate, and Advanced levels.
+This document provides a detailed breakdown of the 33-step English learning curriculum designed with Burmese support, spanning Beginner, Intermediate, Advanced, and a dedicated Grammar & Tenses course.
 
 ---
 
@@ -109,42 +109,6 @@ This document provides a detailed breakdown of the 33-step English learning curr
   - **Reading Passage**: "First Day at the British Council" (Ko Ko visiting the British Council library and classroom to study English vocabulary).
   - **Speaking Practice**: Asking "Can you please repeat the question, teacher?".
 
-### Step 9: Nouns, Pronouns & Articles
-- **Focus**: Learn singular/plural nouns, subject pronouns, and indefinite/definite articles (a, an, the).
-- **Key Vocabulary**:
-  - `Noun` (နာမ်)
-  - `Pronoun` (နာမ်စား)
-  - `Article` (အာတီကယ်)
-  - `Singular` (နည်းကိန်း)
-  - `Plural` (ဗဟုကိန်း)
-- **Practice Content**:
-  - **Reading Passage**: "In the Library" (A student describing books, a computer, and friends using basic pronouns and articles).
-  - **Speaking Practice**: Practicing: "She reads a book and he uses the computer."
-
-### Step 10: Present Simple & Present Continuous Tenses
-- **Focus**: Contrast routine habits with temporary actions happening right now.
-- **Key Vocabulary**:
-  - `Routine` (လုပ်ရိုးလုပ်စဉ်)
-  - `Fact` (အမှန်တရား)
-  - `Present` (ပစ္စုပ္ပန်)
-  - `Action` (လုပ်ဆောင်ချက်)
-  - `Temporary` (ယာယီ)
-- **Practice Content**:
-  - **Reading Passage**: "At the Office" (Usually drinking tea, but today drinking coffee; working on a project).
-  - **Speaking Practice**: Practicing: "I usually work at nine, but today I am learning English."
-
-### Step 11: Past Simple & Future Simple Tenses
-- **Focus**: Describe finished past events (regular/irregular verbs) and future plans/intentions.
-- **Key Vocabulary**:
-  - `Past` (အတိတ်)
-  - `Future` (အနာဂတ်)
-  - `Yesterday` (မနေ့က)
-  - `Tomorrow` (မနက်ဖြန်)
-  - `Plan` (အစီအစဉ်)
-- **Practice Content**:
-  - **Reading Passage**: "A Weekend Trip" (What Ko Ko did last weekend and what he will do next week).
-  - **Speaking Practice**: Practicing: "Yesterday I visited my family, and tomorrow I will buy groceries."
-
 ---
 
 ## 📗 Intermediate Course (B1/B2)
@@ -243,42 +207,6 @@ This document provides a detailed breakdown of the 33-step English learning curr
   - **Reading Passage**: "A Productive Day at the American Center" (Min Min renewing his membership, borrowing TOEFL materials, and joining the English Speaking Club).
   - **Speaking Practice**: Speaking the sentence: "I joined the American Center to access English speaking clubs."
 
-### Step 9: Adjectives, Adverbs & Comparison
-- **Focus**: Descriptive adjectives, adverbs of manner/frequency, and comparative/superlative degrees.
-- **Key Vocabulary**:
-  - `Describe` (ဖော်ပြသည်)
-  - `Compare` (နှိုင်းယှဉ်သည်)
-  - `Adverb` (ကြိယာဝိသေသန)
-  - `Adjective` (နာမဝိသေသန)
-  - `Degree` (အဆင့်)
-- **Practice Content**:
-  - **Reading Passage**: "Choosing a Smartphone" (Comparing sizes, processing speeds, prices, and camera qualities of two devices).
-  - **Speaking Practice**: Practicing: "The new phone is much faster and more expensive than the old one."
-
-### Step 10: Present Perfect & Past Perfect Tenses
-- **Focus**: Life experiences, unfinished actions, and actions completed before another point in the past.
-- **Key Vocabulary**:
-  - `Experience` (အတွေ့အကြုံ)
-  - `Connection` (ဆက်စပ်မှု)
-  - `Perfect` (ပြီးစီးသော)
-  - `Timeline` (အချိန်ကာလမျဉ်း)
-  - `Already` (ပြီးနှင့်ပြီ)
-- **Practice Content**:
-  - **Reading Passage**: "The World Traveler" (A traveler sharing what they have already achieved before turning thirty).
-  - **Speaking Practice**: Practicing: "I have lived in Yangon for five years, but before that, I had studied in Mandalay."
-
-### Step 11: Modal Verbs & Conjunctions
-- **Focus**: Express ability, permission, obligation, advice, and link contrasting ideas.
-- **Key Vocabulary**:
-  - `Ability` (စွမ်းဆောင်နိုင်ရည်)
-  - `Obligation` (တာဝန်ရှိမှု)
-  - `Permission` (ခွင့်ပြုချက်)
-  - `Conjunction` (စကားစပ်)
-  - `Contrast` (ဆန့်ကျင်ဘက်)
-- **Practice Content**:
-  - **Reading Passage**: "Safety Rules at Work" (Explaining office compliance, code of conduct, and emergency procedures using modals).
-  - **Speaking Practice**: Practicing: "You must wear a helmet at the site, although you can remove it in the office."
-
 ---
 
 ## 📙 Advanced Course (C1/C2)
@@ -376,7 +304,84 @@ This document provides a detailed breakdown of the 33-step English learning curr
   - **Reading Passage**: "Preparing for the IELTS Exam at the British Council" (Thida taking a preparation course, studying the grading criteria, and achieving her target band score).
   - **Speaking Practice**: Practicing: "Achieving a high band score requires consistent practice and extensive vocabulary."
 
-### Step 9: Conditional Sentences & Wish
+---
+
+## 📕 Grammar & Tenses Course
+*Objective: Master English grammar rules, sentence structure patterns, and tense conjugations from beginner to advanced levels.*
+
+### Step 1: Nouns, Pronouns & Articles
+- **Focus**: Learn singular/plural nouns, subject pronouns, and indefinite/definite articles (a, an, the).
+- **Key Vocabulary**:
+  - `Noun` (နာမ်)
+  - `Pronoun` (နာမ်စား)
+  - `Article` (အာတီကယ်)
+  - `Singular` (နည်းကိန်း)
+  - `Plural` (ဗဟုကိန်း)
+- **Practice Content**:
+  - **Reading Passage**: "In the Library" (A student describing books, a computer, and friends using basic pronouns and articles).
+  - **Speaking Practice**: Practicing: "She reads a book and he uses the computer."
+
+### Step 2: Present Simple & Present Continuous Tenses
+- **Focus**: Contrast routine habits with temporary actions happening right now.
+- **Key Vocabulary**:
+  - `Routine` (လုပ်ရိုးလုပ်စဉ်)
+  - `Fact` (အမှန်တရား)
+  - `Present` (ပစ္စုပ္ပန်)
+  - `Action` (လုပ်ဆောင်ချက်)
+  - `Temporary` (ယာယီ)
+- **Practice Content**:
+  - **Reading Passage**: "At the Office" (Usually drinking tea, but today drinking coffee; working on a project).
+  - **Speaking Practice**: Practicing: "I usually work at nine, but today I am learning English."
+
+### Step 3: Past Simple & Future Simple Tenses
+- **Focus**: Describe finished past events (regular/irregular verbs) and future plans/intentions.
+- **Key Vocabulary**:
+  - `Past` (အတိတ်)
+  - `Future` (အနာဂတ်)
+  - `Yesterday` (မနေ့က)
+  - `Tomorrow` (မနက်ဖြန်)
+  - `Plan` (အစီအစဉ်)
+- **Practice Content**:
+  - **Reading Passage**: "A Weekend Trip" (What Ko Ko did last weekend and what he will do next week).
+  - **Speaking Practice**: Practicing: "Yesterday I visited my family, and tomorrow I will buy groceries."
+
+### Step 4: Adjectives, Adverbs & Comparison
+- **Focus**: Descriptive adjectives, adverbs of manner/frequency, and comparative/superlative degrees.
+- **Key Vocabulary**:
+  - `Describe` (ဖော်ပြသည်)
+  - `Compare` (နှိုင်းယှဉ်သည်)
+  - `Adverb` (ကြိယာဝိသေသန)
+  - `Adjective` (နာမဝိသေသန)
+  - `Degree` (အဆင့်)
+- **Practice Content**:
+  - **Reading Passage**: "Choosing a Smartphone" (Comparing sizes, processing speeds, prices, and camera qualities of two devices).
+  - **Speaking Practice**: Practicing: "The new phone is much faster and more expensive than the old one."
+
+### Step 5: Present Perfect & Past Perfect Tenses
+- **Focus**: Life experiences, unfinished actions, and actions completed before another point in the past.
+- **Key Vocabulary**:
+  - `Experience` (အတွေ့အကြုံ)
+  - `Connection` (ဆက်စပ်မှု)
+  - `Perfect` (ပြီးစီးသော)
+  - `Timeline` (အချိန်ကာလမျဉ်း)
+  - `Already` (ပြီးနှင့်ပြီ)
+- **Practice Content**:
+  - **Reading Passage**: "The World Traveler" (A traveler sharing what they have already achieved before turning thirty).
+  - **Speaking Practice**: Practicing: "I have lived in Yangon for five years, but before that, I had studied in Mandalay."
+
+### Step 6: Modal Verbs & Conjunctions
+- **Focus**: Express ability, permission, obligation, advice, and link contrasting ideas.
+- **Key Vocabulary**:
+  - `Ability` (စွမ်းဆောင်နိုင်ရည်)
+  - `Obligation` (တာဝန်ရှိမှု)
+  - `Permission` (ခွင့်ပြုချက်)
+  - `Conjunction` (စကားစပ်)
+  - `Contrast` (ဆန့်ကျင်ဘက်)
+- **Practice Content**:
+  - **Reading Passage**: "Safety Rules at Work" (Explaining office compliance, code of conduct, and emergency procedures using modals).
+  - **Speaking Practice**: Practicing: "You must wear a helmet at the site, although you can remove it in the office."
+
+### Step 7: Conditional Sentences & Wish
 - **Focus**: Hypothetical conditions (Zero to Third conditionals) and expressing regrets or hopes.
 - **Key Vocabulary**:
   - `Conditional` (အခြေအနေပြ)
@@ -388,7 +393,7 @@ This document provides a detailed breakdown of the 33-step English learning curr
   - **Reading Passage**: "If I Were the CEO" (A manager planning corporate growth and expressing past strategic wishes).
   - **Speaking Practice**: Practicing: "If they had invested more capital, they would have achieved synergy."
 
-### Step 10: Passive Voice & Relative Clauses
+### Step 8: Passive Voice & Relative Clauses
 - **Focus**: Structuring passive actions and adding details with defining/non-defining relative clauses.
 - **Key Vocabulary**:
   - `Passive` (ကံပဓာန)
@@ -400,7 +405,7 @@ This document provides a detailed breakdown of the 33-step English learning curr
   - **Reading Passage**: "How Coffee is Produced" (Describing processing plants where coffee beans are harvested, processed, and shipped).
   - **Speaking Practice**: Practicing: "The coffee, which is imported from Brazil, is roasted by local workers."
 
-### Step 11: Reported Speech & Gerunds/Infinitives
+### Step 9: Reported Speech & Gerunds/Infinitives
 - **Focus**: Report statements and questions with tense backshifts, and master verb complements.
 - **Key Vocabulary**:
   - `Report` (သတင်းပို့သည် / တစ်ဆင့်ပြောသည်)
