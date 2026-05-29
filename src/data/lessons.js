@@ -18,11 +18,13 @@ export const LESSONS = {
       ],
       listening: [
         { id: "lis_beg1_1", text: "Nice to meet you", audioText: "Nice to meet you", options: ["တွေ့ရတာ ဝမ်းသာပါတယ်", "နှုတ်ဆက်ပါတယ်", "နေကောင်းလား"], answer: "တွေ့ရတာ ဝမ်းသာပါတယ်" },
-        { id: "lis_beg1_2", text: "He is a good English teacher", audioText: "He is a good English teacher", options: ["သူမက ကျောင်းသူဖြစ်တယ်", "သူက တော်တဲ့ အင်္ဂလိပ်စာဆရာတစ်ယောက် ဖြစ်ပါတယ်", "သူငယ်ချင်းနဲ့ တွေ့ဆုံပါ"], answer: "သူက တော်တဲ့ အင်္ဂလိပ်စာဆရာတစ်ယောက် ဖြစ်ပါတယ်" }
+        { id: "lis_beg1_2", text: "He is a good English teacher", audioText: "He is a good English teacher", options: ["သူမက ကျောင်းသူဖြစ်တယ်", "သူက တော်တဲ့ အင်္ဂလိပ်စာဆရာတစ်ယောက် ဖြစ်ပါတယ်", "သူငယ်ချင်းနဲ့ တွေ့ဆုံပါ"], answer: "သူက တော်တဲ့ အင်္ဂလိပ်စာဆရာတစ်ယောက် ဖြစ်ပါတယ်" },
+        { id: "lis_beg1_3", text: "I want to learn English", audioText: "I want to learn English", options: ["ကျွန်တော် အင်္ဂလိပ်စာ သင်ယူချင်ပါတယ်", "ကျောင်းသွားချင်ပါတယ်", "သူငယ်ချင်းနဲ့ တွေ့ဆုံချင်ပါတယ်"], answer: "ကျွန်တော် အင်္ဂလိပ်စာ သင်ယူချင်ပါတယ်" }
       ],
       speaking: [
         { id: "spe_beg1_1", text: "Hello, my name is John.", instruction: "Read the greeting aloud clearly:", instructionMM: "အောက်ပါ နှုတ်ဆက်စကားကို အသံထွက်ဖတ်ပါ:" },
-        { id: "spe_beg1_2", text: "How are you doing today?", instruction: "Read the question aloud:", instructionMM: "အောက်ပါ မေးခွန်းကို အသံထွက်မေးပါ:" }
+        { id: "spe_beg1_2", text: "How are you doing today?", instruction: "Read the question aloud:", instructionMM: "အောက်ပါ မေးခွန်းကို အသံထွက်မေးပါ:" },
+        { id: "spe_beg1_3", text: "Nice to meet you, teacher.", instruction: "Read the polite greeting aloud:", instructionMM: "အောက်ပါ ယဉ်ကျေးသော နှုတ်ဆက်စကားကို အသံထွက်ဖတ်ပါ:" }
       ],
       reading: {
         title: "Meeting a New Classmate",
@@ -36,7 +38,8 @@ export const LESSONS = {
       },
       writing: [
         { id: "wri_beg1_1", question: "Rearrange the words: [name / is / my / Aung]", correct: "my name is Aung", prompt: "Translate: ကျွန်တော့်နာမည် အောင်ဖြစ်ပါတယ်" },
-        { id: "wri_beg1_2", question: "Rearrange the words: [meet / you / nice / to]", correct: "nice to meet you", prompt: "Translate: တွေ့ရတာ ဝမ်းသာပါတယ်" }
+        { id: "wri_beg1_2", question: "Rearrange the words: [meet / you / nice / to]", correct: "nice to meet you", prompt: "Translate: တွေ့ရတာ ဝမ်းသာပါတယ်" },
+        { id: "wri_beg1_3", question: "Rearrange the words: [friend / is / she / my]", correct: "she is my friend", prompt: "Translate: သူမက ကျွန်မရဲ့ သူငယ်ချင်းဖြစ်ပါတယ်" }
       ]
     },
     {
@@ -46,7 +49,7 @@ export const LESSONS = {
       description: "Learn how to talk about your daily routines and tell the time.",
       descriptionMM: "နေ့စဉ် လုပ်ဆောင်ချက်များနှင့် အချိန်ပြောဆိုပုံကို လေ့လာပါ။",
       vocabulary: [
-        { word: "Wake up", ipa: "/weɪk ʌp/", mm: "နိုးထသည်", example: "I wake up at 6 AM.", exampleMM: "ကျွန်တော် မနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်။" },
+        { word: "Wake up", ipa: "/weɪk ʌp/", mm: "နိုးထသည်", example: "I wake up at 6 AM.", exampleMM: "ကျွန်တော် မမနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်။" },
         { word: "Breakfast", ipa: "/ˈbrɛkfəst/", mm: "မနက်စာ", example: "She eats bread for breakfast.", exampleMM: "သူမ မနက်စာအတွက် ပေါင်မုန့်စားသည်။" },
         { word: "Work", ipa: "/wɜrk/", mm: "အလုပ်", example: "I go to work by bus.", exampleMM: "ကျွန်တော် အလုပ်ကို ဘတ်စ်ကားနဲ့ သွားပါတယ်။" },
         { word: "Watch", ipa: "/wɑtʃ/", mm: "နာရီ / ကြည့်ရှုသည်", example: "I watch TV in the evening.", exampleMM: "ကျွန်တော် ညနေပိုင်းမှာ တီဗီကြည့်ပါတယ်။" },
@@ -56,10 +59,14 @@ export const LESSONS = {
         { word: "Family", ipa: "/ˈfæməli/", mm: "မိသားစု", example: "I love my family.", exampleMM: "ကျွန်တော် ကျွန်တော့်မိသားစုကို ချစ်ပါတယ်။" }
       ],
       listening: [
-        { id: "lis_beg2_1", text: "I wake up at 6 AM", audioText: "I wake up at 6 AM", options: ["ကျွန်တော် မနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်", "ကျွန်တော် ည ၆ နာရီမှာ စားပါတယ်", "ကျွန်တော် အလုပ်သွားပါတယ်"], answer: "ကျွန်တော် မနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်" }
+        { id: "lis_beg2_1", text: "I wake up at 6 AM", audioText: "I wake up at 6 AM", options: ["ကျွန်တော် မနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်", "ကျွန်တော် ည ၆ နာရီမှာ စားပါတယ်", "ကျွန်တော် အလုပ်သွားပါတယ်"], answer: "ကျွန်တော် မနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်" },
+        { id: "lis_beg2_2", text: "We have dinner at home", audioText: "We have dinner at home", options: ["ကျွန်တော်တို့ အိမ်မှာ ညစာစားကြတယ်", "သူတို့ အိပ်ရာဝင်ကြတယ်", "မနက်စာ စားကြတယ်"], answer: "ကျွန်တော်တို့ အိမ်မှာ ညစာစားကြတယ်" },
+        { id: "lis_beg2_3", text: "I go to work by bus", audioText: "I go to work by bus", options: ["ကျွန်တော် အလုပ်ကို ဘတ်စ်ကားနဲ့ သွားပါတယ်", "လမ်းလျှောက်သွားပါတယ်", "ကျောင်းသွားပါတယ်"], answer: "ကျွန်တော် အလုပ်ကို ဘတ်စ်ကားနဲ့ သွားပါတယ်" }
       ],
       speaking: [
-        { id: "spe_beg2_1", text: "I eat breakfast every morning.", instruction: "Read the routine aloud:", instructionMM: "အောက်ပါ လုပ်ရိုးလုပ်စဉ်ကို အသံထွက်ဖတ်ပါ:" }
+        { id: "spe_beg2_1", text: "I eat breakfast every morning.", instruction: "Read the routine aloud:", instructionMM: "အောက်ပါ လုပ်ရိုးလုပ်စဉ်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg2_2", text: "They sleep at ten PM.", instruction: "Read the schedule aloud:", instructionMM: "အောက်ပါ အချိန်ဇယားကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg2_3", text: "I watch TV in the evening.", instruction: "Read the daily activity aloud:", instructionMM: "အောက်ပါ နေ့စဉ်လှုပ်ရှားမှုကို အသံထွက်ဖတ်ပါ:" }
       ],
       reading: {
         title: "Min Min's Routine",
@@ -72,7 +79,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_beg2_1", question: "Rearrange the words: [breakfast / I / eat / morning / every]", correct: "I eat breakfast every morning", prompt: "Translate: ကျွန်တော် နေ့တိုင်း မနက်စာ စားပါတယ်" }
+        { id: "wri_beg2_1", question: "Rearrange the words: [breakfast / I / eat / morning / every]", correct: "I eat breakfast every morning", prompt: "Translate: ကျွန်တော် မနက်တိုင်း မနက်စာ စားပါတယ်" },
+        { id: "wri_beg2_2", question: "Rearrange the words: [wake / at / six / I / up / AM]", correct: "I wake up at six AM", prompt: "Translate: ကျွန်တော် မနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်" },
+        { id: "wri_beg2_3", question: "Rearrange the words: [family / my / love / I / routine]", correct: "I love my family", prompt: "Translate: ကျွန်တော့် မိသားစုကို ကျွန်တော် ချစ်တယ်" }
       ]
     },
     {
@@ -89,10 +98,14 @@ export const LESSONS = {
         { word: "Parent", ipa: "/ˈperənt/", mm: "မိဘ", example: "I respect my parents.", exampleMM: "ကျွန်တော် ကျွန်တော့်မိဘတွေကို လေးစားပါတယ်။" }
       ],
       listening: [
-        { id: "lis_beg3_1", text: "I have one younger sister", audioText: "I have one younger sister", options: ["ကျွန်တော့်မှာ ညီမလေး တစ်ယောက်ရှိတယ်", "ကျွန်တော့်မှာ မောင်လေး တစ်ယောက်ရှိတယ်", "မိဘတွေကို ချစ်ခင်ပါ"], answer: "ကျွန်တော့်မှာ ညီမလေး တစ်ယောက်ရှိတယ်" }
+        { id: "lis_beg3_1", text: "I have one younger sister", audioText: "I have one younger sister", options: ["ကျွန်တော့်မှာ ညီမလေး တစ်ယောက်ရှိတယ်", "ကျွန်တော့်မှာ မောင်လေး တစ်ယောက်ရှိတယ်", "မိဘတွေကို ချစ်ခင်ပါ"], answer: "ကျွန်တော့်မှာ ညီမလေး တစ်ယောက်ရှိတယ်" },
+        { id: "lis_beg3_2", text: "My father is a doctor", audioText: "My father is a doctor", options: ["ကျွန်တော့်အဖေက ဆရာဝန်တစ်ယောက်ပါ", "အမေက ကျောင်းဆရာမပါ", "အစ်ကိုက အလုပ်သွားတယ်"], answer: "ကျွန်တော့်အဖေက ဆရာဝန်တစ်ယောက်ပါ" },
+        { id: "lis_beg3_3", text: "I respect my parents", audioText: "I respect my parents", options: ["ကျွန်တော် ကျွန်တော့်မိဘတွေကို လေးစားပါတယ်", "ညီမလေးကို ကူညီပါတယ်", "သူငယ်ချင်းနဲ့ စကားပြောတယ်"], answer: "ကျွန်တော် ကျွန်တော့်မိဘတွေကို လေးစားပါတယ်" }
       ],
       speaking: [
-        { id: "spe_beg3_1", text: "My family lives in a beautiful town.", instruction: "Read the sentence clearly:", instructionMM: "အောက်ပါ ဝါကျကို ရှင်းလင်းစွာ အသံထွက်ဖတ်ပါ:" }
+        { id: "spe_beg3_1", text: "My family lives in a beautiful town.", instruction: "Read the sentence clearly:", instructionMM: "အောက်ပါ ဝါကျကို ရှင်းလင်းစွာ အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg3_2", text: "Her mother cooks delicious food.", instruction: "Read the statement clearly:", instructionMM: "အောက်ပါ အကြောင်းအရာကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg3_3", text: "Do you have a brother?", instruction: "Ask the question clearly:", instructionMM: "အောက်ပါ မေးခွန်းကို အသံထွက်မေးမြန်းပါ:" }
       ],
       reading: {
         title: "A Family Gathering",
@@ -105,7 +118,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_beg3_1", question: "Rearrange the words: [sister / she / my / is]", correct: "she is my sister", prompt: "Translate: သူမက ကျွန်မရဲ့ ညီမဖြစ်ပါတယ်" }
+        { id: "wri_beg3_1", question: "Rearrange the words: [sister / she / my / is]", correct: "she is my sister", prompt: "Translate: သူမက ကျွန်မရဲ့ ညီမဖြစ်ပါတယ်" },
+        { id: "wri_beg3_2", question: "Rearrange the words: [father / doctor / is / my / a]", correct: "my father is a doctor", prompt: "Translate: ကျွန်တော့်အဖေက ဆရာဝန်တစ်ယောက်ပါ" },
+        { id: "wri_beg3_3", question: "Rearrange the words: [respect / parents / my / I]", correct: "I respect my parents", prompt: "Translate: ကျွန်တော် ကျွန်တော့်မိဘတွေကို လေးစားပါတယ်" }
       ]
     },
     {
@@ -122,10 +137,14 @@ export const LESSONS = {
         { word: "Hundred", ipa: "/ˈhʌndrəd/", mm: "ရာဂဏန်း / တစ်ရာ", example: "This pen costs two hundred kyats.", exampleMM: "ဒီဘောပင်က ကျပ်နှစ်ရာ ကျသင့်ပါတယ်။" }
       ],
       listening: [
-        { id: "lis_beg4_1", text: "This noodle soup is delicious", audioText: "This noodle soup is delicious", options: ["ဒီမုန့်ဟင်းခါးက တကယ်အရသာရှိတယ်", "ဒီဟင်းက အရသာမရှိဘူး", "စျေးနှုန်းက အရမ်းကြီးတယ်"], answer: "ဒီမုန့်ဟင်းခါးက တကယ်အရသာရှိတယ်" }
+        { id: "lis_beg4_1", text: "This noodle soup is delicious", audioText: "This noodle soup is delicious", options: ["ဒီမုန့်ဟင်းခါးက တကယ်အရသာရှိတယ်", "ဒီဟင်းက အရသာမရှိဘူး", "စျေးနှုန်းက အရမ်းကြီးတယ်"], answer: "ဒီမုန့်ဟင်းခါးက တကယ်အရသာရှိတယ်" },
+        { id: "lis_beg4_2", text: "We buy fresh vegetables at the market", audioText: "We buy fresh vegetables at the market", options: ["ကျွန်တော်တို့ ဈေးမှာ လတ်ဆတ်တဲ့ ဟင်းသီးဟင်းရွက်တွေ ဝယ်ကြတယ်", "အသားဝယ်တယ်", "သစ်သီးရောင်းတယ်"], answer: "ကျွန်တော်တို့ ဈေးမှာ လတ်ဆတ်တဲ့ ဟင်းသီးဟင်းရွက်တွေ ဝယ်ကြတယ်" },
+        { id: "lis_beg4_3", text: "What is the price of this shirt", audioText: "What is the price of this shirt", options: ["ဒီရှပ်အင်္ကျီရဲ့ စျေးနှုန်းက ဘယ်လောက်လဲ", "ဘောပင် ဘယ်လောက်လဲ", "ဈေးဘယ်မှာလဲ"], answer: "ဒီရှပ်အင်္ကျီရဲ့ စျေးနှုန်းက ဘယ်လောက်လဲ" }
       ],
       speaking: [
-        { id: "spe_beg4_1", text: "How much does this cost?", instruction: "Ask the price clearly:", instructionMM: "အောက်ပါ မေးခွန်းကို အသံထွက်မေးပါ:" }
+        { id: "spe_beg4_1", text: "How much does this cost?", instruction: "Ask the price clearly:", instructionMM: "အောက်ပါ မေးခွန်းကို အသံထွက်မေးပါ:" },
+        { id: "spe_beg4_2", text: "This noodle soup is delicious.", instruction: "Read the statement clearly:", instructionMM: "အောက်ပါ ဝါကျကို အသံထွက်ဖတ်ကြားပါ:" },
+        { id: "spe_beg4_3", text: "I want to buy a new book.", instruction: "State your wish clearly:", instructionMM: "အောက်ပါ လိုလားချက်ကို အသံထွက်ဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "At the Local Market",
@@ -138,7 +157,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_beg4_1", question: "Rearrange the words: [delicious / apples / buy / I / four]", correct: "I buy four delicious apples", prompt: "Translate: ကျွန်မ အရသာရှိတဲ့ ပန်းသီး လေးလုံး ဝယ်ပါတယ်" }
+        { id: "wri_beg4_1", question: "Rearrange the words: [delicious / apples / buy / I / four]", correct: "I buy four delicious apples", prompt: "Translate: ကျွန်မ အရသာရှိတဲ့ ပန်းသီး လေးလုံး ဝယ်ပါတယ်" },
+        { id: "wri_beg4_2", question: "Rearrange the words: [costs / pen / this / two / hundred / kyats]", correct: "this pen costs two hundred kyats", prompt: "Translate: ဒီဘောပင်က ကျပ်နှစ်ရာ ကျသင့်ပါတယ်" },
+        { id: "wri_beg4_3", question: "Rearrange the words: [price / what / is / shirt / of / this]", correct: "what is the price of this shirt", prompt: "Translate: ဒီရှပ်အင်္ကျီရဲ့ စျေးနှုန်းက ဘယ်လောက်လဲ" }
       ]
     },
     {
@@ -155,10 +176,14 @@ export const LESSONS = {
         { word: "Right", ipa: "/raɪt/", mm: "ညာဘက်", example: "The library is on the right.", exampleMM: "စာကြည့်တိုက်က ညာဘက်မှာ ရှိပါတယ်။" }
       ],
       listening: [
-        { id: "lis_beg5_1", text: "Turn left at the next corner", audioText: "Turn left at the next corner", options: ["နောက်ထောင့်မှာ ညာဘက်ကို ကွေ့ပါ", "နောက်ထောင့်မှာ ဘယ်ဘက်ကို ကွေ့ပါ", "ဖြောင့်ဖြောင့်သွားပါ"], answer: "နောက်ထောင့်မှာ ဘယ်ဘက်ကို ကွေ့ပါ" }
+        { id: "lis_beg5_1", text: "Turn left at the next corner", audioText: "Turn left at the next corner", options: ["နောက်ထောင့်မှာ ညာဘက်ကို ကွေ့ပါ", "နောက်ထောင့်မှာ ဘယ်ဘက်ကို ကွေ့ပါ", "ဖြောင့်ဖြောင့်သွားပါ"], answer: "နောက်ထောင့်မှာ ဘယ်ဘက်ကို ကွေ့ပါ" },
+        { id: "lis_beg5_2", text: "Where is the train station", audioText: "Where is the train station", options: ["မီးရထားဘူတာ ဘယ်မှာလဲ", "လေဆိပ် ဘယ်မှာလဲ", "စာကြည့်တိုက်က ညာဘက်မှာ ရှိတယ်"], answer: "မီးရထားဘူတာ ဘယ်မှာလဲ" },
+        { id: "lis_beg5_3", text: "Please look at the map", audioText: "Please look at the map", options: ["မြေပုံကို ကြည့်ပေးပါ", "ဘယ်ဘက်ကွေ့ပါ", "တည့်တည့်သွားပါ"], answer: "မြေပုံကို ကြည့်ပေးပါ" }
       ],
       speaking: [
-        { id: "spe_beg5_1", text: "Excuse me, where is the nearest station?", instruction: "Ask for directions politely:", instructionMM: "အောက်ပါအတိုင်း ယဉ်ကျေးစွာ လမ်းညွှန်ချက် တောင်းဆိုပါ:" }
+        { id: "spe_beg5_1", text: "Excuse me, where is the nearest station?", instruction: "Ask for directions politely:", instructionMM: "အောက်ပါအတိုင်း ယဉ်ကျေးစွာ လမ်းညွှန်ချက် တောင်းဆိုပါ:" },
+        { id: "spe_beg5_2", text: "Turn left at the next corner.", instruction: "Give the direction clearly:", instructionMM: "အောက်ပါ လမ်းညွှန်ချက်ကို ရှင်းလင်းစွာ ပြောပြပါ:" },
+        { id: "spe_beg5_3", text: "The library is on the right.", instruction: "Explain the location clearly:", instructionMM: "အောက်ပါ တည်နေရာကို ရှင်းလင်းစွာ ရှင်းပြပါ:" }
       ],
       reading: {
         title: "Lost in the City",
@@ -171,7 +196,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_beg5_1", question: "Rearrange the words: [station / train / the / on / left / is / the]", correct: "the train station is on the left", prompt: "Translate: မီးရထားဘူတာရုံက ဘယ်ဘက်မှာ ရှိပါတယ်" }
+        { id: "wri_beg5_1", question: "Rearrange the words: [station / train / the / on / left / is / the]", correct: "the train station is on the left", prompt: "Translate: မီးရထားဘူတာရုံက ဘယ်ဘက်မှာ ရှိပါတယ်" },
+        { id: "wri_beg5_2", question: "Rearrange the words: [turn / next / left / at / corner / the]", correct: "turn left at the next corner", prompt: "Translate: နောက်ထောင့်မှာ ဘယ်ဘက်ကွေ့ပါ" },
+        { id: "wri_beg5_3", question: "Rearrange the words: [modern / airport / is / very / the]", correct: "the airport is very modern", prompt: "Translate: လေဆိပ်က တကယ်ကို ခေတ်မီပါတယ်" }
       ]
     },
     {
@@ -188,10 +215,14 @@ export const LESSONS = {
         { word: "Emergency", ipa: "/ɪˈmɜrdʒənsi/", mm: "အရေးပေါ်အခြေအနေ", example: "This is an absolute emergency.", exampleMM: "ဒါဟာ တကယ့်အရေးပေါ်အခြေအနေတစ်ခုပါ။" }
       ],
       listening: [
-        { id: "lis_beg6_1", text: "Call the police immediately", audioText: "Call the police immediately", options: ["ရဲကို ချက်ချင်းဖုန်းခေါ်လိုက်ပါ", "ဆရာဝန်နဲ့ သွားတွေ့ပါ", "ကျွန်တော့်ကို ကူညီပေးပါ"], answer: "ရဲကို ချက်ချင်းဖုန်းခေါ်လိုက်ပါ" }
+        { id: "lis_beg6_1", text: "Call the police immediately", audioText: "Call the police immediately", options: ["ရဲကို ချက်ချင်းဖုန်းခေါ်လိုက်ပါ", "ဆရာဝန်နဲ့ သွားတွေ့ပါ", "ကျွန်တော့်ကို ကူညီပေးပါ"], answer: "ရဲကို ချက်ချင်းဖုန်းခေါ်လိုက်ပါ" },
+        { id: "lis_beg6_2", text: "I need to see a doctor today", audioText: "I need to see a doctor today", options: ["ကျွန်တော် ဒီနေ့ ဆရာဝန်နဲ့ တွေ့ဖို့ လိုအပ်တယ်", "လမ်းပျောက်နေတယ်", "အရေးပေါ်ဖုန်းခေါ်ပါ"], answer: "ကျွန်တော် ဒီနေ့ ဆရာဝန်နဲ့ တွေ့ဖို့ လိုအပ်တယ်" },
+        { id: "lis_beg6_3", text: "Please help me carry this bag", audioText: "Please help me carry this bag", options: ["ဒီအိတ်သယ်ဖို့ ကျွန်တော့်ကို ကူညီပေးပါ", "ပိုက်ဆံအိတ် ပျောက်သွားပြီ", "ရဲစခန်း ဘယ်မှာလဲ"], answer: "ဒီအိတ်သယ်ဖို့ ကျွန်တော့်ကို ကူညီပေးပါ" }
       ],
       speaking: [
-        { id: "spe_beg6_1", text: "Excuse me, I am lost. Can you help me?", instruction: "Ask for help politely:", instructionMM: "အောက်ပါ အကူအညီတောင်းခံမှုကို ယဉ်ကျေးစွာ ဖတ်ကြားပါ:" }
+        { id: "spe_beg6_1", text: "Excuse me, I am lost. Can you help me?", instruction: "Ask for help politely:", instructionMM: "အောက်ပါ အကူအညီတောင်းခံမှုကို ယဉ်ကျေးစွာ ဖတ်ကြားပါ:" },
+        { id: "spe_beg6_2", text: "Call the police immediately.", instruction: "Call for help urgently:", instructionMM: "အောက်ပါ အရေးပေါ်တောင်းဆိုမှုကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg6_3", text: "This is an absolute emergency.", instruction: "Alert about an emergency clearly:", instructionMM: "အောက်ပါ အရေးပေါ်အခြေအနေကို ရှင်းလင်းစွာ အသိပေးဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "Lost Wallet",
@@ -204,7 +235,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_beg6_1", question: "Rearrange the words: [need / a / I / see / doctor / to]", correct: "I need to see a doctor", prompt: "Translate: ကျွန်တော် ဆရာဝန်နဲ့ တွေ့ဖို့ လိုအပ်တယ်" }
+        { id: "wri_beg6_1", question: "Rearrange the words: [need / a / I / see / doctor / to]", correct: "I need to see a doctor", prompt: "Translate: ကျွန်တော် ဆရာဝန်နဲ့ တွေ့ဖို့ လိုအပ်တယ်" },
+        { id: "wri_beg6_2", question: "Rearrange the words: [police / immediately / call / the]", correct: "call the police immediately", prompt: "Translate: ရဲကို ချက်ချင်း ဖုန်းခေါ်ပါ" },
+        { id: "wri_beg6_3", question: "Rearrange the words: [lost / big / city / this / in / I / am]", correct: "I am lost in this big city", prompt: "Translate: ကျွန်တော် ဒီမြို့ကြီးထဲမှာ လမ်းပျောက်နေတယ်" }
       ]
     },
     {
@@ -221,10 +254,14 @@ export const LESSONS = {
         { word: "Season", ipa: "/ˈsizn/", mm: "ရာသီ", example: "Monsoon is the rainy season.", exampleMM: "မုတ်သုံရာသီဟာ မိုးရာသီဖြစ်ပါတယ်။" }
       ],
       listening: [
-        { id: "lis_beg7_1", text: "It gets very cold in December", audioText: "It gets very cold in December", options: ["ဒီဇင်ဘာလမှာ ရာသီဥတု တအားအေးတတ်တယ်", "မတ်လဟာ ပူပြင်းတဲ့လဖြစ်တယ်", "ကမ်းခြေမှာ နေသာတယ်"], answer: "ဒီဇင်ဘာလမှာ ရာသီဥတု တအားအေးတတ်တယ်" }
+        { id: "lis_beg7_1", text: "It gets very cold in December", audioText: "It gets very cold in December", options: ["ဒီဇင်ဘာလမှာ ရာသီဥတု တအားအေးတတ်တယ်", "မတ်လဟာ ပူပြင်းတဲ့လဖြစ်တယ်", "ကမ်းခြေမှာ နေသာတယ်"], answer: "ဒီဇင်ဘာလမှာ ရာသီဥတု တအားအေးတတ်တယ်" },
+        { id: "lis_beg7_2", text: "March is a hot month in Myanmar", audioText: "March is a hot month in Myanmar", options: ["မတ်လဟာ မြန်မာနိုင်ငံမှာ ပူပြင်းတဲ့လတစ်ခု ဖြစ်ပါတယ်", "ဒီဇင်ဘာလမှာ အေးမြတယ်", "မိုးရာသီ စတင်ပြီ"], answer: "မတ်လဟာ မြန်မာနိုင်ငံမှာ ပူပြင်းတဲ့လတစ်ခု ဖြစ်ပါတယ်" },
+        { id: "lis_beg7_3", text: "It is a rainy afternoon", audioText: "It is a rainy afternoon", options: ["ဒါဟာ မိုးရွာနေတဲ့ ညနေခင်းတစ်ခုပါ", "နေသာတဲ့ နေ့တစ်နေ့ပါ", "ဆောင်းရာသီ ရောက်ပြီ"], answer: "ဒါဟာ မိုးရွာနေတဲ့ ညနေခင်းတစ်ခုပါ" }
       ],
       speaking: [
-        { id: "spe_beg7_1", text: "The weather is hot and sunny today.", instruction: "Read the weather forecast:", instructionMM: "အောက်ပါ ရာသီဥတုအခြေအနေကို အသံထွက်ဖတ်ပါ:" }
+        { id: "spe_beg7_1", text: "The weather is hot and sunny today.", instruction: "Read the weather forecast:", instructionMM: "အောက်ပါ ရာသီဥတုအခြေအနေကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg7_2", text: "It gets very cold in December.", instruction: "Read the winter description:", instructionMM: "အောက်ပါ ဆောင်းရာသီဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg7_3", text: "Monsoon is the rainy season.", instruction: "Read the season fact clearly:", instructionMM: "အောက်ပါ ရာသီဥတုအချက်အလက်ကို ရှင်းလင်းစွာ ဖတ်ပါ:" }
       ],
       reading: {
         title: "Seasons in Myanmar",
@@ -237,7 +274,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_beg7_1", question: "Rearrange the words: [rainy / monsoon / is / season / the]", correct: "monsoon is the rainy season", prompt: "Translate: မုတ်သုံရာသီဟာ မိုးရာသီဖြစ်ပါတယ်" }
+        { id: "wri_beg7_1", question: "Rearrange the words: [rainy / monsoon / is / season / the]", correct: "monsoon is the rainy season", prompt: "Translate: မုတ်သုံရာသီဟာ မိုးရာသီဖြစ်ပါတယ်" },
+        { id: "wri_beg7_2", question: "Rearrange the words: [cold / gets / in / it / December]", correct: "it gets cold in December", prompt: "Translate: ဒီဇင်ဘာမှာ အေးမြတတ်ပါတယ်" },
+        { id: "wri_beg7_3", question: "Rearrange the words: [hot / month / a / is / March]", correct: "March is a hot month", prompt: "Translate: မတ်လဟာ ပူပြင်းတဲ့လတစ်ခု ဖြစ်ပါတယ်" }
       ]
     },
     {
@@ -254,10 +293,14 @@ export const LESSONS = {
         { word: "Understand", ipa: "/ˌʌndərˈstænd/", mm: "နားလည်သည်", example: "I understand the teacher's lesson.", exampleMM: "ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်။" }
       ],
       listening: [
-        { id: "lis_beg8_1", text: "I understand the teacher's lesson", audioText: "I understand the teacher's lesson", options: ["ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်", "အိမ်စာလုပ်ဖို့ မမေ့ပါနဲ့", "အဘိဓာန်ကို ပြန်ပေးပါ"], answer: "ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်" }
+        { id: "lis_beg8_1", text: "I understand the teacher's lesson", audioText: "I understand the teacher's lesson", options: ["ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်", "အိမ်စာလုပ်ဖို့ မမေ့ပါနဲ့", "အဘိဓာန်ကို ပြန်ပေးပါ"], answer: "ဆရာမရဲ့ သင်ခန်းစာကို ကျွန်မ နားလည်ပါတယ်" },
+        { id: "lis_beg8_2", text: "Can I borrow your dictionary", audioText: "Can I borrow your dictionary", options: ["မင်းရဲ့အဘိဓာန်ကို ခေတ္တငှားလို့ရမလား", "အိမ်စာပြီးပြီလား", "မေးခွန်းမေးပါ"], answer: "မင်းရဲ့အဘိဓာန်ကို ခေတ္တငှားလို့ရမလား" },
+        { id: "lis_beg8_3", text: "We have some English homework", audioText: "We have some English homework", options: ["ကျွန်တော်တို့ အင်္ဂလိပ်စာအိမ်စာ အနည်းငယ်ရှိတယ်", "စာသင်ခန်းက သန့်ရှင်းတယ်", "ဆရာက မေးခွန်းမေးတယ်"], answer: "ကျွန်တော်တို့ အင်္ဂလိပ်စာအိမ်စာ အနည်းငယ်ရှိတယ်" }
       ],
       speaking: [
-        { id: "spe_beg8_1", text: "Can you please repeat the question, teacher?", instruction: "Ask the teacher to repeat a question:", instructionMM: "ဆရာမကို မေးခွန်းပြန်မေးပေးရန် ယဉ်ကျေးစွာ ပြောဆိုပါ:" }
+        { id: "spe_beg8_1", text: "Can you please repeat the question, teacher?", instruction: "Ask the teacher to repeat a question:", instructionMM: "ဆရာမကို မေးခွန်းပြန်မေးပေးရန် ယဉ်ကျေးစွာ ပြောဆိုပါ:" },
+        { id: "spe_beg8_2", text: "I understand the teacher's lesson.", instruction: "State comprehension clearly:", instructionMM: "နားလည်ကြောင်း ရှင်းလင်းစွာ ပြောကြားပါ:" },
+        { id: "spe_beg8_3", text: "The classroom is bright and clean.", instruction: "Describe the room clearly:", instructionMM: "အခန်းအခြေအနေကို ရှင်းလင်းစွာ ဖော်ပြပြောဆိုပါ:" }
       ],
       reading: {
         title: "First Day at the British Council",
@@ -270,7 +313,126 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_beg8_1", question: "Rearrange the words: [borrow / I / your / dictionary / can]", correct: "can I borrow your dictionary", prompt: "Translate: မင်းရဲ့အဘိဓာန်ကို ကျွန်တော် ငှားလို့ရမလား" }
+        { id: "wri_beg8_1", question: "Rearrange the words: [borrow / I / your / dictionary / can]", correct: "can I borrow your dictionary", prompt: "Translate: မင်းရဲ့အဘိဓာန်ကို ကျွန်တော် ငှားလို့ရမလား" },
+        { id: "wri_beg8_2", question: "Rearrange the words: [classroom / clean / is / the / very]", correct: "the classroom is very clean", prompt: "Translate: စာသင်ခန်းက အရမ်း သန့်ရှင်းပါတယ်" },
+        { id: "wri_beg8_3", question: "Rearrange the words: [asked / question / student / the / a]", correct: "the student asked a question", prompt: "Translate: ကျောင်းသားက မေးခွန်းတစ်ခု မေးခဲ့ပါတယ်" }
+      ]
+    },
+    {
+      id: "beg_9",
+      title: "Nouns, Pronouns & Articles",
+      titleMM: "နာမ်၊ နာမ်စားနှင့် အာတီကယ်များ",
+      description: "Learn how to use singular/plural nouns, subject pronouns, and basic articles (a, an, the).",
+      descriptionMM: "နည်းကိန်း/ဗဟုကိန်းနာမ်များ၊ နာမ်စားများနှင့် အခြေခံ အာတီကယ်များ အသုံးပြုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Noun", ipa: "/naʊn/", mm: "နာမ်", example: "A book is a common noun.", exampleMM: "စာအုပ်ဆိုတာ အများသုံးနာမ်တစ်ခု ဖြစ်ပါတယ်။" },
+        { word: "Pronoun", ipa: "/ˈproʊnaʊn/", mm: "နာမ်စား", example: "He and she are pronouns.", exampleMM: "သူနှင့် သူမတို့သည် နာမ်စားများ ဖြစ်ကြသည်။" },
+        { word: "Article", ipa: "/ˈɑːrtɪkl/", mm: "အာတီကယ်", example: "Use the article 'an' before apple.", exampleMM: "ပန်းသီးမတိုင်မီ 'an' အာတီကယ်ကို သုံးပါ။" },
+        { word: "Singular", ipa: "/ˈsɪŋɡjələr/", mm: "နည်းကိန်း", example: "A cat is singular.", exampleMM: "ကြောင်တစ်ကောင်ဆိုသည်မှာ နည်းကိန်းဖြစ်သည်။" },
+        { word: "Plural", ipa: "/ˈplʊrəl/", mm: "ဗဟုကိန်း", example: "Cats is the plural form.", exampleMM: "Cats သည် ဗဟုကိန်းပုံစံဖြစ်သည်။" }
+      ],
+      listening: [
+        { id: "lis_beg9_1", text: "He and she are pronouns", audioText: "He and she are pronouns", options: ["သူနှင့် သူမတို့သည် နာမ်စားများဖြစ်ကြသည်", "စာအုပ်က နာမ်ဖြစ်သည်", "ကြောင်တွေက ဗဟုကိန်းဖြစ်သည်"], answer: "သူနှင့် သူမတို့သည် နာမ်စားများဖြစ်ကြသည်" },
+        { id: "lis_beg9_2", text: "A cat is singular", audioText: "A cat is singular", options: ["ကြောင်တစ်ကောင်ဆိုသည်မှာ နည်းကိန်းဖြစ်သည်", "ကြောင်တွေက ဗဟုကိန်းဖြစ်သည်", "အာတီကယ်ကို သုံးပါ"], answer: "ကြောင်တစ်ကောင်ဆိုသည်မှာ နည်းကိန်းဖြစ်သည်" },
+        { id: "lis_beg9_3", text: "A book is a common noun", audioText: "A book is a common noun", options: ["စာအုပ်ဆိုတာ အများသုံးနာမ်တစ်ခု ဖြစ်ပါတယ်", "စာအုပ်ဖတ်ပါ", "အဘိဓာန်ကို သုံးပါ"], answer: "စာအုပ်ဆိုတာ အများသုံးနာမ်တစ်ခု ဖြစ်ပါတယ်" }
+      ],
+      speaking: [
+        { id: "spe_beg9_1", text: "She reads a book and he uses the computer.", instruction: "Read the pronoun-heavy sentence aloud:", instructionMM: "အောက်ပါ နာမ်စားအများအပြားပါသော ဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg9_2", text: "Cats and dogs are common plural nouns.", instruction: "Read the plural example aloud:", instructionMM: "အောက်ပါ ဗဟုကိန်းဥပမာကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg9_3", text: "Use the article 'a' before consonants.", instruction: "Read the article rule aloud:", instructionMM: "အောက်ပါ အာတီကယ်စည်းမျဉ်းကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "In the Library",
+        titleMM: "စာကြည့်တိုက်ထဲတွင်",
+        content: "A student enters a library. She looks for an English book. On the table, there is a computer. He is using it to search. They study together. They use dictionaries to learn plural forms of nouns. The environment is quiet and helpful.",
+        contentMM: "ကျောင်းသူတစ်ဦးသည် စာကြည့်တိုက်သို့ ဝင်လာသည်။ သူမသည် အင်္ဂလိပ်စာအုပ်တစ်အုပ်ကို ရှာဖွေနေသည်။ စားပွဲပေါ်တွင် ကွန်ပျူတာတစ်လုံးရှိသည်။ သူသည် စူးစမ်းရှာဖွေရန် ၎င်းကို အသုံးပြုနေသည်။ ၎င်းတို့ အတူတကွ စာလေ့လာကြသည်။ နာမ်များ၏ ဗဟုကိန်းပုံစံများကို လေ့လာရန် ၎င်းတို့သည် အဘိဓာန်များကို အသုံးပြုကြသည်။ ပတ်ဝန်းကျင်သည် တိတ်ဆိတ်ပြီး အထောက်အကူပြုသည်။",
+        questions: [
+          { question: "What is on the table?", options: ["A computer", "An apple", "A map"], answer: "A computer" },
+          { question: "What do they study together?", options: ["Singular nouns", "Plural forms of nouns", "Directions"], answer: "Plural forms of nouns" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg9_1", question: "Rearrange the words: [reads / she / book / a]", correct: "she reads a book", prompt: "Translate: သူမ စာအုပ်တစ်အုပ် ဖတ်ပါတယ်" },
+        { id: "wri_beg9_2", question: "Rearrange the words: [pronouns / are / he / she / and]", correct: "he and she are pronouns", prompt: "Translate: သူနှင့် သူမတို့သည် နာမ်စားများဖြစ်ကြသည်" },
+        { id: "wri_beg9_3", question: "Rearrange the words: [the / uses / computer / he]", correct: "he uses the computer", prompt: "Translate: သူ ကွန်ပျူတာကို အသုံးပြုပါတယ်" }
+      ]
+    },
+    {
+      id: "beg_10",
+      title: "Present Simple & Present Continuous Tenses",
+      titleMM: "ပစ္စုပ္ပန်ရိုးရိုးနှင့် ပစ္စုပ္ပန်ဖြစ်ဆဲကာလများ",
+      description: "Understand the difference between daily habits (Present Simple) and current actions (Present Continuous).",
+      descriptionMM: "နေ့စဉ် အလေ့အထများ (ပစ္စုပ္ပန်ရိုးရိုး) နှင့် လက်ရှိလုပ်ဆောင်နေဆဲ လုပ်ရပ်များ (ပစ္စုပ္ပန်ဖြစ်ဆဲ) တို့၏ ကွာခြားချက်ကို နားလည်ပါ။",
+      vocabulary: [
+        { word: "Routine", ipa: "/ruːˈtiːn/", mm: "လုပ်ရိုးလုပ်စဉ်", example: "Brushing teeth is part of my daily routine.", exampleMM: "သွားတိုက်ခြင်းသည် ကျွန်တော့်နေ့စဉ်လုပ်ရိုးလုပ်စဉ်၏ အစိတ်အပိုင်းတစ်ခုဖြစ်သည်။" },
+        { word: "Fact", ipa: "/fækt/", mm: "အမှန်တရား / အချက်အလက်", example: "Water boils at 100 degrees.", exampleMM: "ရေသည် အပူချိန် ၁၀၀ ဒီဂရီတွင် ဆူပွက်သည်။" },
+        { word: "Present", ipa: "/ˈpreznt/", mm: "ပစ္စုပ္ပန် / လက်ရှိကာလ", example: "Focus on the present moment.", exampleMM: "လက်ရှိ ပစ္စုပ္ပန်အချိန်ကို အာရုံစိုက်ပါ။" },
+        { word: "Action", ipa: "/ˈækʃn/", mm: "လုပ်ဆောင်ချက်", example: "Actions speak louder than words.", exampleMM: "လုပ်ဆောင်ချက်သည် စကားလုံးများထက် ပိုမိုကျယ်လောင်စွာ ပြောဆိုသည်။" },
+        { word: "Temporary", ipa: "/ˈtempərer(i)/", mm: "ယာယီ / ခေတ္တခဏ", example: "This is only a temporary job.", exampleMM: "ဒါဟာ ယာယီအလုပ်တစ်ခုသာ ဖြစ်ပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_beg10_1", text: "Focus on the present moment", audioText: "Focus on the present moment", options: ["လက်ရှိ ပစ္စုပ္ပန်အချိန်ကို အာရုံစိုက်ပါ", "ရေဆူပွက်နေသည်", "သွားတိုက်ပါ"], answer: "လက်ရှိ ပစ္စုပ္ပန်အချိန်ကို အာရုံစိုက်ပါ" },
+        { id: "lis_beg10_2", text: "Water boils at one hundred degrees", audioText: "Water boils at one hundred degrees", options: ["ရေသည် အပူချိန် ၁၀၀ ဒီဂရီတွင် ဆူပွက်သည်", "ယာယီအလုပ်ဖြစ်သည်", "နေ့စဉ်လုပ်ရိုးလုပ်စဉ်ဖြစ်သည်"], answer: "ရေသည် အပူချိန် ၁၀၀ ဒီဂရီတွင် ဆူပွက်သည်" },
+        { id: "lis_beg10_3", text: "This is only a temporary job", audioText: "This is only a temporary job", options: ["ဒါဟာ ယာယီအလုပ်တစ်ခုသာ ဖြစ်ပါတယ်", "အမြဲတမ်းအလုပ်ဖြစ်တယ်", "လုပ်ငန်းခွင်ဖြစ်တယ်"], answer: "ဒါဟာ ယာယီအလုပ်တစ်ခုသာ ဖြစ်ပါတယ်" }
+      ],
+      speaking: [
+        { id: "spe_beg10_1", text: "I usually work at nine, but today I am learning English.", instruction: "Read the comparative tense sentence aloud:", instructionMM: "အောက်ပါ ကာလနှစ်မျိုး နှိုင်းယှဉ်ထားသော ဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg10_2", text: "She is eating lunch right now.", instruction: "Read the action-in-progress sentence aloud:", instructionMM: "အောက်ပါ လုပ်ဆောင်ဆဲ ဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg10_3", text: "The sun rises in the east.", instruction: "Read the factual statement aloud:", instructionMM: "အောက်ပါ အမှန်တရားဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "At the Office",
+        titleMM: "ရုံးခန်းထဲတွင်",
+        content: "Nandar usually works at the computer, but today she is organizing files. Kyaw Kyaw usually drinks green tea, but at the moment, he is drinking coffee. They work hard every day. Right now, they are preparing a very important project.",
+        contentMM: "နန္ဒာသည် ပုံမှန်အားဖြင့် ကွန်ပျူတာဖြင့် အလုပ်လုပ်သော်လည်း ယနေ့တွင် ဖိုင်များကို စနစ်တကျစီစဉ်နေသည်။ ကျော်ကျော်သည် များသောအားဖြင့် ရေနွေးကြမ်းသောက်သော်လည်း လက်ရှိတွင် ကော်ဖီသောက်နေသည်။ ၎င်းတို့သည် နေ့တိုင်း ကြိုးစားအလုပ်လုပ်ကြသည်။ ယခုအချိန်တွင် ၎င်းတို့သည် အလွန်အရေးကြီးသော ပရောဂျက်တစ်ခုကို ပြင်ဆင်နေကြသည်။",
+        questions: [
+          { question: "What is Nandar doing today?", options: ["Working on the computer", "Organizing files", "Drinking tea"], answer: "Organizing files" },
+          { question: "What does Kyaw Kyaw usually drink?", options: ["Coffee", "Green tea", "Water"], answer: "Green tea" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg10_1", question: "Rearrange the words: [usually / tea / drink / I / green]", correct: "I usually drink green tea", prompt: "Translate: ကျွန်တော် ပုံမှန်အားဖြင့် ရေနွေးကြမ်း သောက်ပါတယ်" },
+        { id: "wri_beg10_2", question: "Rearrange the words: [learning / today / I / am / English]", correct: "today I am learning English", prompt: "Translate: ဒီနေ့ ကျွန်တော် အင်္ဂလိပ်စာ သင်ယူနေပါတယ်" },
+        { id: "wri_beg10_3", question: "Rearrange the words: [boils / at / water / degrees / hundred]", correct: "water boils at hundred degrees", prompt: "Translate: ရေသည် အပူချိန်တစ်ရာတွင် ဆူပွက်သည်" }
+      ]
+    },
+    {
+      id: "beg_11",
+      title: "Past Simple & Future Simple Tenses",
+      titleMM: "အတိတ်ရိုးရိုးနှင့် အနာဂတ်ရိုးရိုးကာလများ",
+      description: "Learn how to talk about completed past actions (yesterday) and make future plans (tomorrow).",
+      descriptionMM: "ပြီးစီးခဲ့သော အတိတ်လုပ်ဆောင်ချက်များ (မနေ့က) နှင့် အနာဂတ်အစီအစဉ်များ (မနက်ဖြန်) အကြောင်း ပြောဆိုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Past", ipa: "/pæst/", mm: "အတိတ် / လွန်ခဲ့သော", example: "Forget about the past mistakes.", exampleMM: "အတိတ်က အမှားတွေကို မေ့လိုက်ပါ။" },
+        { word: "Future", ipa: "/ˈfjutʃər/", mm: "အနာဂတ်", example: "We are planning for our future.", exampleMM: "ကျွန်တော်တို့ အနာဂတ်အတွက် စီစဉ်နေကြသည်။" },
+        { word: "Yesterday", ipa: "/ˈjestərdeɪ/", mm: "မနေ့က", example: "It rained heavily yesterday.", exampleMM: "မနေ့က မိုးအလွန်ရွာခဲ့သည်။" },
+        { word: "Tomorrow", ipa: "/təˈmɔːroʊ/", mm: "မနက်ဖြန်", example: "Tomorrow is another sunny day.", exampleMM: "မနက်ဖြန်ဟာ နောက်ထပ် နေသာတဲ့ နေ့တစ်နေ့ ဖြစ်ပါတယ်။" },
+        { word: "Plan", ipa: "/plæn/", mm: "အစီအစဉ် / စီစဉ်သည်", example: "I have a plan to travel.", exampleMM: "ကျွန်တော့်မှာ ခရီးသွားဖို့ အစီအစဉ်ရှိတယ်။" }
+      ],
+      listening: [
+        { id: "lis_beg11_1", text: "It rained heavily yesterday", audioText: "It rained heavily yesterday", options: ["မနေ့က မိုးအလွန်ရွာခဲ့သည်", "မနက်ဖြန် မိုးရွာလိမ့်မည်", "ခရီးသွားဖို့ စီစဉ်နေသည်"], answer: "မနေ့က မိုးအလွန်ရွာခဲ့သည်" },
+        { id: "lis_beg11_2", text: "We are planning for our future", audioText: "We are planning for our future", options: ["ကျွန်တော်တို့ အနာဂတ်အတွက် စီစဉ်နေကြသည်", "မနေ့က အမှားများကို စဉ်းစားပါ", "မနက်ဖြန် အလုပ်သွားမယ်"], answer: "ကျွန်တော်တို့ အနာဂတ်အတွက် စီစဉ်နေကြသည်" },
+        { id: "lis_beg11_3", text: "Tomorrow is another sunny day", audioText: "Tomorrow is another sunny day", options: ["မနက်ဖြန်ဟာ နောက်ထပ် နေသာတဲ့ နေ့တစ်နေ့ ဖြစ်ပါတယ်", "မနေ့က နေသာခဲ့တယ်", "ဒီနေ့ အေးမြတယ်"], answer: "မနက်ဖြန်ဟာ နောက်ထပ် နေသာတဲ့ နေ့တစ်နေ့ ဖြစ်ပါတယ်" }
+      ],
+      speaking: [
+        { id: "spe_beg11_1", text: "Yesterday I visited my family, and tomorrow I will buy groceries.", instruction: "Read the sentence contrasting past and future:", instructionMM: "အတိတ်နှင့် အနာဂတ်ကို နှိုင်းယှဉ်ထားသော အောက်ပါဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg11_2", text: "He finished his English lesson yesterday.", instruction: "Read the past simple statement:", instructionMM: "အောက်ပါ အတိတ်ကာလဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_beg11_3", text: "I will call you tomorrow morning.", instruction: "Read the future simple promise:", instructionMM: "အောက်ပါ အနာဂတ်ကာလ ကတိစကားကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "A Weekend Trip",
+        titleMM: "ပိတ်ရက် ခရီးစဉ်တစ်ခု",
+        content: "Ko Ko visited the ancient city of Bagan last weekend. He walked around temples and took many pictures. He returned to Yangon yesterday. Next week, he will share the photos with his friends. He plans to go to the beach next time.",
+        contentMM: "ကိုကိုသည် ပြီးခဲ့သည့်ပိတ်ရက်က ရှေးဟောင်းမြို့တော် ပုဂံသို့ သွားရောက်လည်ပတ်ခဲ့သည်။ သူသည် ဘုရားကျောင်းများတစ်ဝိုက် လမ်းလျှောက်ခဲ့ပြီး ဓာတ်ပုံများစွာ ရိုက်ခဲ့သည်။ သူသည် မနေ့က ရန်ကုန်သို့ ပြန်ရောက်ခဲ့သည်။ လာမည့်အပတ်တွင် သူသည် ဓာတ်ပုံများကို သူငယ်ချင်းများနှင့် မျှဝေမည်ဖြစ်သည်။ နောက်တစ်ကြိမ်တွင် သူသည် ကမ်းခြေသို့ သွားရန် စီစဉ်ထားသည်။",
+        questions: [
+          { question: "Where did Ko Ko go last weekend?", options: ["Yangon", "Bagan", "Ngapali"], answer: "Bagan" },
+          { question: "When will Ko Ko share photos with his friends?", options: ["Yesterday", "Next week", "Last weekend"], answer: "Next week" }
+        ]
+      },
+      writing: [
+        { id: "wri_beg11_1", question: "Rearrange the words: [visited / my / yesterday / family / I]", correct: "I visited my family yesterday", prompt: "Translate: မနေ့က ကျွန်တော် မိသားစုဆီ လည်ပတ်ခဲ့တယ်" },
+        { id: "wri_beg11_2", question: "Rearrange the words: [tomorrow / buy / will / groceries / I]", correct: "I will buy groceries tomorrow", prompt: "Translate: မနက်ဖြန် ကျွန်တော် ကုန်စုံပစ္စည်းများ ဝယ်ယူပါမည်" },
+        { id: "wri_beg11_3", question: "Rearrange the words: [planning / our / future / are / we / for]", correct: "we are planning for our future", prompt: "Translate: ကျွန်တော်တို့ အနာဂတ်အတွက် စီစဉ်နေကြသည်" }
       ]
     }
   ],
@@ -291,10 +453,14 @@ export const LESSONS = {
         { word: "Creative", ipa: "/kriˈeɪtɪv/", mm: "ဖန်တီးမှုရှိသော / ဉာဏ်ကွန့်မြူးသော", example: "Baking cake is a creative activity.", exampleMM: "ကိတ်မုန့်ဖုတ်ခြင်းသည် ဖန်တီးမှုရှိသော လုပ်ဆောင်ချက်တစ်ခုဖြစ်သည်။" }
       ],
       listening: [
-        { id: "lis_int1_1", text: "I prefer tea over coffee", audioText: "I prefer tea over coffee", options: ["ကျွန်တော် ကော်ဖီကို ပိုကြိုက်တယ်", "ကျွန်တော် လက်ဖက်ရည်ထက် ကော်ဖီကို ပိုကြိုက်တယ်", "ကျွန်တော် ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်"], answer: "ကျွန်တော် ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်" }
+        { id: "lis_int1_1", text: "I prefer tea over coffee", audioText: "I prefer tea over coffee", options: ["ကျွန်တော် ကော်ဖီကို ပိုကြိုက်တယ်", "ကျွန်တော် လက်ဖက်ရည်ထက် ကော်ဖီကို ပိုကြိုက်တယ်", "ကျွန်တော် ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်"], answer: "ကျွန်တော် ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်" },
+        { id: "lis_int1_2", text: "Photography is a creative hobby", audioText: "Photography is a creative hobby", options: ["ဓာတ်ပုံရိုက်ခြင်းသည် ဖန်တီးမှုရှိသော ဝါသနာတစ်ခုဖြစ်သည်", "ဂီတက စိတ်အပန်းပြေစေသည်", "တောင်တက်ခြင်းက ပင်ပန်းစေသည်"], answer: "ဓာတ်ပုံရိုက်ခြင်းသည် ဖန်တီးမှုရှိသော ဝါသနာတစ်ခုဖြစ်သည်" },
+        { id: "lis_int1_3", text: "I was exhausted after the hike", audioText: "I was exhausted after the hike", options: ["တောင်တက်ပြီးနောက် ကျွန်တော် အရမ်းပင်ပန်းသွားတယ်", "လက်ဖက်ရည် သောက်ချင်တယ်", "ဝတ္ထုဖတ်ရတာ ကြိုက်တယ်"], answer: "တောင်တက်ပြီးနောက် ကျွန်တော် အရမ်းပင်ပန်းသွားတယ်" }
       ],
       speaking: [
-        { id: "spe_int1_1", text: "Playing guitar helps me wind down after work.", instruction: "Speak this statement cleanly:", instructionMM: "အောက်ပါ စကားစုကို သဘာဝကျကျ အသံထွက်ဖတ်ပါ:" }
+        { id: "spe_int1_1", text: "Playing guitar helps me wind down after work.", instruction: "Speak this statement cleanly:", instructionMM: "အောက်ပါ စကားစုကို သဘာဝကျကျ အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_int1_2", text: "I prefer outdoor activities over indoor games.", instruction: "Express your preference clearly:", instructionMM: "အောက်ပါ ပိုမိုနှစ်သက်မှုကို ရှင်းလင်းစွာ ဖတ်ကြားပါ:" },
+        { id: "spe_int1_3", text: "Photography requires both patience and a creative eye.", instruction: "Deliver this hobby fact clearly:", instructionMM: "အောက်ပါ ဝါသနာဆိုင်ရာ အချက်အလက်ကို ရှင်းလင်းစွာ ဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "A Cozy Weekend",
@@ -307,7 +473,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int1_1", question: "Rearrange the words: [prefer / tea / coffee / over / I]", correct: "I prefer tea over coffee", prompt: "Translate: ကျွန်တော် ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်" }
+        { id: "wri_int1_1", question: "Rearrange the words: [prefer / tea / coffee / over / I]", correct: "I prefer tea over coffee", prompt: "Translate: ကျွန်တော် ကော်ဖီထက် လက်ဖက်ရည်ကို ပိုကြိုက်တယ်" },
+        { id: "wri_int1_2", question: "Rearrange the words: [creative / hobby / photography / is / a]", correct: "photography is a creative hobby", prompt: "Translate: ဓာတ်ပုံရိုက်ခြင်းက ဖန်တီးမှုရှိတဲ့ ဝါသနာတစ်ခုဖြစ်ပါတယ်" },
+        { id: "wri_int1_3", question: "Rearrange the words: [exhausted / after / hike / was / I]", correct: "I was exhausted after the hike", prompt: "Translate: တောင်တက်ပြီးနောက် ကျွန်တော် အလွန်ပင်ပန်းသွားခဲ့တယ်" }
       ]
     },
     {
@@ -324,10 +492,14 @@ export const LESSONS = {
         { word: "Explore", ipa: "/ɪkˈsplɔːr/", mm: "ရှာဖွေစူးစမ်းသည်", example: "We want to explore the local ruins.", exampleMM: "ကျွန်တော်တို့ ဒေသတွင်း ရှေးဟောင်းအပျက်အစီးတွေကို ရှာဖွေစူးစမ်းချင်ပါတယ်။" }
       ],
       listening: [
-        { id: "lis_int2_1", text: "Bagan is our final destination", audioText: "Bagan is our final destination", options: ["ပုဂံက ငါတို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်တယ်", "ငါတို့ ပုဂံကို သွားချင်တယ်", "ထွက်ခွာချိန်က မနက် ၉ နာရီဖြစ်တယ်"], answer: "ပုဂံက ငါတို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်တယ်" }
+        { id: "lis_int2_1", text: "Bagan is our final destination", audioText: "Bagan is our final destination", options: ["ပုဂံက ငါတို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်တယ်", "ငါတို့ ပုဂံကို သွားချင်တယ်", "ထွက်ခွာချိန်က မနက် ၉ နာရီဖြစ်တယ်"], answer: "ပုဂံက ငါတို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်တယ်" },
+        { id: "lis_int2_2", text: "We should plan our itinerary", audioText: "We should plan our itinerary", options: ["ငါတို့ ခရီးစဉ်အစီအစဉ်ကို ဆွဲသင့်တယ်", "ဟိုတယ်ဘွတ်ကင်လုပ်ပါ", "ထွက်ခွာချိန်ကို စစ်ဆေးပါ"], answer: "ငါတို့ ခရီးစဉ်အစီအစဉ်ကို ဆွဲသင့်တယ်" },
+        { id: "lis_int2_3", text: "The departure time is nine AM", audioText: "The departure time is nine AM", options: ["ထွက်ခွာချိန်က မနက် ၉ နာရီဖြစ်ပါတယ်", "ဆိုက်ရောက်ချိန်က ည ၉ နာရီဖြစ်တယ်", "ခရီးစဉ်အစီအစဉ် ဆွဲပါ"], answer: "ထွက်ခွာချိန်က မနက် ၉ နာရီဖြစ်ပါတယ်" }
       ],
       speaking: [
-        { id: "spe_int2_1", text: "I would like to confirm my room reservation.", instruction: "Speak this room request:", instructionMM: "အောက်ပါ အခန်းကြိုတင်ဘွတ်ကင်အတည်ပြုချက်ကို ဖတ်ကြားပါ:" }
+        { id: "spe_int2_1", text: "I would like to confirm my room reservation.", instruction: "Speak this room request:", instructionMM: "အောက်ပါ အခန်းကြိုတင်ဘွတ်ကင်အတည်ပြုချက်ကို ဖတ်ကြားပါ:" },
+        { id: "spe_int2_2", text: "What is the departure time for the flight?", instruction: "Inquire about departure time clearly:", instructionMM: "ထွက်ခွာမည့် အချိန်ကို ရှင်းလင်းစွာ မေးမြန်းပါ:" },
+        { id: "spe_int2_3", text: "We want to explore the historical temples.", instruction: "Express your travel interest clearly:", instructionMM: "ခရီးသွားစိတ်ဝင်စားမှုကို ရှင်းလင်းစွာ ပြောကြားပါ:" }
       ],
       reading: {
         title: "Planning the Summer Escape",
@@ -340,7 +512,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int2_1", question: "Rearrange the words: [made / reservation / a / hotel / I]", correct: "I made a hotel reservation", prompt: "Translate: ကျွန်တော် ဟိုတယ်ဘွတ်ကင်တစ်ခု လုပ်ခဲ့ပါတယ်" }
+        { id: "wri_int2_1", question: "Rearrange the words: [made / reservation / a / hotel / I]", correct: "I made a hotel reservation", prompt: "Translate: ကျွန်တော် ဟိုတယ်ဘွတ်ကင်တစ်ခု လုပ်ခဲ့ပါတယ်" },
+        { id: "wri_int2_2", question: "Rearrange the words: [destination / final / is / Bagan / our]", correct: "Bagan is our final destination", prompt: "Translate: ပုဂံက ကျွန်တော်တို့ရဲ့ နောက်ဆုံးပန်းတိုင် ခရီးစဉ်ဖြစ်ပါတယ်" },
+        { id: "wri_int2_3", question: "Rearrange the words: [explore / to / temples / want / we]", correct: "we want to explore temples", prompt: "Translate: ကျွန်တော်တို့ ဘုရားကျောင်းတွေကို လေ့လာစူးစမ်းချင်ပါတယ်" }
       ]
     },
     {
@@ -357,10 +531,14 @@ export const LESSONS = {
         { word: "Salary", ipa: "/ˈsæləri/", mm: "လစာ", example: "The job offers a competitive salary.", exampleMM: "ဤအလုပ်သည် ကောင်းမွန်သော လစာကို ပေးဆောင်သည်။" }
       ],
       listening: [
-        { id: "lis_int3_1", text: "Communication is an essential skill", audioText: "Communication is an essential skill", options: ["ဆက်သွယ်ပြောဆိုရေးက မရှိမဖြစ်လိုအပ်တဲ့ ကျွမ်းကျင်မှုတစ်ခုဖြစ်တယ်", "သူမမှာ အတွေ့အကြုံ ငါးနှစ်ရှိတယ်", "ကျွန်တော့်မှာ အင်တာဗျူးတစ်ခုရှိတယ်"], answer: "ဆက်သွယ်ပြောဆိုရေးက မရှိမဖြစ်လိုအပ်တဲ့ ကျွမ်းကျင်မှုတစ်ခုဖြစ်တယ်" }
+        { id: "lis_int3_1", text: "Communication is an essential skill", audioText: "Communication is an essential skill", options: ["ဆက်သွယ်ပြောဆိုရေးက မရှိမဖြစ်လိုအပ်တဲ့ ကျွမ်းကျင်မှုတစ်ခုဖြစ်တယ်", "သူမမှာ အတွေ့အကြုံ ငါးနှစ်ရှိတယ်", "ကျွန်တော့်မှာ အင်တာဗျူးတစ်ခုရှိတယ်"], answer: "ဆက်သွယ်ပြောဆိုရေးက မရှိမဖြစ်လိုအပ်တဲ့ ကျွမ်းကျင်မှုတစ်ခုဖြစ်တယ်" },
+        { id: "lis_int3_2", text: "I have a job interview tomorrow", audioText: "I have a job interview tomorrow", options: ["ကျွန်တော့်မှာ မနက်ဖြန် အလုပ်အင်တာဗျူးတစ်ခု ရှိပါတယ်", "ငါးနှစ်အတွေ့အကြုံရှိတယ်", "လစာကောင်းတယ်"], answer: "ကျွန်တော့်မှာ မနက်ဖြန် အလုပ်အင်တာဗျူးတစ်ခု ရှိပါတယ်" },
+        { id: "lis_int3_3", text: "The job offers a competitive salary", audioText: "The job offers a competitive salary", options: ["ဤအလုပ်သည် ကောင်းမွန်သော လစာကို ပေးဆောင်သည်", "ကျွမ်းကျင်မှုရှိဖို့ လိုအပ်တယ်", "အရည်အချင်းက ဘာလဲ"], answer: "ဤအလုပ်သည် ကောင်းမွန်သော လစာကို ပေးဆောင်သည်" }
       ],
       speaking: [
-        { id: "spe_int3_1", text: "I have extensive experience in software development.", instruction: "Speak with professional confidence:", instructionMM: "အောက်ပါ စာကြောင်းကို လုပ်ငန်းခွင်သုံး ယုံကြည်ချက်ရှိစွာ ဖတ်ပါ:" }
+        { id: "spe_int3_1", text: "I have extensive experience in software development.", instruction: "Speak with professional confidence:", instructionMM: "အောက်ပါ စာကြောင်းကို လုပ်ငန်းခွင်သုံး ယုံကြည်ချက်ရှိစွာ ဖတ်ပါ:" },
+        { id: "spe_int3_2", text: "Communication is an essential skill in every career.", instruction: "Emphasize communication skills:", instructionMM: "အောက်ပါအချက်ကို လုပ်ငန်းခွင်သုံးအဖြစ် ရှင်းလင်းစွာ ဖတ်ပါ:" },
+        { id: "spe_int3_3", text: "I want to apply for the manager position.", instruction: "State application intent clearly:", instructionMM: "အောက်ပါ လျှောက်ထားလိုမှုကို အသံထွက်ဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "Landing the Dream Job",
@@ -373,7 +551,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int3_1", question: "Rearrange the words: [job / interview / tomorrow / have / a / I]", correct: "I have a job interview tomorrow", prompt: "Translate: ကျွန်တော့်မှာ မနက်ဖြန် အလုပ်အင်တာဗျူးတစ်ခု ရှိပါတယ်" }
+        { id: "wri_int3_1", question: "Rearrange the words: [job / interview / tomorrow / have / a / I]", correct: "I have a job interview tomorrow", prompt: "Translate: ကျွန်တော့်မှာ မနက်ဖြန် အလုပ်အင်တာဗျူးတစ်ခု ရှိပါတယ်" },
+        { id: "wri_int3_2", question: "Rearrange the words: [communication / is / essential / skill / an]", correct: "communication is an essential skill", prompt: "Translate: ဆက်သွယ်ပြောဆိုမှုသည် မရှိမဖြစ် ကျွမ်းကျင်မှုတစ်ခုဖြစ်ပါတယ်" },
+        { id: "wri_int3_3", question: "Rearrange the words: [experience / of / five / years / she / has]", correct: "she has five years of experience", prompt: "Translate: သူမမှာ အတွေ့အကြုံ ငါးနှစ် ရှိပါတယ်" }
       ]
     },
     {
@@ -390,10 +570,14 @@ export const LESSONS = {
         { word: "Recovery", ipa: "/rɪˈkʌvəri/", mm: "ပြန်လည်ကောင်းမွန်လာခြင်း", example: "We wish you a speedy recovery.", exampleMM: "သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်။" }
       ],
       listening: [
-        { id: "lis_int4_1", text: "We wish you a speedy recovery", audioText: "We wish you a speedy recovery", options: ["သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်", "ပုံမှန် လေ့ကျင့်ခန်းလုပ်ပါ", "အာဟာရပြည့်ဝအောင် စားပါ"], answer: "သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်" }
+        { id: "lis_int4_1", text: "We wish you a speedy recovery", audioText: "We wish you a speedy recovery", options: ["သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်", "ပုံမှန် လေ့ကျင့်ခန်းလုပ်ပါ", "အာဟာရပြည့်ဝအောင် စားပါ"], answer: "သင့်ကို လျင်မြန်စွာ ပြန်လည်ကောင်းမွန်လာပါစေကြောင်း ဆုတောင်းပေးပါတယ်" },
+        { id: "lis_int4_2", text: "You should exercise regularly", audioText: "You should exercise regularly", options: ["မင်း ပုံမှန် လေ့ကျင့်ခန်းလုပ်သင့်တယ်", "ဆေးညွှန်းအတိုင်း ဆေးသောက်ပါ", "ခေါင်းကိုက်ခြင်းက ရောဂါလက္ခဏာဖြစ်တယ်"], answer: "မင်း ပုံမှန် လေ့ကျင့်ခန်းလုပ်သင့်တယ်" },
+        { id: "lis_int4_3", text: "Good nutrition is key to physical health", audioText: "Good nutrition is key to physical health", options: ["ကောင်းမွန်သောအာဟာရသည် ခန္ဓာကိုယ်ကျန်းမာရေးအတွက် သော့ချက်ဖြစ်သည်", "ပြေးခြင်းက ကောင်းသည်", "ပြန်လည်နာလန်ထူလာသည်"], answer: "ကောင်းမွန်သောအာဟာရသည် ခန္ဓာကိုယ်ကျန်းမာရေးအတွက် သော့ချက်ဖြစ်သည်" }
       ],
       speaking: [
-        { id: "spe_int4_1", text: "Healthy eating and regular exercise reduce stress.", instruction: "Speak this health tip clearly:", instructionMM: "အောက်ပါ ကျန်းမာရေးအကြံပြုချက်ကို ဖတ်ကြားပါ:" }
+        { id: "spe_int4_1", text: "Healthy eating and regular exercise reduce stress.", instruction: "Speak this health tip clearly:", instructionMM: "အောက်ပါ ကျန်းမာရေးအကြံပြုချက်ကို ဖတ်ကြားပါ:" },
+        { id: "spe_int4_2", text: "We wish you a speedy recovery.", instruction: "Deliver this friendly wish clearly:", instructionMM: "အောက်ပါ ဆုမွန်ကောင်းတောင်းမှုကို အသံထွက်ဖတ်ကြားပါ:" },
+        { id: "spe_int4_3", text: "The doctor wrote a new prescription.", instruction: "Read the doctor statement clearly:", instructionMM: "အောက်ပါ ဆရာဝန်ဆေးညွှန်းအကြောင်းကို ဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "A Balanced Lifestyle",
@@ -406,7 +590,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int4_1", question: "Rearrange the words: [exercise / should / regularly / you]", correct: "you should exercise regularly", prompt: "Translate: မင်း ပုံမှန် လေ့ကျင့်ခန်းလုပ်သင့်တယ်" }
+        { id: "wri_int4_1", question: "Rearrange the words: [exercise / should / regularly / you]", correct: "you should exercise regularly", prompt: "Translate: မင်း ပုံမှန် လေ့ကျင့်ခန်းလုပ်သင့်တယ်" },
+        { id: "wri_int4_2", question: "Rearrange the words: [wish / recovery / speedy / a / you / we]", correct: "we wish you a speedy recovery", prompt: "Translate: သင့်ကို မြန်မြန် နေကောင်းပါစေကြောင်း ဆုတောင်းပေးပါတယ်" },
+        { id: "wri_int4_3", question: "Rearrange the words: [nutrition / is / physical / key / to / health]", correct: "nutrition is key to physical health", prompt: "Translate: အာဟာရသည် ခန္ဓာကိုယ်ကျန်းမာရေးအတွက် သော့ချက်ဖြစ်ပါတယ်" }
       ]
     },
     {
@@ -423,10 +609,14 @@ export const LESSONS = {
         { word: "Trending", ipa: "/ˈtrendɪŋ/", mm: "ရေပန်းစားနေသော / ခေတ်စားသော", example: "What topics are trending on Twitter?", exampleMM: "တွစ်တာပေါ်မှာ ဘယ်အကြောင်းအရာတွေ ရေပန်းစားနေလဲ။" }
       ],
       listening: [
-        { id: "lis_int5_1", text: "Check your online privacy settings", audioText: "Check your online privacy settings", options: ["အင်တာနက်ကွန်ရက်ကို စစ်ဆေးပါ", "သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ", "အပလီကေးရှင်းကို ထည့်သွင်းပါ"], answer: "သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ" }
+        { id: "lis_int5_1", text: "Check your online privacy settings", audioText: "Check your online privacy settings", options: ["အင်တာနက်ကွန်ရက်ကို စစ်ဆေးပါ", "သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ", "အပလီကေးရှင်းကို ထည့်သွင်းပါ"], answer: "သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ" },
+        { id: "lis_int5_2", text: "Keep your mobile devices charged", audioText: "Keep your mobile devices charged", options: ["သင့်မိုဘိုင်းဖုန်း စက်ပစ္စည်းများကို အားသွင်းထားပါ", "အွန်လိုင်း တက်နေသည်", "ကွန်ရက် နှေးနေသည်"], answer: "သင့်မိုဘိုင်းဖုန်း စက်ပစ္စည်းများကို အားသွင်းထားပါ" },
+        { id: "lis_int5_3", text: "The internet network is very slow today", audioText: "The internet network is very slow today", options: ["ဒီနေ့ အင်တာနက်ကွန်ရက်က အရမ်းနှေးနေတယ်", "အပလီကေးရှင်းကို ထည့်သွင်းပါ", "တွစ်တာမှာ ခေတ်စားနေတယ်"], answer: "ဒီနေ့ အင်တာနက်ကွန်ရက်က အရမ်းနှေးနေတယ်" }
       ],
       speaking: [
-        { id: "spe_int5_1", text: "Technology connects people around the globe instantly.", instruction: "Speak this tech fact clearly:", instructionMM: "အောက်ပါ စာကြောင်းကို သဘာဝကျကျ ဖတ်ကြားပါ:" }
+        { id: "spe_int5_1", text: "Technology connects people around the globe instantly.", instruction: "Speak this tech fact clearly:", instructionMM: "အောက်ပါ စာကြောင်းကို သဘာဝကျကျ ဖတ်ကြားပါ:" },
+        { id: "spe_int5_2", text: "Check your online privacy settings carefully.", instruction: "Deliver this warning clearly:", instructionMM: "အောက်ပါ သတိပေးချက်ကို အသံထွက် ရှင်းလင်းစွာ ဖတ်ပါ:" },
+        { id: "spe_int5_3", text: "Install the language learning application now.", instruction: "Deliver this instruction clearly:", instructionMM: "အောက်ပါ ညွှန်ကြားချက်ကို ရှင်းလင်းစွာ ဖတ်ပါ:" }
       ],
       reading: {
         title: "The Digital Era",
@@ -439,7 +629,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int5_1", question: "Rearrange the words: [privacy / online / settings / check / your]", correct: "check your online privacy settings", prompt: "Translate: သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ" }
+        { id: "wri_int5_1", question: "Rearrange the words: [privacy / online / settings / check / your]", correct: "check your online privacy settings", prompt: "Translate: သင့်အွန်လိုင်း ကိုယ်ရေးကိုယ်တာ ဆက်တင်များကို စစ်ဆေးပါ" },
+        { id: "wri_int5_2", question: "Rearrange the words: [connected / people / connects / technology / instantly]", correct: "technology connects people instantly", prompt: "Translate: နည်းပညာသည် လူများကို ချက်ချင်း ချိတ်ဆက်ပေးပါတယ်" },
+        { id: "wri_int5_3", question: "Rearrange the words: [slow / network / is / very / today]", correct: "network is very slow today", prompt: "Translate: ကွန်ရက်သည် ဒီနေ့ အလွန်နှေးကွေးနေပါတယ်" }
       ]
     },
     {
@@ -456,10 +648,14 @@ export const LESSONS = {
         { word: "Bill", ipa: "/bɪl/", mm: "ဘေလ်စာရင်း", example: "Could we have the bill, please?", exampleMM: "ဘေလ်လေး ရှင်းပေးလို့ ရမလားခင်ဗျာ။" }
       ],
       listening: [
-        { id: "lis_int6_1", text: "May I see the menu, please", audioText: "May I see the menu, please", options: ["မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ", "ဘေလ် ရှင်းပေးပါ", "ပါစတာ မှာယူပါ"], answer: "မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ" }
+        { id: "lis_int6_1", text: "May I see the menu, please", audioText: "May I see the menu, please", options: ["မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ", "ဘေလ် ရှင်းပေးပါ", "ပါစတာ မှာယူပါ"], answer: "မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ" },
+        { id: "lis_int6_2", text: "Could we have the bill please", audioText: "Could we have the bill please", options: ["ဘေလ်လေး ရှင်းပေးလို့ ရမလားခင်ဗျာ", "ပင်မဟင်းလျာမှာပါ", "စားပွဲထိုးကို ခေါ်ပေးပါ"], answer: "ဘေလ်လေး ရှင်းပေးလို့ ရမလားခင်ဗျာ" },
+        { id: "lis_int6_3", text: "We ordered soup as an appetizer", audioText: "We ordered soup as an appetizer", options: ["ကျွန်တော်တို့ စွပ်ပြုတ်ကို အမြည်းဟင်းလျာအနေနဲ့ မှာခဲ့ကြတယ်", "စတိတ်ကို ကြိုက်တယ်", "ပါစတာမှာပါ"], answer: "ကျွန်တော်တို့ စွပ်ပြုတ်ကို အမြည်းဟင်းလျာအနေနဲ့ မှာခဲ့ကြတယ်" }
       ],
       speaking: [
-        { id: "spe_int6_1", text: "I would like to order the grilled fish, please.", instruction: "Order dinner politely:", instructionMM: "အောက်ပါ စားသောက်ဖွယ်ရာ မှာယူမှုကို ယဉ်ကျေးစွာ ပြောဆိုပါ:" }
+        { id: "spe_int6_1", text: "I would like to order the grilled fish, please.", instruction: "Order dinner politely:", instructionMM: "အောက်ပါ စားသောက်ဖွယ်ရာ မှာယူမှုကို ယဉ်ကျေးစွာ ပြောဆိုပါ:" },
+        { id: "spe_int6_2", text: "May I see the menu, please?", instruction: "Request the menu politely:", instructionMM: "အောက်ပါအတိုင်း ယဉ်ကျေးစွာ မီနူးစာရင်း တောင်းဆိုပါ:" },
+        { id: "spe_int6_3", text: "Could we have the bill, please?", instruction: "Request the bill politely:", instructionMM: "အောက်ပါအတိုင်း ယဉ်ကျေးစွာ ဘေလ်တောင်းဆိုပါ:" }
       ],
       reading: {
         title: "Dinner for Two",
@@ -472,7 +668,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int6_1", question: "Rearrange the words: [bill / we / please / have / the / could]", correct: "could we have the bill please", prompt: "Translate: ဘေလ်လေး ရှင်းပေးလို့ ရမလားခင်ဗျာ" }
+        { id: "wri_int6_1", question: "Rearrange the words: [bill / we / please / have / the / could]", correct: "could we have the bill please", prompt: "Translate: ဘေလ်လေး ရှင်းပေးလို့ ရမလားခင်ဗျာ" },
+        { id: "wri_int6_2", question: "Rearrange the words: [order / to / pasta / like / would / I]", correct: "I would like to order pasta", prompt: "Translate: ကျွန်တော် ပါစတာ တစ်ပွဲမှာချင်ပါတယ်" },
+        { id: "wri_int6_3", question: "Rearrange the words: [menu / see / I / please / may / the]", correct: "may I see the menu please", prompt: "Translate: မီနူးစာရင်းလေး ကြည့်လို့ရမလားခင်ဗျာ" }
       ]
     },
     {
@@ -480,7 +678,7 @@ export const LESSONS = {
       title: "Banking, Finance & Saving",
       titleMM: "ဘဏ်လုပ်ငန်း၊ ဘဏ္ဍာရေးနှင့် စုဆောင်းငွေ",
       description: "Learn how to open bank accounts, deposit/withdraw money, and transfer funds.",
-      descriptionMM: "ဘဏ်အကောင့်ဖွင့်ခြင်း၊ ငွေသွင်း/ငွေထုတ်ခြင်းနှင့် ငွေလွှဲပြောင်းခြင်းများကို လေ့လာပါ။",
+      descriptionMM: "ဘဏ်အကောင့်ဖွင့်ခြင်း၊ ငွေသွင်း/ငွေထုတ်ခြင်းနှင့် Ngweလွှဲပြောင်းခြင်းများကို လေ့လာပါ။",
       vocabulary: [
         { word: "Account", ipa: "/əˈkaʊnt/", mm: "ဘဏ်စာရင်း / အကောင့်", example: "I want to open a savings account.", exampleMM: "ကျွန်တော် စုငွေစာရင်းအကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်။" },
         { word: "Deposit", ipa: "/dɪˈpɒzɪt/", mm: "အပ်နှံငွေ / ငွေသွင်းသည်", example: "I need to deposit some cash today.", exampleMM: "ကျွန်တော် ဒီနေ့ ငွေအနည်းငယ် သွင်းဖို့လိုအပ်တယ်။" },
@@ -489,10 +687,14 @@ export const LESSONS = {
         { word: "Transfer", ipa: "/trænsˈfɜːr/", mm: "လွှဲပြောင်းသည်", example: "Can I transfer money online?", exampleMM: "ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား။" }
       ],
       listening: [
-        { id: "lis_int7_1", text: "Can I transfer money online", audioText: "Can I transfer money online", options: ["ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား", "အကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်", "ငွေထုတ်ယူပါ"], answer: "ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား" }
+        { id: "lis_int7_1", text: "Can I transfer money online", audioText: "Can I transfer money online", options: ["ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား", "အကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်", "ငွေထုတ်ယူပါ"], answer: "ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား" },
+        { id: "lis_int7_2", text: "I want to open a savings account", audioText: "I want to open a savings account", options: ["ကျွန်တော် စုငွေစာရင်းအကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်", "ငွေထုတ်ယူပါ", "အတိုးနှုန်း များသည်"], answer: "ကျွန်တော် စုငွေစာရင်းအကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်" },
+        { id: "lis_int7_3", text: "She went to the ATM to withdraw money", audioText: "She went to the ATM to withdraw money", options: ["သူမ ငွေထုတ်ဖို့ အေတီအမ်စက်ဆီ သွားခဲ့သည်", "ငွေသွင်းဖို့ သွားတယ်", "အွန်လိုင်းကနေ လွှဲခဲ့တယ်"], answer: "သူမ ငွေထုတ်ဖို့ အေတီအမ်စက်ဆီ သွားခဲ့သည်" }
       ],
       speaking: [
-        { id: "spe_int7_1", text: "I would like to deposit one hundred thousand kyats into my account.", instruction: "Perform a banking transaction:", instructionMM: "အောက်ပါ ငွေသွင်းခြင်း တောင်းဆိုမှုကို ဖတ်ကြားပါ:" }
+        { id: "spe_int7_1", text: "I would like to deposit one hundred thousand kyats into my account.", instruction: "Perform a banking transaction:", instructionMM: "အောက်ပါ ငွေသွင်းခြင်း တောင်းဆိုမှုကို ဖတ်ကြားပါ:" },
+        { id: "spe_int7_2", text: "Can I transfer money online using the application?", instruction: "Inquire about online transfer clearly:", instructionMM: "အွန်လိုင်းငွေလွှဲနိုင်မှုကို ရှင်းလင်းစွာ မေးမြန်းပါ:" },
+        { id: "spe_int7_3", text: "I want to open a savings account today.", instruction: "State banking request clearly:", instructionMM: "ဘဏ်အကောင့်ဖွင့်လိုမှုကို ရှင်းလင်းစွာ ပြောကြားပါ:" }
       ],
       reading: {
         title: "Managing Money",
@@ -505,7 +707,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int7_1", question: "Rearrange the words: [savings / open / want / a / account / to / I]", correct: "I want to open a savings account", prompt: "Translate: ကျွန်တော် စုငွေစာရင်းအကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်" }
+        { id: "wri_int7_1", question: "Rearrange the words: [savings / open / want / a / account / to / I]", correct: "I want to open a savings account", prompt: "Translate: ကျွန်တော် စုငွေစာရင်းအကောင့်တစ်ခု ဖွင့်ချင်ပါတယ်" },
+        { id: "wri_int7_2", question: "Rearrange the words: [transfer / online / can / money / I]", correct: "can I transfer money online", prompt: "Translate: ကျွန်တော် အွန်လိုင်းကနေ ငွေလွှဲလို့ရမလား" },
+        { id: "wri_int7_3", question: "Rearrange the words: [to / ATM / went / withdraw / she / the]", correct: "she went to the ATM to withdraw", prompt: "Translate: သူမ ငွေထုတ်ဖို့ အေတီအမ်စက်ဆီ သွားခဲ့ပါတယ်" }
       ]
     },
     {
@@ -523,10 +727,14 @@ export const LESSONS = {
         { word: "Access", ipa: "/ˈækses/", mm: "အသုံးပြုခွင့် ရယူသည်", example: "Members can access digital research databases.", exampleMM: "အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်။" }
       ],
       listening: [
-        { id: "lis_int8_1", text: "Members can access digital research databases", audioText: "Members can access digital research databases", options: ["အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်", "စာအုပ်များကို အချိန်မီ ပြန်ပေးပါ", "အလုပ်ရုံဆွေးနွေးပွဲကို တက်ရောက်ပါ"], answer: "အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်" }
+        { id: "lis_int8_1", text: "Members can access digital research databases", audioText: "Members can access digital research databases", options: ["အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်", "စာအုပ်များကို အချိန်မီ ပြန်ပေးပါ", "အလုပ်ရုံဆွေးနွေးပွဲကို တက်ရောက်ပါ"], answer: "အသင်းဝင်များသည် ဒစ်ဂျစ်တယ် သုတေသန ဒေတာဘေ့စ်များကို အသုံးပြုခွင့် ရရှိနိုင်ကြသည်" },
+        { id: "lis_int8_2", text: "You can borrow up to four books", audioText: "You can borrow up to four books", options: ["တစ်ကြိမ်လျှင် စာအုပ် လေးအုပ်အထိ ငှားရမ်းနိုင်ပါသည်", "အသင်းဝင်ကြေး ပေးဆောင်ပါ", "ဆွေးနွေးမှု တက်ကြွသည်"], answer: "တစ်ကြိမ်လျှင် စာအုပ် လေးအုပ်အထိ ငှားရမ်းနိုင်ပါသည်" },
+        { id: "lis_int8_3", text: "I attended a creative writing workshop", audioText: "I attended a creative writing workshop", options: ["ကျွန်တော် ဖန်တီးမှုရှိသော စာရေးခြင်းဆိုင်ရာ အလုပ်ရုံဆွေးနွေးပွဲတစ်ခု တက်ရောက်ခဲ့သည်", "အင်္ဂလိပ်စာကလပ် တက်ခဲ့သည်", "အွန်လိုင်းအရင်းအမြစ် ရှာဖွေပါ"], answer: "ကျွန်တော် ဖန်တီးမှုရှိသော စာရေးခြင်းဆိုင်ရာ အလုပ်ရုံဆွေးနွေးပွဲတစ်ခု တက်ရောက်ခဲ့သည်" }
       ],
       speaking: [
-        { id: "spe_int8_1", text: "I joined the American Center to access English speaking clubs.", instruction: "Explain your reasons for joining:", instructionMM: "အသင်းဝင်ရခြင်း အကြောင်းရင်းကို ပြောပြပါ:" }
+        { id: "spe_int8_1", text: "I joined the American Center to access English speaking clubs.", instruction: "Explain your reasons for joining:", instructionMM: "အသင်းဝင်ရခြင်း အကြောင်းရင်းကို ပြောပြပါ:" },
+        { id: "spe_int8_2", text: "The annual library membership fee is very reasonable.", instruction: "Explain membership pricing clearly:", instructionMM: "အသင်းဝင်ကြေး တန်ဖိုးကို ရှင်းလင်းစွာ ဖတ်ပြပါ:" },
+        { id: "spe_int8_3", text: "We had an active discussion in the English Club.", instruction: "Describe class activities clearly:", instructionMM: "အင်္ဂလိပ်စာကလပ် ဆွေးနွေးမှုကို ရှင်းလင်းစွာ ဖတ်ပြပါ:" }
       ],
       reading: {
         title: "A Productive Day at the American Center",
@@ -539,7 +747,126 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_int8_1", question: "Rearrange the words: [borrow / how / books / many / can / I]", correct: "how many books can I borrow", prompt: "Translate: ကျွန်တော် စာအုပ်ဘယ်နှအုပ် ငှားလို့ရမလဲ" }
+        { id: "wri_int8_1", question: "Rearrange the words: [borrow / how / books / many / can / I]", correct: "how many books can I borrow", prompt: "Translate: ကျွန်တော် စာအုပ်ဘယ်နှအုပ် ငှားလို့ရမလဲ" },
+        { id: "wri_int8_2", question: "Rearrange the words: [annual / fee / is / membership / reasonable / very]", correct: "annual membership fee is very reasonable", prompt: "Translate: နှစ်စဉ် အသင်းဝင်ကြေးက တကယ်ကို သင့်တင့်ပါတယ်" },
+        { id: "wri_int8_3", question: "Rearrange the words: [joined / speaking / clubs / access / to / I]", correct: "I joined to access speaking clubs", prompt: "Translate: စကားပြောကလပ်များကို တက်ရောက်ရန် ကျွန်တော် ဝင်ရောက်ခဲ့ပါတယ်" }
+      ]
+    },
+    {
+      id: "int_9",
+      title: "Adjectives, Adverbs & Comparison",
+      titleMM: "နာမဝိသေသန၊ ကြိယာဝိသေသနနှင့် နှိုင်းယှဉ်ခြင်း",
+      description: "Learn how to use descriptive adjectives, adverbs of manner, and compare things using comparative and superlative forms.",
+      descriptionMM: "ဖော်ပြချက်နာမဝိသေသနများ၊ ကြိယာဝိသေသနများနှင့် နှိုင်းယှဉ်ခြင်းပုံစံများ (comparative/superlative) အသုံးပြုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Describe", ipa: "/dɪˈkraɪb/", mm: "ဖော်ပြသည်", example: "Can you describe your new house?", exampleMM: "မင်းရဲ့အိမ်သစ်အကြောင်း ဖော်ပြပေးလို့ရမလား။" },
+        { word: "Compare", ipa: "/kəmˈpɛr/", mm: "နှိုင်းယှဉ်သည်", example: "Do not compare yourself to others.", exampleMM: "သင့်ကိုယ်သင် အခြားသူများနှင့် မနှိုင်းယှဉ်ပါနှင့်။" },
+        { word: "Adverb", ipa: "/ˈædvɜːrb/", mm: "ကြိယာဝိသေသန", example: "'Quickly' is an adverb of manner.", exampleMM: "'Quickly' သည် ကြိယာဝိသေသနတစ်ခုဖြစ်သည်။" },
+        { word: "Adjective", ipa: "/ˈædʒɪktɪv/", mm: "နာမဝိသေသန", example: "'Beautiful' is a descriptive adjective.", exampleMM: "'Beautiful' သည် ဖော်ပြချက် နာမဝိသေသနတစ်ခုဖြစ်သည်။" },
+        { word: "Degree", ipa: "/dɪˈɡriː/", mm: "အဆင့် / ဒီဂရီ", example: "This is the highest degree of comparison.", exampleMM: "ဒါဟာ နှိုင်းယှဉ်ခြင်းရဲ့ အမြင့်ဆုံးအဆင့် ဖြစ်ပါတယ်။" }
+      ],
+      listening: [
+        { id: "lis_int9_1", text: "Do not compare yourself to others", audioText: "Do not compare yourself to others", options: ["သင့်ကိုယ်သင် အခြားသူများနှင့် မနှိုင်းယှဉ်ပါနှင့်", "အိမ်အကြောင်း ဖော်ပြပါ", "ကြိယာဝိသေသနကို သုံးပါ"], answer: "သင့်ကိုယ်သင် အခြားသူများနှင့် မနှိုင်းယှဉ်ပါနှင့်" },
+        { id: "lis_int9_2", text: "Can you describe your new house", audioText: "Can you describe your new house", options: ["မင်းရဲ့အိမ်သစ်အကြောင်း ဖော်ပြပေးလို့ရမလား", "အိမ်သစ်ကို ဝယ်ခဲ့တယ်", "အိမ်က အလွန်လှပသည်"], answer: "မင်းရဲ့အိမ်သစ်အကြောင်း ဖော်ပြပေးလို့ရမလား" },
+        { id: "lis_int9_3", text: "Quickly is an adverb of manner", audioText: "Quickly is an adverb of manner", options: ["Quickly သည် ကြိယာဝိသေသနတစ်ခုဖြစ်သည်", "အလှအပကို ဖော်ပြသည်", "နှိုင်းယှဉ်ခြင်းအဆင့် ဖြစ်သည်"], answer: "Quickly သည် ကြိယာဝိသေသနတစ်ခုဖြစ်သည်" }
+      ],
+      speaking: [
+        { id: "spe_int9_1", text: "The new phone is much faster and more expensive than the old one.", instruction: "Read the comparison sentence aloud:", instructionMM: "အောက်ပါ နှိုင်းယှဉ်ဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_int9_2", text: "He speaks English fluently and writes clearly.", instruction: "Read the sentence containing adverbs:", instructionMM: "ကြိယာဝိသေသနများပါသော အောက်ပါဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_int9_3", text: "This is the most beautiful place in the city.", instruction: "Read the superlative sentence aloud:", instructionMM: "အောက်ပါ အမြင့်ဆုံးနှိုင်းယှဉ်မှု ဝါကျကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "Choosing a Smartphone",
+        titleMM: "စမတ်ဖုန်းတစ်လုံး ရွေးချယ်ခြင်း",
+        content: "Su Su wants to buy a new smartphone. She compares two models. The black model is larger and heavier than the blue one. However, the blue phone runs apps more quickly. The seller describes the features carefully. Finally, Su Su selects the blue phone because it is the most modern option.",
+        contentMM: "စုစုသည် စမတ်ဖုန်းအသစ်တစ်လုံး ဝယ်ချင်သည်။ သူမသည် မော်ဒယ်နှစ်မျိုးကို နှိုင်းယှဉ်သည်။ အမည်းရောင်မော်ဒယ်သည် အပြာရောင်မော်ဒယ်ထက် ပိုမိုကြီးမားပြီး လေးလံသည်။ သို့သော် အပြာရောင်ဖုန်းသည် အပလီကေးရှင်းများကို ပိုမိုမြန်ဆန်စွာ လုပ်ဆောင်နိုင်သည်။ ရောင်းသူက အင်္ဂါရပ်များကို ဂရုတစိုက် ဖော်ပြသည်။ နောက်ဆုံးတွင် စုစုသည် အပြာရောင်ဖုန်းကို အခေတ်မီဆုံးရွေးချယ်မှုဖြစ်သောကြောင့် ရွေးချယ်ခဲ့သည်။",
+        questions: [
+          { question: "Which phone runs apps more quickly?", options: ["The black model", "The blue model", "They are the same"], answer: "The blue model" },
+          { question: "Why did Su Su select the blue phone?", options: ["Because it is cheaper", "Because it is the most modern option", "Because it is heavier"], answer: "Because it is the most modern option" }
+        ]
+      },
+      writing: [
+        { id: "wri_int9_1", question: "Rearrange the words: [faster / than / is / blue / phone / the / black / the]", correct: "the blue phone is faster than the black", prompt: "Translate: အပြာရောင်ဖုန်းက အမည်းရောင်ထက် ပိုမြန်ပါတယ်" },
+        { id: "wri_int9_2", question: "Rearrange the words: [English / speaks / fluently / very / he]", correct: "he speaks English very fluently", prompt: "Translate: သူ အင်္ဂလိပ်စာကို အလွန်ချောမွေ့စွာ ပြောဆိုပါတယ်" },
+        { id: "wri_int9_3", question: "Rearrange the words: [most / this / option / is / the / modern]", correct: "this is the most modern option", prompt: "Translate: ဒါဟာ အခေတ်မီဆုံး ရွေးချယ်မှု ဖြစ်ပါတယ်" }
+      ]
+    },
+    {
+      id: "int_10",
+      title: "Present Perfect & Past Perfect Tenses",
+      titleMM: "ပစ္စုပ္ပန်ပြီးစီးနှင့် အတိတ်ပြီးစီးကာလများ",
+      description: "Learn how to express life experiences (Present Perfect) and actions completed before other past events (Past Perfect).",
+      descriptionMM: "ဘဝအတွေ့အကြုံများ (ပစ္စုပ္ပန်ပြီးစီး) နှင့် အတိတ်အဖြစ်အပျက်တစ်ခုမတိုင်မီ ပြီးစီးခဲ့သော လုပ်ရပ်များ (အတိတ်ပြီးစီး) အကြောင်း ဖော်ပြပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Experience", ipa: "/ɪkˈspɪəriəns/", mm: "အတွေ့အကြုံ", example: "Visiting Bagan was a great experience.", exampleMM: "ပုဂံသို့ သွားရောက်ခြင်းသည် ကောင်းမွန်သော အတွေ့အကြုံတစ်ခု ဖြစ်သည်။" },
+        { word: "Connection", ipa: "/kəˈnekʃn/", mm: "ဆက်စပ်မှု / အချိတ်အဆက်", example: "There is a strong connection between the events.", exampleMM: "အဖြစ်အပျက်များအကြား ခိုင်မာသော ဆက်စပ်မှုတစ်ခု ရှိသည်။" },
+        { word: "Perfect", ipa: "/ˈpɜːrfɪkt/", mm: "ပြီးစီးသော / ပြီးပြည့်စုံသော", example: "Practice makes perfect.", exampleMM: "အလေ့အကျင့်သည် ပြီးပြည့်စုံမှုကို ဖြစ်စေသည်။" },
+        { word: "Timeline", ipa: "/ˈtaɪmlaɪn/", mm: "အချိန်ကာလမျဉ်း", example: "We need a clear timeline for the project.", exampleMM: "ပရောဂျက်အတွက် ရှင်းလင်းသော အချိန်ဇယားမျဉ်းတစ်ခု လိုအပ်သည်။" },
+        { word: "Already", ipa: "/ɔːlˈredi/", mm: "ပြီးနှင့်ပြီ / ဖြစ်ပြီးသား", example: "I have already finished my dinner.", exampleMM: "ကျွန်တော် ညစာ စားပြီးနှင့်ပါပြီ။" }
+      ],
+      listening: [
+        { id: "lis_int10_1", text: "I have already finished my dinner", audioText: "I have already finished my dinner", options: ["ကျွန်တော် ညစာ စားပြီးနှင့်ပါပြီ", "မနက်စာ စားနေဆဲဖြစ်သည်", "ညစာ ချက်ပြုတ်နေသည်"], answer: "ကျွန်တော် ညစာ စားပြီးနှင့်ပါပြီ" },
+        { id: "lis_int10_2", text: "Practice makes perfect", audioText: "Practice makes perfect", options: ["အလေ့အကျင့်သည် ပြီးပြည့်စုံမှုကို ဖြစ်စေသည်", "အတွေ့အကြုံ ကောင်းသည်", "အချိန်ဇယား ရေးဆွဲပါ"], answer: "အလေ့အကျင့်သည် ပြီးပြည့်စုံမှုကို ဖြစ်စေသည်" },
+        { id: "lis_int10_3", text: "There is a strong connection", audioText: "There is a strong connection", options: ["ခိုင်မာသော ဆက်စပ်မှုတစ်ခု ရှိသည်", "ခရီးစဉ်အသစ် စတင်သည်", "အကောင့်တစ်ခု ဖွင့်ခဲ့သည်"], answer: "ခိုင်မာသော ဆက်စပ်မှုတစ်ခု ရှိသည်" }
+      ],
+      speaking: [
+        { id: "spe_int10_1", text: "I have lived in Yangon for five years, but before that, I had studied in Mandalay.", instruction: "Read the comparative perfect tense sentence aloud:", instructionMM: "အောက်ပါ ပြီးစီးကာလနှစ်ခု နှိုင်းယှဉ်ဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_int10_2", text: "He had already left when the meeting started.", instruction: "Read the past perfect example aloud:", instructionMM: "အောက်ပါ အတိတ်ပြီးစီးကာလဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_int10_3", text: "Have you ever traveled to another country?", instruction: "Ask the experience question aloud:", instructionMM: "အောက်ပါ အတွေ့အကြုံမေးခွန်းကို အသံထွက်မေးမြန်းပါ:" }
+      ],
+      reading: {
+        title: "The World Traveler",
+        titleMM: "ကမ္ဘာလှည့် ခရီးသည်",
+        content: "Ko Ko is a passionate traveler. He has visited fifteen countries so far. Before he turned thirty, he had already climbed Mt. Fuji and explored ancient ruins in Rome. He enjoys sharing his travel experiences because they connect him with diverse cultures globally.",
+        contentMM: "ကိုကိုသည် ခရီးသွား ဝါသနာပါသူတစ်ဦးဖြစ်သည်။ သူသည် ယခုအချိန်အထိ ဆယ့်ငါးနိုင်ငံသို့ သွားရောက်လည်ပတ်ခဲ့ပြီးဖြစ်သည်။ အသက်သုံးဆယ်မပြည့်မီကပင် သူသည် ဖူဂျီတောင်သို့ တက်ရောက်ခဲ့ပြီးဖြစ်ကာ ရောမမြို့ရှိ ရှေးဟောင်းအပျက်အစီးများကို စူးစမ်းရှာဖွေခဲ့ပြီးဖြစ်သည်။ သူသည် သူ၏ခရီးသွားအတွေ့အကြုံများကို ကမ္ဘာတစ်ဝန်းရှိ မတူကွဲပြားသော ယဉ်ကျေးမှုများနှင့် ချိတ်ဆက်ပေးသောကြောင့် မျှဝေခြင်းကို နှစ်သက်သည်။",
+        questions: [
+          { question: "How many countries has Ko Ko visited so far?", options: ["Ten", "Fifteen", "Twenty"], answer: "Fifteen" },
+          { question: "What had Ko Ko done before he turned thirty?", options: ["Bought a new house", "Climbed Mt. Fuji and visited Rome", "Graduated from university"], answer: "Climbed Mt. Fuji and visited Rome" }
+        ]
+      },
+      writing: [
+        { id: "wri_int10_1", question: "Rearrange the words: [lived / Yangon / in / have / five / years / for / I]", correct: "I have lived in Yangon for five years", prompt: "Translate: ကျွန်တော် ရန်ကုန်မှာ နေထိုင်ခဲ့တာ ငါးနှစ်ရှိပါပြီ" },
+        { id: "wri_int10_2", question: "Rearrange the words: [already / left / he / had / before]", correct: "he had already left before", prompt: "Translate: သူ မတိုင်မီကပင် ထွက်ခွာသွားခဲ့ပြီးဖြစ်သည်" },
+        { id: "wri_int10_3", question: "Rearrange the words: [visited / countries / has / fifteen / he]", correct: "he has visited fifteen countries", prompt: "Translate: သူ ဆယ့်ငါးနိုင်ငံသို့ သွားရောက်လည်ပတ်ခဲ့ပြီးဖြစ်သည်" }
+      ]
+    },
+    {
+      id: "int_11",
+      title: "Modal Verbs & Conjunctions",
+      titleMM: "အကူကြိယာများနှင့် စကားစပ်များ",
+      description: "Master standard auxiliary modals (must, should, can, have to) and coordinating conjunctions (although, because, however).",
+      descriptionMM: "အခြေခံ အကူကြိယာများ (must, should, can) နှင့် ဝါကျချိတ်ဆက်မှု စကားစပ်များ (although, because) ကို ကျွမ်းကျင်စွာ အသုံးပြုပါ။",
+      vocabulary: [
+        { word: "Ability", ipa: "/əˈbɪləti/", mm: "စွမ်းဆောင်နိုင်ရည် / တတ်နိုင်စွမ်း", example: "He has the ability to speak three languages.", exampleMM: "သူ့တွင် ဘာသာစကားသုံးမျိုး ပြောနိုင်စွမ်းရှိသည်။" },
+        { word: "Obligation", ipa: "/ˌɑːblɪˈɡeɪʃn/", mm: "တာဝန်ရှိမှု / မဖြစ်မနေလုပ်ရမည့်အရာ", example: "We have an obligation to help others.", exampleMM: "ကျွန်ုပ်တို့တွင် အခြားသူများကို ကူညီရန် တာဝန်ရှိသည်။" },
+        { word: "Permission", ipa: "/pərˈmɪʃn/", mm: "ခွင့်ပြုချက်", example: "You must ask for permission first.", exampleMM: "သင် ဦးစွာ ခွင့်ပြုချက်တောင်းရမည်။" },
+        { word: "Conjunction", ipa: "/kənˈdʒʌŋkʃn/", mm: "စကားစပ်", example: "Conjunctions join words or sentences.", exampleMM: "စကားစပ်များသည် စကားလုံး သို့မဟုတ် ဝါကျများကို ချိတ်ဆက်ပေးသည်။" },
+        { word: "Contrast", ipa: "/ˈkɑːntræst/", mm: "ဆန့်ကျင်ဘက် / ခြားနားချက်", example: "His actions contrast with his words.", exampleMM: "သူ၏ လုပ်ဆောင်ချက်များသည် သူ၏ စကားလုံးများနှင့် ဆန့်ကျင်ဘက် ဖြစ်နေသည်။" }
+      ],
+      listening: [
+        { id: "lis_int11_1", text: "You must ask for permission first", audioText: "You must ask for permission first", options: ["သင် ဦးစွာ ခွင့်ပြုချက်တောင်းရမည်", "ဘာသာစကား သုံးမျိုး ပြောနိုင်သည်", "ဝါကျများကို ချိတ်ဆက်ပါ"], answer: "သင် ဦးစွာ ခွင့်ပြုချက်တောင်းရမည်" },
+        { id: "lis_int11_2", text: "Conjunctions join words or sentences", audioText: "Conjunctions join words or sentences", options: ["စကားစပ်များသည် စကားလုံး သို့မဟုတ် ဝါကျများကို ချိတ်ဆက်ပေးသည်", "တာဝန်ရှိမှု ရှိသည်", "ဆန့်ကျင်ဘက် ဖြစ်နေသည်"], answer: "စကားစပ်များသည် စကားလုံး သို့မဟုတ် ဝါကျများကို ချိတ်ဆက်ပေးသည်" },
+        { id: "lis_int11_3", text: "He has the ability to speak three languages", audioText: "He has the ability to speak three languages", options: ["သူ့တွင် ဘာသာစကားသုံးမျိုး ပြောနိုင်စွမ်းရှိသည်", "အခြားသူများကို ကူညီပါ", "ခွင့်ပြုချက် ရခဲ့သည်"], answer: "သူ့တွင် ဘာသာစကားသုံးမျိုး ပြောနိုင်စွမ်းရှိသည်" }
+      ],
+      speaking: [
+        { id: "spe_int11_1", text: "You must wear a helmet at the site, although you can remove it in the office.", instruction: "Read the sentence with modal verbs and conjunctions aloud:", instructionMM: "အကူကြိယာနှင့် စကားစပ်ပါသော အောက်ပါဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_int11_2", text: "She can play piano, but she cannot play violin.", instruction: "Read the ability sentence aloud:", instructionMM: "အောက်ပါ စွမ်းရည်ပြဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_int11_3", text: "You should consult a doctor if the symptom persists.", instruction: "Read the advice sentence aloud:", instructionMM: "အောက်ပါ အကြံပေးဝါကျကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "Safety Rules at Work",
+        titleMM: "လုပ်ငန်းခွင် ဘေးကင်းရေး စည်းကမ်းချက်များ",
+        content: "Employees must follow safety rules because they protect lives. Workers should wear protective gear, although they can take breaks when necessary. If an emergency occurs, they must exit the building immediately. However, they should remain calm and wait for instructions.",
+        contentMM: "ဘေးကင်းရေး စည်းကမ်းချက်များသည် အသက်အန္တရာယ်ကို ကာကွယ်ပေးသောကြောင့် ဝန်ထမ်းများသည် ၎င်းတို့ကို လိုက်နာရမည်ဖြစ်သည်။ အလုပ်သမားများသည် ကာကွယ်ရေးဝတ်စုံများကို ဝတ်ဆင်သင့်သော်လည်း လိုအပ်ပါက အနားယူနိုင်သည်။ အရေးပေါ်အခြေအနေ ဖြစ်ပေါ်ပါက ၎င်းတို့သည် အဆောက်အအုံပြင်ပသို့ ချက်ချင်းထွက်ခွာရမည်။ သို့သော် ၎င်းတို့သည် တည်ငြိမ်စွာရှိနေသင့်ပြီး လမ်းညွှန်ချက်များကို စောင့်ဆိုင်းရမည်။",
+        questions: [
+          { question: "Why must employees follow safety rules?", options: ["Because they protect lives", "Because the manager forces them", "To earn more money"], answer: "Because they protect lives" },
+          { question: "What must workers do during an emergency?", options: ["Call their friends", "Exit the building immediately", "Drink coffee"], answer: "Exit the building immediately" }
+        ]
+      },
+      writing: [
+        { id: "wri_int11_1", question: "Rearrange the words: [helmet / wear / must / you / site / at / the]", correct: "you must wear helmet at the site", prompt: "Translate: သင် လုပ်ငန်းခွင်တွင် ဦးထုပ်ဆောင်းရမည်" },
+        { id: "wri_int11_2", question: "Rearrange the words: [ask / permission / for / first / must / you]", correct: "you must ask for permission first", prompt: "Translate: သင် ပထမဦးစွာ ခွင့်ပြုချက်တောင်းခံရမည်" },
+        { id: "wri_int11_3", question: "Rearrange the words: [languages / three / speak / to / ability / has / he]", correct: "he has ability to speak three languages", prompt: "Translate: သူ့တွင် ဘာသာစကား သုံးမျိုးပြောနိုင်စွမ်းရှိသည်" }
       ]
     }
   ],
@@ -560,10 +887,14 @@ export const LESSONS = {
         { word: "Accountable", ipa: "/əˈkaʊntəbl/", mm: "တာဝန်ခံမှုရှိသော / တာဝန်ရှိသော", example: "Carbon emitters must be held financially accountable.", exampleMM: "ကာဗွန်ထုတ်လွှတ်သူများကို ငွေကြေးအရ တာဝန်ခံစေရမည်။" }
       ],
       listening: [
-        { id: "lis_adv1_1", text: "Deforestation threatens global biodiversity", audioText: "Deforestation threatens global biodiversity", options: ["သစ်တောစိုက်ပျိုးခြင်းက ပတ်ဝန်းကျင်ကို ကာကွယ်ပေးတယ်", "သစ်တောပြုန်းတီးမှုသည် ကမ္ဘာလုံးဆိုင်ရာ ဇီဝမျိုးစုံမျိုးကွဲများကို ခြိမ်းခြောက်နေသည်", "ကာဗွန်ထုတ်လွှတ်မှုကို လျှော့ချရန် လိုအပ်သည်"], answer: "သစ်တောပြုန်းတီးမှုသည် ကမ္ဘာလုံးဆိုင်ရာ ဇီဝမျိုးစုံမျိုးကွဲများကို ခြိမ်းခြောက်နေသည်" }
+        { id: "lis_adv1_1", text: "Deforestation threatens global biodiversity", audioText: "Deforestation threatens global biodiversity", options: ["သစ်တောစိုက်ပျိုးခြင်းက ပတ်ဝန်းကျင်ကို ကာကွယ်ပေးတယ်", "သစ်တောပြုန်းတီးမှုသည် ကမ္ဘာလုံးဆိုင်ရာ ဇီဝမျိုးစုံမျိုးကွဲများကို ခြိမ်းခြောက်နေသည်", "ကာဗွန်ထုတ်လွှတ်မှုကို လျှော့ချရန် လိုအပ်သည်"], answer: "သစ်တောပြုန်းတီးမှုသည် ကမ္ဘာလုံးဆိုင်ရာ ဇီဝမျိုးစုံမျိုးကွဲများကို ခြိမ်းခြောက်နေသည်" },
+        { id: "lis_adv1_2", text: "Solar power is a clean renewable resource", audioText: "Solar power is a clean renewable resource", options: ["နေရောင်ခြည်စွမ်းအင်သည် သန့်ရှင်းပြီး ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်ဖြစ်သည်", "ဂေဟစနစ် အကျပ်အတည်း ဖြစ်နေသည်", "ရေရှည်တည်တံ့မှုကို တိုးမြှင့်ပါ"], answer: "နေရောင်ခြည်စွမ်းအင်သည် သန့်ရှင်းပြီး ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်ဖြစ်သည်" },
+        { id: "lis_adv1_3", text: "The region is facing an ecological crisis", audioText: "The region is facing an ecological crisis", options: ["ထိုဒေသသည် ဂေဟစနစ်ဆိုင်ရာ အကျပ်အတည်းတစ်ခုနှင့် ရင်ဆိုင်နေရသည်", "ကာဗွန်ထုတ်လွှတ်မှုကို တာဝန်ယူပါ", "သစ်တောများ ပြုန်းတီးနေသည်"], answer: "ထိုဒေသသည် ဂေဟစနစ်ဆိုင်ရာ အကျပ်အတည်းတစ်ခုနှင့် ရင်ဆိုင်နေရသည်" }
       ],
       speaking: [
-        { id: "spe_adv1_1", text: "Urgent global action is required to mitigate the devastating effects of industrial pollution.", instruction: "Speak with appropriate professional emphasis:", instructionMM: "အောက်ပါ စကားရပ်ကို ကျွမ်းကျင်ပိုင်နိုင်စွာ အလေးအနက်ပြု၍ ဖတ်ပါ:" }
+        { id: "spe_adv1_1", text: "Urgent global action is required to mitigate the devastating effects of industrial pollution.", instruction: "Speak with appropriate professional emphasis:", instructionMM: "အောက်ပါ စကားရပ်ကို ကျွမ်းကျင်ပိုင်နိုင်စွာ အလေးအနက်ပြု၍ ဖတ်ပါ:" },
+        { id: "spe_adv1_2", text: "Electric vehicles are a more eco-friendly choice for urban transportation.", instruction: "Read the green tech statement clearly:", instructionMM: "အောက်ပါ စိမ်းလန်းသောနည်းပညာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ကြားပါ:" },
+        { id: "spe_adv1_3", text: "We must hold carbon emitters financially accountable.", instruction: "Read the regulatory policy statement aloud:", instructionMM: "အောက်ပါ စည်းမျဉ်းမူဝါဒ ဖော်ပြချက်ကို အသံထွက်ဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "The Imperative of Green Technology",
@@ -576,7 +907,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv1_1", question: "Rearrange the words: [mitigate / steps / to / emissions / taken / carbon / must / be]", correct: "steps must be taken to mitigate carbon emissions", prompt: "Translate: ကာဗွန်ထုတ်လွှတ်မှုကို လျှော့ချသက်သာစေရန် ခြေလှမ်းများ လုပ်ဆောင်ရမည်" }
+        { id: "wri_adv1_1", question: "Rearrange the words: [mitigate / steps / to / emissions / taken / carbon / must / be]", correct: "steps must be taken to mitigate carbon emissions", prompt: "Translate: ကာဗွန်ထုတ်လွှတ်မှုကို လျှော့ချသက်သာစေရန် ခြေလှမ်းများ လုပ်ဆောင်ရမည်" },
+        { id: "wri_adv1_2", question: "Rearrange the words: [biodiversity / global / threatens / forest / deforestation / loss]", correct: "deforestation threatens global biodiversity", prompt: "Translate: သစ်တောပြုန်းတီးမှုသည် ကမ္ဘာလုံးဆိုင်ရာ ဇီဝမျိုးစုံမျိုးကွဲများကို ခြိမ်းခြောက်နေသည်" },
+        { id: "wri_adv1_3", question: "Rearrange the words: [renewable / is / power / resource / clean / solar]", correct: "solar power is clean renewable resource", prompt: "Translate: နေရောင်ခြည်စွမ်းအင်သည် သန့်ရှင်းသော ပြန်လည်ပြည့်ဖြိုးမြဲ စွမ်းအင်ဖြစ်သည်" }
       ]
     },
     {
@@ -589,14 +922,18 @@ export const LESSONS = {
         { word: "Acquisition", ipa: "/ˌækwɪˈzɪʃn/", mm: "ဝယ်ယူပိုင်ဆိုင်ခြင်း / ပေါင်းစည်းခြင်း", example: "The company announced its latest tech acquisition.", exampleMM: "ကုမ္ပဏီက ၎င်းတို့၏ နောက်ဆုံး နည်းပညာကုမ္ပဏီ ဝယ်ယူပိုင်ဆိုင်မှုကို ကြေညာခဲ့သည်။" },
         { word: "Consensus", ipa: "/kənˈsensəs/", mm: "ဘုံသဘောတူညီချက်", example: "The board members reached a consensus on the plan.", exampleMM: "ဒါရိုက်တာဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်။" },
         { word: "Leverage", ipa: "/ˈliːvərɪdʒ/", mm: "အခွင့်ကောင်းယူအသုံးချသည် / အရှိန်မြှင့်တင်သည်", example: "We must leverage our existing client relationships.", exampleMM: "ကျွန်ုပ်တို့သည် လက်ရှိဖောက်သည်များနှင့် ရင်းနှီးမှုကို အခွင့်ကောင်းယူ အသုံးချရမည်။" },
-        { word: "Revenue", ipa: "/ˈrevənjuː/", mm: "ဝင်ငွေ / ဘဏ္ဍာငွေ", example: "Annual revenue grew by fifteen percent.", exampleMM: "နှစ်စဉ်ဝင်ငွေသည် တစ်ဆယ့်ငါးရာခိုင်နှုန်း တိုးတက်လာခဲ့သည်။" },
+        { word: "Revenue", ipa: "/ˈrevənjuː/", mm: "ဝင်ငွေ / ဘဏ္ဍာငွေ", example: "Annual revenue grew by fifteen percent.", exampleMM: "နှစ်စဉ်ဝင်ငွေသည် တစ်ဆယ့်ငါးရာခိုင်နှုန်း တိုတက်လာခဲ့သည်။" },
         { word: "Synergy", ipa: "/ˈsɪnөрдʒi/", mm: "ပူးပေါင်းဆောင်ရွက်မှု အကျိုးသက်ရောက်မှု", example: "The merger created strong operational synergy.", exampleMM: "ကုမ္ပဏီနှစ်ခု ပေါင်းစည်းခြင်းကြောင့် အလွန်ကောင်းမွန်သော ပူးပေါင်းလုပ်ဆောင်မှု အကျိုးသက်ရောက်မှုကို ရရှိစေခဲ့သည်။" }
       ],
       listening: [
-        { id: "lis_adv2_1", text: "The board members reached a consensus on the plan", audioText: "The board members reached a consensus on the plan", options: ["ဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်", "နှစ်စဉ်ဝင်ငွေသည် ဆယ့်ငါးရာခိုင်နှုန်း တိုးတက်လာသည်", "ကုမ္ပဏီနှစ်ခု ပေါင်းစည်းခဲ့သည်"], answer: "ဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်" }
+        { id: "lis_adv2_1", text: "The board members reached a consensus on the plan", audioText: "The board members reached a consensus on the plan", options: ["ဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်", "နှစ်စဉ်ဝင်ငွေသည် ဆယ့်ငါးရာခိုင်နှုန်း တိုးတက်လာသည်", "ကုမ္ပဏီနှစ်ခု ပေါင်းစည်းခဲ့သည်"], answer: "ဘုတ်အဖွဲ့ဝင်များသည် အစီအစဉ်အပေါ် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်" },
+        { id: "lis_adv2_2", text: "Annual revenue grew by fifteen percent", audioText: "Annual revenue grew by fifteen percent", options: ["နှစ်စဉ်ဝင်ငွေသည် ဆယ့်ငါးရာခိုင်နှုန်း တိုးတက်လာသည်", "နည်းပညာကုမ္ပဏီ ဝယ်ယူခဲ့သည်", "ပူးပေါင်းဆောင်ရွက်မှုက ခိုင်မာသည်"], answer: "နှစ်စဉ်ဝင်ငွေသည် ဆယ့်ငါးရာခိုင်နှုန်း တိုးတက်လာသည်" },
+        { id: "lis_adv2_3", text: "We must leverage our existing client relationships", audioText: "We must leverage our existing client relationships", options: ["ကျွန်ုပ်တို့သည် လက်ရှိဖောက်သည်များနှင့် ရင်းနှီးမှုကို အခွင့်ကောင်းယူ အသုံးချရမည်", "သဘောတူညီချက် ရရှိခဲ့ကြသည်", "စရိတ်စကများ လျှော့ချခဲ့သည်"], answer: "ကျွန်ုပ်တို့သည် လက်ရှိဖောက်သည်များနှင့် ရင်းနှီးမှုကို အခွင့်ကောင်းယူ အသုံးချရမည်" }
       ],
       speaking: [
-        { id: "spe_adv2_1", text: "Effective leaders delegate authority and foster collaborative synergies.", instruction: "Speak with authoritative corporate emphasis:", instructionMM: "အောက်ပါ စီးပွားရေးဆိုင်ရာ စာကြောင်းကို လေးနက်စွာ ဖတ်ကြားပါ:" }
+        { id: "spe_adv2_1", text: "Effective leaders delegate authority and foster collaborative synergies.", instruction: "Speak with authoritative corporate emphasis:", instructionMM: "အောက်ပါ စီးပွားရေးဆိုင်ရာ စာကြောင်းကို လေးနက်စွာ ဖတ်ကြားပါ:" },
+        { id: "spe_adv2_2", text: "The merger created strong operational synergy across teams.", instruction: "Read the strategic merger statement clearly:", instructionMM: "အောက်ပါ မဟာဗျူဟာမြောက် ပေါင်းစည်းရေး ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv2_3", text: "The company announced its latest tech acquisition in Asia.", instruction: "Read the corporate announcement aloud:", instructionMM: "အောက်ပါ ကော်ပိုရိတ် ကြေညာချက်ကို အသံထွက်ဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "The Logic of Mergers",
@@ -609,7 +946,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv2_1", question: "Rearrange the words: [reached / a / board / consensus / the / members]", correct: "the board members reached a consensus", prompt: "Translate: ဒါရိုက်တာဘုတ်အဖွဲ့ဝင်များသည် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်" }
+        { id: "wri_adv2_1", question: "Rearrange the words: [reached / a / board / consensus / the / members]", correct: "the board members reached a consensus", prompt: "Translate: ဒါရိုက်တာဘုတ်အဖွဲ့ဝင်များသည် ဘုံသဘောတူညီချက် ရရှိခဲ့ကြသည်" },
+        { id: "wri_adv2_2", question: "Rearrange the words: [merger / created / strong / operational / synergy / the]", correct: "the merger created strong operational synergy", prompt: "Translate: ပေါင်းစည်းခြင်းက ခိုင်မာသော လုပ်ငန်းဆိုင်ရာ ပူးပေါင်းမှု အကျိုးသက်ရောက်မှုကို ဖန်တီးခဲ့သည်" },
+        { id: "wri_adv2_3", question: "Rearrange the words: [must / leverage / client / relationships / existing / we]", correct: "we must leverage existing client relationships", prompt: "Translate: ကျွန်ုပ်တို့သည် လက်ရှိဖောက်သည်များနှင့် ဆက်ဆံရေးကို အသုံးချရမည်" }
       ]
     },
     {
@@ -626,10 +965,14 @@ export const LESSONS = {
         { word: "Cognitive", ipa: "/ˈkɒɡnətɪv/", mm: "သိမြင်မှုဆိုင်ရာ / ဦးနှောက်၏လုပ်ဆောင်မှုဆိုင်ရာ", example: "Cognitive development is fast in early childhood.", exampleMM: "အစောပိုင်း ကလေးဘဝတွင် သိမြင်မှုဆိုင်ရာ ဖွံ့ဖြိုးမှုသည် မြန်ဆန်သည်။" }
       ],
       listening: [
-        { id: "lis_adv3_1", text: "Try to understand the problem from his perspective", audioText: "Try to understand the problem from his perspective", options: ["ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ရန် ကြိုးစားပါ", "ပန်းချီကားများ၏ အဓိပ္ပာယ်ကို အနက်ဖွင့်ဆိုပါ", "အစောပိုင်း ကလေးဘဝတွင် ဖွံ့ဖြိုးမှု မြန်ဆန်သည်"], answer: "ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ရန် ကြိုးစားပါ" }
+        { id: "lis_adv3_1", text: "Try to understand the problem from his perspective", audioText: "Try to understand the problem from his perspective", options: ["ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ရန် ကြိုးစားပါ", "ပန်းချီကားများ၏ အဓိပ္ပာယ်ကို အနက်ဖွင့်ဆိုပါ", "အစောပိုင်း ကလေးဘဝတွင် ဖွံ့ဖြိုးမှု မြန်ဆန်သည်"], answer: "ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ရန် ကြိုးစားပါ" },
+        { id: "lis_adv3_2", text: "The building has a modern aesthetic value", audioText: "The building has a modern aesthetic value", options: ["ဤအဆောက်အအုံသည် ခေတ်မီသောအလှအပ တန်ဖုံရှိသည်", "ဘဝရဲ့ အဓိပ္ပာယ်ကို ရှာဖွေပါ", "ကလေးဘဝ ဖွံ့ဖြိုးမှုသည် မြန်ဆန်သည်"], answer: "ဤအဆောက်အအုံသည် ခေတ်မီသောအလှအပ တန်ဖုံရှိသည်" },
+        { id: "lis_adv3_3", text: "Existential questions help us find meaning", audioText: "Existential questions help us find meaning", options: ["ဖြစ်တည်မှုဆိုင်ရာ မေးခွန်းများသည် ဘဝ၏ အဓိပ္ပာယ်ကို ရှာဖွေရန် အထောက်အကူပြုသည်", "ရှုထောင့်ကို ပြောင်းလဲပါ", "ဝေဖန်ပိုင်းခြား တွေးခေါ်ပါ"], answer: "ဖြစ်တည်မှုဆိုင်ရာ မေးခွန်းများသည် ဘဝ၏ အဓိပ္ပာယ်ကို ရှာဖွေရန် အထောက်အကူပြုသည်" }
       ],
       speaking: [
-        { id: "spe_adv3_1", text: "Aesthetics and existential analysis define contemporary philosophy.", instruction: "Speak with intellectual cadence:", instructionMM: "အောက်ပါ စာကြောင်းကို ဒဿနိကဗေဒဆိုင်ရာ အသံထွက်ဟန်ဖြင့် ဖတ်ပါ:" }
+        { id: "spe_adv3_1", text: "Aesthetics and existential analysis define contemporary philosophy.", instruction: "Speak with intellectual cadence:", instructionMM: "အောက်ပါ စာကြောင်းကို ဒဿနိကဗေဒဆိုင်ရာ အသံထွက်ဟန်ဖြင့် ဖတ်ပါ:" },
+        { id: "spe_adv3_2", text: "Try to understand the problem from his perspective.", instruction: "Read the analytical guidance clearly:", instructionMM: "အောက်ပါ ဝေဖန်ဆန်းစစ်မှု လမ်းညွှန်ချက်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv3_3", text: "Art critics interpret the meaning of abstract paintings.", instruction: "Read the art criticism statement clearly:", instructionMM: "အောက်ပါ အနုပညာဝေဖန်မှုဆိုင်ရာ ဝါကျကို အသံထွက်ဖတ်ပါ:" }
       ],
       reading: {
         title: "The Interpretation of Modern Art",
@@ -642,7 +985,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv3_1", question: "Rearrange the words: [understand / from / perspective / his / the / problem]", correct: "understand the problem from his perspective", prompt: "Translate: ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ပါ" }
+        { id: "wri_adv3_1", question: "Rearrange the words: [understand / from / perspective / his / the / problem]", correct: "understand the problem from his perspective", prompt: "Translate: ပြဿနာကို သူ၏ရှုထောင့်မှ နားလည်ပါ" },
+        { id: "wri_adv3_2", question: "Rearrange the words: [questions / find / existential / help / meaning / us]", correct: "existential questions help us find meaning", prompt: "Translate: ဖြစ်တည်မှုဆိုင်ရာ မေးခွန်းများက ကျွန်ုပ်တို့ကို အဓိပ္ပာယ်ရှာဖွေရန် ကူညီပေးသည်" },
+        { id: "wri_adv3_3", question: "Rearrange the words: [modern / building / has / a / aesthetic / the]", correct: "the building has a modern aesthetic", prompt: "Translate: ဤအဆောက်အအုံသည် ခေတ်မီဆန်းသစ်သော အလှအပတန်ဖိုး ရှိသည်" }
       ]
     },
     {
@@ -659,10 +1004,14 @@ export const LESSONS = {
         { word: "Capital", ipa: "/ˈkæpɪtl/", mm: "အရင်းအနှီး / မတည်ငွေ", example: "We need more venture capital to scale our startup.", exampleMM: "ကျွန်ုပ်တို့၏ လုပ်ငန်းသစ်ကို ချဲ့ထွင်ရန် အရင်းအနှီး ပိုမိုလိုအပ်သည်။" }
       ],
       listening: [
-        { id: "lis_adv4_1", text: "Inflation reduces the purchasing power of money", audioText: "Inflation reduces the purchasing power of money", options: ["ငွေဖောင်းပွမှုက ငွေကြေးရဲ့ ဝယ်ယူနိုင်စွမ်းကို လျှော့ချပေးတယ်", "အိမ်ခြံမြေက ရေရှည်ပိုင်ဆိုင်မှု ဖြစ်တယ်", "ချေးငွေကြွေးမြီက ပေးရန်တာဝန် ဖြစ်တယ်"], answer: "ငွေဖောင်းပွမှုက ငွေကြေးရဲ့ ဝယ်ယူနိုင်စွမ်းကို လျှော့ချပေးတယ်" }
+        { id: "lis_adv4_1", text: "Inflation reduces the purchasing power of money", audioText: "Inflation reduces the purchasing power of money", options: ["ငွေဖောင်းပွမှုက ငွေကြေးရဲ့ ဝယ်ယူနိုင်စွမ်းကို လျှော့ချပေးတယ်", "အိမ်ခြံမြေက ရေရှည်ပိုင်ဆိုင်မှု ဖြစ်တယ်", "ချေးငွေကြွေးမြီက ပေးရန်တာဝန် ဖြစ်တယ်"], answer: "ငွေဖောင်းပွမှုက ငွေကြေးရဲ့ ဝယ်ယူနိုင်စွမ်းကို လျှော့ချပေးတယ်" },
+        { id: "lis_adv4_2", text: "Real estate is a solid long term asset", audioText: "Real estate is a solid long term asset", options: ["အိမ်ခြံမြေသည် ခိုင်မာသော ရေရှည်ပိုင်ဆိုင်မှု ဖြစ်သည်", "ချေးငွေကြွေးမြီသည် ကြီးမားသည်", "ရင်းနှီးမြှုပ်နှံမှု အရင်းအနှီး လိုအပ်သည်"], answer: "အိမ်ခြံမြေသည် ခိုင်မာသော ရေရှည်ပိုင်ဆိုင်မှု ဖြစ်သည်" },
+        { id: "lis_adv4_3", text: "The country is struggling to recover", audioText: "The country is struggling to recover", options: ["ထိုနိုင်ငံသည် ပြန်လည်နာလန်ထူရန် ရုန်းကန်နေရသည်", "စျေးကွက်စီးပွားရေး ကျဆင်းသွားသည်", "ငွေကြေးတန်ဖိုး ကျဆင်းသွားသည်"], answer: "ထိုနိုင်ငံသည် ပြန်လည်နာလန်ထူရန် ရုန်းကန်နေရသည်" }
       ],
       speaking: [
-        { id: "spe_adv4_1", text: "During a recession, central banks lower interest rates to stimulate capital markets.", instruction: "Speak with economist cadence:", instructionMM: "အောက်ပါ စီးပွားရေးဝါကျကို အသံထွက်ဖတ်ပါ:" }
+        { id: "spe_adv4_1", text: "During a recession, central banks lower interest rates to stimulate capital markets.", instruction: "Speak with economist cadence:", instructionMM: "အောက်ပါ စီးပွားရေးဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv4_2", text: "Inflation reduces the purchasing power of global currency.", instruction: "Read the economic fact clearly:", instructionMM: "အောက်ပါ စီးပွားရေးဆိုင်ရာ အချက်အလက်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv4_3", text: "Loan debt is a significant financial liability for any business.", instruction: "Read the financial statement clearly:", instructionMM: "အောက်ပါ ဘဏ္ဍာရေးဆိုင်ရာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" }
       ],
       reading: {
         title: "Navigating the Market Cycle",
@@ -675,7 +1024,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv4_1", question: "Rearrange the words: [purchasing / power / currency / declines / of / the]", correct: "the purchasing power of currency declines", prompt: "Translate: ငွေကြေး၏ ဝယ်ယူနိုင်စွမ်းအား ကျဆင်းသွားသည်" }
+        { id: "wri_adv4_1", question: "Rearrange the words: [purchasing / power / currency / declines / of / the]", correct: "the purchasing power of currency declines", prompt: "Translate: ငွေကြေး၏ ဝယ်ယူနိုင်စွမ်းအား ကျဆင်းသွားသည်" },
+        { id: "wri_adv4_2", question: "Rearrange the words: [estate / is / a / long / term / asset / real]", correct: "real estate is a long term asset", prompt: "Translate: အိမ်ခြံမြေသည် ရေရှည် ပိုင်ဆိုင်မှု ဖြစ်သည်" },
+        { id: "wri_adv4_3", question: "Rearrange the words: [companies / struggle / to / raise / capital / recession / during]", correct: "companies struggle to raise capital during recession", prompt: "Translate: စီးပွားပျက်ကပ်အတွင်း ကုမ္ပဏီများသည် အရင်းအနှီးရှာဖွေရန် ရုန်းကန်ရသည်" }
       ]
     },
     {
@@ -692,10 +1043,14 @@ export const LESSONS = {
         { word: "Expedition", ipa: "/ˌekspəˈdɪʃn/", mm: "ရှာဖွေရေးခရီးစဉ်", example: "The Arctic expedition gathered climate data.", exampleMM: "အာတိတ် ရှာဖွေရေးခရီးစဉ်က ရာသီဥတုဆိုင်ရာ အချက်အလက်များကို စုဆောင်းခဲ့သည်။" }
       ],
       listening: [
-        { id: "lis_adv5_1", text: "AI will revolutionize multiple industries", audioText: "AI will revolutionize multiple industries", options: ["အေအိုင်က လုပ်ငန်းအများစုကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်", "စကြာဝဠာဗေဒက စကြာဝဠာကို လေ့လာသည်", "သိပ္ပံပညာရှင်များက အယူအဆအသစ်ကို ရေးဆွဲသည်"], answer: "အေအိုင်က လုပ်ငန်းအများစုကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်" }
+        { id: "lis_adv5_1", text: "AI will revolutionize multiple industries", audioText: "AI will revolutionize multiple industries", options: ["အေအိုင်က လုပ်ငန်းအများစုကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်", "စကြာဝဠာဗေဒက စကြာဝဠာကို လေ့လာသည်", "သိပ္ပံပညာရှင်များက အယူအဆအသစ်ကို ရေးဆွဲသည်"], answer: "အေအိုင်က လုပ်ငန်းအများစုကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်" },
+        { id: "lis_adv5_2", text: "Quantum computers solve calculations instantly", audioText: "Quantum computers solve calculations instantly", options: ["ကွမ်တမ်ကွန်ပျူတာများသည် တွက်ချက်မှုများကို ချက်ချင်းဖြေရှင်းပေးနိုင်သည်", "ရှာဖွေရေး ခရီးစဉ် သွားခဲ့သည်", "အယူအဆအသစ်ကို ဖော်ထုတ်ခဲ့သည်"], answer: "ကွမ်တမ်ကွန်ပျူတာများသည် တွက်ချက်မှုများကို ချက်ချင်းဖြေရှင်းပေးနိုင်သည်" },
+        { id: "lis_adv5_3", text: "The Arctic expedition gathered climate data", audioText: "The Arctic expedition gathered climate data", options: ["အာတိတ် ရှာဖွေရေးခရီးစဉ်က ရာသီဥတုဆိုင်ရာ အချက်အလက်များကို စုဆောင်းခဲ့သည်", "အာကာသကို လေ့လာသည်", "နည်းပညာ တိုးတက်လာသည်"], answer: "အာတိတ် ရှာဖွေရေးခရီးစဉ်က ရာသီဥတုဆိုင်ရာ အချက်အလက်များကို စုဆောင်းခဲ့သည်" }
       ],
       speaking: [
-        { id: "spe_adv5_1", text: "Astronauts embarking on deep-space expeditions test the limits of technology.", instruction: "Speak with clear scientific cadence:", instructionMM: "အောက်ပါ သိပ္ပံဆိုင်ရာ စာကြောင်းကို အသံထွက်ဖတ်ပါ:" }
+        { id: "spe_adv5_1", text: "Astronauts embarking on deep-space expeditions test the limits of technology.", instruction: "Speak with clear scientific cadence:", instructionMM: "အောက်ပါ သိပ္ပံဆိုင်ရာ စာကြောင်းကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv5_2", text: "AI will revolutionize multiple industries in the near future.", instruction: "Read the tech innovation statement clearly:", instructionMM: "အောက်ပါ နည်းပညာဆန်းသစ်မှု ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv5_3", text: "Cosmology studies the origin and evolution of the universe.", instruction: "Read the scientific definition clearly:", instructionMM: "အောက်ပါ သိပ္ပံပညာရပ် ဆိုင်ရာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" }
       ],
       reading: {
         title: "The Next Frontier",
@@ -708,7 +1063,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv5_1", question: "Rearrange the words: [industries / revolutionize / AI / will / multiple]", correct: "AI will revolutionize multiple industries", prompt: "Translate: အေအိုင်သည် လုပ်ငန်းအများအပြားကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်" }
+        { id: "wri_adv5_1", question: "Rearrange the words: [industries / revolutionize / AI / will / multiple]", correct: "AI will revolutionize multiple industries", prompt: "Translate: အေအိုင်သည် လုပ်ငန်းအများအပြားကို တော်လှန်ပြောင်းလဲစေလိမ့်မည်" },
+        { id: "wri_adv5_2", question: "Rearrange the words: [calculations / solve / computers / quantum / instantly]", correct: "quantum computers solve calculations instantly", prompt: "Translate: ကွမ်တမ်ကွန်ပျူတာများသည် တွက်ချက်မှုများကို ချက်ချင်းဖြေရှင်းပေးနိုင်သည်" },
+        { id: "wri_adv5_3", question: "Rearrange the words: [origin / studies / cosmology / the / universe / of]", correct: "cosmology studies the origin of universe", prompt: "Translate: စကြာဝဠာဗေဒသည် စကြာဝဠာ၏ မူလအစကို လေ့လာသည်" }
       ]
     },
     {
@@ -725,10 +1082,14 @@ export const LESSONS = {
         { word: "Sovereignty", ipa: "/ˈsɒvrənti/", mm: "အချုပ်အခြာအာဏာ", example: "The nation defended its state sovereignty.", exampleMM: "ထိုနိုင်ငံသည် မိမိ၏ အချုပ်အခြာအာဏာကို ကာကွယ်ခဲ့သည်။" }
       ],
       listening: [
-        { id: "lis_adv6_1", text: "Voting is a vital component of a democracy", audioText: "Voting is a vital component of a democracy", options: ["မဲပေးခြင်းသည် ဒီမိုကရေစီစနစ်၏ အရေးကြီးသော အစိတ်အပိုင်းတစ်ခုဖြစ်သည်", "ဖွဲ့စည်းပုံအခြေခံဥပဒေက အခွင့်အရေးကို ကာကွယ်ပေးသည်", "ဥပဒေအသစ်သည် နောက်လတွင် စတင်အာဏာသက်ရောက်မည်"], answer: "မဲပေးခြင်းသည် ဒီမိုကရေစီစနစ်၏ အရေးကြီးသော အစိတ်အပိုင်းတစ်ခုဖြစ်သည်" }
+        { id: "lis_adv6_1", text: "Voting is a vital component of a democracy", audioText: "Voting is a vital component of a democracy", options: ["မဲပေးခြင်းသည် ဒီမိုကရေစီစနစ်၏ အရေးကြီးသော အစိတ်အပိုင်းတစ်ခုဖြစ်သည်", "ဖွဲ့စည်းပုံအခြေခံဥပဒေက အခွင့်အရေးကို ကာကွယ်ပေးသည်", "ဥပဒေအသစ်သည် နောက်လတွင် စတင်အာဏာသက်ရောက်မည်"], answer: "မဲပေးခြင်းသည် ဒီမိုကရေစီစနစ်၏ အရေးကြီးသော အစိတ်အပိုင်းတစ်ခုဖြစ်သည်" },
+        { id: "lis_adv6_2", text: "The constitution protects citizens basic rights", audioText: "The constitution protects citizens basic rights", options: ["ဖွဲ့စည်းပုံအခြေခံဥပဒေက နိုင်ငံသားတွေရဲ့ အခြေခံအခွင့်အရေးတွေကို ကာကွယ်ပေးတယ်", "အချုပ်အခြာအာဏာကို ကာကွယ်ပါ", "တရားစီရင်ပိုင်ခွင့်အာဏာ ရှိသည်"], answer: "ဖွဲ့စည်းပုံအခြေခံဥပဒေက နိုင်ငံသားတွေရဲ့ အခြေခံအခွင့်အရေးတွေကို ကာကွယ်ပေးတယ်" },
+        { id: "lis_adv6_3", text: "This case falls under federal jurisdiction", audioText: "This case falls under federal jurisdiction", options: ["ဤအမှုသည် ပြည်ထောင်စု၏ တရားစီရင်ပိုင်ခွင့်အောက်တွင် ကျရောက်သည်", "ဥပဒေအသစ်သည် အာဏာတည်သည်", "မဲပေးခြင်းက အရေးကြီးသည်"], answer: "ဤအမှုသည် ပြည်ထောင်စု၏ တရားစီရင်ပိုင်ခွင့်အောက်တွင် ကျရောက်သည်" }
       ],
       speaking: [
-        { id: "spe_adv6_1", text: "A constitution establishes the legal framework for democratic governance.", instruction: "Speak with formal political articulation:", instructionMM: "အောက်ပါ စာကြောင်းကို တရားဝင် နိုင်ငံရေးအသံထွက်ဟန်ဖြင့် ဖတ်ပါ:" }
+        { id: "spe_adv6_1", text: "A constitution establishes the legal framework for democratic governance.", instruction: "Speak with formal political articulation:", instructionMM: "အောက်ပါ စာကြောင်းကို တရားဝင် နိုင်ငံရေးအသံထွက်ဟန်ဖြင့် ဖတ်ပါ:" },
+        { id: "spe_adv6_2", text: "Voting is a vital component of a modern democracy.", instruction: "Read the democratic principle statement aloud:", instructionMM: "အောက်ပါ ဒီမိုကရေစီမူဝါဒ ဖော်ပြချက်ကို အသံထွက်ဖတ်ကြားပါ:" },
+        { id: "spe_adv6_3", text: "The nation defended its state sovereignty and borders.", instruction: "Read the sovereignty statement aloud:", instructionMM: "အောက်ပါ အချုပ်အခြာအာဏာ ဖော်ပြချက်ကို အသံထွက်ဖတ်ကြားပါ:" }
       ],
       reading: {
         title: "The Pillars of Governance",
@@ -741,7 +1102,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv6_1", question: "Rearrange the words: [protects / constitution / basic / the / rights]", correct: "the constitution protects basic rights", prompt: "Translate: ဖွဲ့စည်းပုံအခြေခံဥပဒေက အခြေခံအခွင့်အရေးများကို ကာကွယ်ပေးသည်" }
+        { id: "wri_adv6_1", question: "Rearrange the words: [protects / constitution / basic / the / rights]", correct: "the constitution protects basic rights", prompt: "Translate: ဖွဲ့စည်းပုံအခြေခံဥပဒေက အခြေခံအခွင့်အရေးများကို ကာကွယ်ပေးသည်" },
+        { id: "wri_adv6_2", question: "Rearrange the words: [democracy / component / vital / voting / is / a / of]", correct: "voting is a vital component of democracy", prompt: "Translate: မဲပေးခြင်းသည် ဒီမိုကရေစီ၏ အရေးကြီးသော အစိတ်အပိုင်းဖြစ်သည်" },
+        { id: "wri_adv6_3", question: "Rearrange the words: [defended / sovereignty / state / its / nation / the]", correct: "the nation defended its state sovereignty", prompt: "Translate: ထိုနိုင်ငံသည် မိမိ၏ အချုပ်အခြာအာဏာကို ကာကွယ်ခဲ့သည်" }
       ]
     },
     {
@@ -758,10 +1121,14 @@ export const LESSONS = {
         { word: "Motivation", ipa: "/ˌmoʊtɪˈveɪʃn/", mm: "လှုံ့ဆော်မှု / စိတ်အားထက်သန်မှု", example: "Success is a powerful motivation.", exampleMM: "အောင်မြင်မှုသည် အားကောင်းသော စိတ်ဓာတ်လှုံ့ဆော်မှုတစ်ခု ဖြစ်သည်။" }
       ],
       listening: [
-        { id: "lis_adv7_1", text: "Success is a powerful motivation", audioText: "Success is a powerful motivation", options: ["အောင်မြင်မှုသည် အားကောင်းသော လှုံ့ဆော်မှုဖြစ်သည်", "ကိုယ်ချင်းစာစိတ်က အရေးကြီးသည်", "အိပ်မက်များက မသိစိတ်ကို ဖော်ပြသည်"], answer: "အောင်မြင်မှုသည် အားကောင်းသော လှုံ့ဆော်မှုဖြစ်သည်" }
+        { id: "lis_adv7_1", text: "Success is a powerful motivation", audioText: "Success is a powerful motivation", options: ["အောင်မြင်မှုသည် အားကောင်းသော လှုံ့ဆော်မှုဖြစ်သည်", "ကိုယ်ချင်းစာစိတ်က အရေးကြီးသည်", "အိပ်မက်များက မသိစိတ်ကို ဖော်ပြသည်"], answer: "အောင်မြင်မှုသည် အားကောင်းသော လှုံ့ဆော်မှုဖြစ်သည်" },
+        { id: "lis_adv7_2", text: "Empathy is essential for human connection", audioText: "Empathy is essential for human connection", options: ["ကိုယ်ချင်းစာစိတ်သည် လူမှုဆက်ဆံရေးအတွက် မရှိမဖြစ်လိုအပ်သည်", "ခံယူချက် မတူညီပါ", "သိမြင်မှုစွမ်းရည်က ကူညီသည်"], answer: "ကိုယ်ချင်းစာစိတ်သည် လူမှုဆက်ဆံရေးအတွက် မရှိမဖြစ်လိုအပ်သည်" },
+        { id: "lis_adv7_3", text: "Dreams reflect our subconscious fears", audioText: "Dreams reflect our subconscious fears", options: ["အိပ်မက်များသည် ကျွန်ုပ်တို့၏ မသိစိတ်ထဲက ကြောက်ရွံ့မှုများကို ထင်ဟပ်စေသည်", "လှုံ့ဆော်မှုက အောင်မြင်စေသည်", "ခံယူချက် ကွဲပြားသည်"], answer: "အိပ်မက်များသည် ကျွန်ုပ်တို့၏ မသိစိတ်ထဲက ကြောက်ရွံ့မှုများကို ထင်ဟပ်စေသည်" }
       ],
       speaking: [
-        { id: "spe_adv7_1", text: "Empathy bridges the gap between different social perceptions.", instruction: "Speak with academic clarity:", instructionMM: "အောက်ပါ စိတ်ပညာစာကြောင်းကို ရှင်းလင်းစွာ ဖတ်ကြားပါ:" }
+        { id: "spe_adv7_1", text: "Empathy bridges the gap between different social perceptions.", instruction: "Speak with academic clarity:", instructionMM: "အောက်ပါ စိတ်ပညာစာကြောင်းကို ရှင်းလင်းစွာ ဖတ်ကြားပါ:" },
+        { id: "spe_adv7_2", text: "Success is a powerful motivation for learning English.", instruction: "Read the motivation tip aloud:", instructionMM: "အောက်ပါ လှုံ့ဆော်မှုဆိုင်ရာ အကြံပြုချက်ကို ဖတ်ပါ:" },
+        { id: "spe_adv7_3", text: "Our dreams often reflect our deepest subconscious fears.", instruction: "Read the subconscious theory aloud:", instructionMM: "အောက်ပါ မသိစိတ်သီအိုရီကို ဖတ်ပါ:" }
       ],
       reading: {
         title: "The Workings of the Mind",
@@ -774,7 +1141,9 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv7_1", question: "Rearrange the words: [reflect / dreams / subconscious / fears / our]", correct: "dreams reflect our subconscious fears", prompt: "Translate: အိပ်မက်များသည် ကျွန်ုပ်တို့၏ မသိစိတ်ထဲက ကြောက်ရွံ့မှုများကို ဖော်ပြသည်" }
+        { id: "wri_adv7_1", question: "Rearrange the words: [reflect / dreams / subconscious / fears / our]", correct: "dreams reflect our subconscious fears", prompt: "Translate: အိပ်မက်များသည် ကျွန်ုပ်တို့၏ မသိစိတ်ထဲက ကြောက်ရွံ့မှုများကို ဖော်ပြသည်" },
+        { id: "wri_adv7_2", question: "Rearrange the words: [empathy / human / essential / connection / is / for]", correct: "empathy is essential for human connection", prompt: "Translate: ကိုယ်ချင်းစာစိတ်သည် လူမှုဆက်ဆံရေးအတွက် မရှိမဖြစ်လိုအပ်သည်" },
+        { id: "wri_adv7_3", question: "Rearrange the words: [motivation / success / powerful / is / a / learning / for]", correct: "success is a powerful motivation for learning", prompt: "Translate: အောင်မြင်မှုသည် လေ့လာသင်ယူမှုအတွက် အားကောင်းသော လှုံ့ဆော်မှုတစ်ခု ဖြစ်သည်" }
       ]
     },
     {
@@ -792,10 +1161,14 @@ export const LESSONS = {
         { word: "Preparation", ipa: "/ˌprepəˈreɪʃn/", mm: "ပြင်ဆင်ခြင်း", example: "Intensive preparation is necessary for academic modules.", exampleMM: "ပညာရပ်ဆိုင်ရာ မော်ဂျူးများအတွက် အပြင်းအထန် ပြင်ဆင်ရန် လိုအပ်သည်။" }
       ],
       listening: [
-        { id: "lis_adv8_1", text: "Fluency and pronunciation are critical for the speaking exam", audioText: "Fluency and pronunciation are critical for the speaking exam", options: ["စကားပြောစာမေးပွဲအတွက် ချောမွေ့စွာပြောနိုင်စွမ်းနှင့် အသံထွက်က အလွန်အရေးကြီးသည်", "အကဲဖြတ်သူသည် သဒ္ဒါကျယ်ပြန့်မှုကို အမှတ်ပေးသည်", "ပညာရပ်ဆိုင်ရာ ပြင်ဆင်မှုသည် လိုအပ်သည်"], answer: "စကားပြောစာမေးပွဲအတွက် ချောမွေ့စွာပြောနိုင်စွမ်းနှင့် အသံထွက်က အလွန်အရေးကြီးသည်" }
+        { id: "lis_adv8_1", text: "Fluency and pronunciation are critical for the speaking exam", audioText: "Fluency and pronunciation are critical for the speaking exam", options: ["စကားပြောစာမေးပွဲအတွက် ချောမွေ့စွာပြောနိုင်စွမ်းနှင့် အသံထွက်က အလွန်အရေးကြီးသည်", "အကဲဖြတ်သူသည် သဒ္ဒါကျယ်ပြန့်မှုကို အမှတ်ပေးသည်", "ပညာရပ်ဆိုင်ရာ ပြင်ဆင်မှုသည် လိုအပ်သည်"], answer: "စကားပြောစာမေးပွဲအတွက် ချောမွေ့စွာပြောနိုင်စွမ်းနှင့် အသံထွက်က အလွန်အရေးကြီးသည်" },
+        { id: "lis_adv8_2", text: "She achieved an overall band score of eight point zero", audioText: "She achieved an overall band score of eight point zero", options: ["သူမသည် စာမေးပွဲတွင် စုစုပေါင်း ရမှတ်အဆင့် ၈.၀ ရရှိခဲ့သည်", "သဒ္ဒါကျယ်ပြန့်မှုကို စစ်ဆေးခဲ့သည်", "အကဲဖြတ်သူကို သဘောကျသည်"], answer: "သူမသည် စာမေးပွဲတွင် စုစုပေါင်း ရမှတ်အဆင့် ၈.၀ ရရှိခဲ့သည်" },
+        { id: "lis_adv8_3", text: "Intensive preparation is necessary for academic modules", audioText: "Intensive preparation is necessary for academic modules", options: ["ပညာရပ်ဆိုင်ရာ မော်ဂျူးများအတွက် အပြင်းအထန် ပြင်ဆင်ရန် လိုအပ်သည်", "ဘာသာစကားကျွမ်းကျင်မှု ရှိသည်", "အမှတ်ပေးစံနှုန်း လေ့လာပါ"], answer: "ပညာရပ်ဆိုင်ရာ မော်ဂျူးများအတွက် အပြင်းအထန် ပြင်ဆင်ရန် လိုအပ်သည်" }
       ],
       speaking: [
-        { id: "spe_adv8_1", text: "Achieving a high band score requires consistent practice and extensive vocabulary.", instruction: "Deliver this test advisory clearly:", instructionMM: "အောက်ပါ စာမေးပွဲ အကြံပြုချက်ကို အသံထွက်ဖတ်ကြားပါ:" }
+        { id: "spe_adv8_1", text: "Achieving a high band score requires consistent practice and extensive vocabulary.", instruction: "Deliver this test advisory clearly:", instructionMM: "အောက်ပါ စာမေးပွဲ အကြံပြုချက်ကို အသံထွက်ဖတ်ကြားပါ:" },
+        { id: "spe_adv8_2", text: "Fluency and accurate pronunciation are critical for the speaking exam.", instruction: "Read the criteria statement aloud:", instructionMM: "အောက်ပါ စံနှုန်းဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv8_3", text: "The course is designed to elevate your linguistic proficiency.", instruction: "Read the course objective aloud:", instructionMM: "အောက်ပါ သင်တန်းရည်ရွယ်ချက်ကို အသံထွက်ဖတ်ပါ:" }
       ],
       reading: {
         title: "Preparing for the IELTS Exam at the British Council",
@@ -808,7 +1181,126 @@ export const LESSONS = {
         ]
       },
       writing: [
-        { id: "wri_adv8_1", question: "Rearrange the words: [requires / score / practice / high / consistent / achieving / a]", correct: "achieving a high score requires consistent practice", prompt: "Translate: မြင့်မားသောရမှတ်ရရှိရန် အမြဲမပြတ်လေ့ကျင့်မှု လိုအပ်သည်" }
+        { id: "wri_adv8_1", question: "Rearrange the words: [requires / score / practice / high / consistent / achieving / a]", correct: "achieving a high score requires consistent practice", prompt: "Translate: မြင့်မားသောရမှတ်ရရှိရန် အမြဲမပြတ်လေ့ကျင့်မှု လိုအပ်သည်" },
+        { id: "wri_adv8_2", question: "Rearrange the words: [evaluates / assessor / grammatical / range / coherence / and]", correct: "assessor evaluates coherence and grammatical range", prompt: "Translate: အကဲဖြတ်သူသည် ဆက်စပ်ဆီလျော်မှုနှင့် သဒ္ဒါကျယ်ပြန့်မှုကို အကဲဖြတ်သည်" },
+        { id: "wri_adv8_3", question: "Rearrange the words: [achieved / band / score / overall / of / she / eight]", correct: "she achieved overall band score of eight", prompt: "Translate: သူမသည် စုစုပေါင်းရမှတ်အဆင့် ရှစ် ရရှိခဲ့သည်" }
+      ]
+    },
+    {
+      id: "adv_9",
+      title: "Conditional Sentences & Wish",
+      titleMM: "အခြေအနေပြဝါကျများနှင့် မျှော်လင့်ချက်ဝါကျများ",
+      description: "Learn to structure real and hypothetical conditional scenarios (Zero to Third Conditionals) and express regret or wishes.",
+      descriptionMM: "လက်တွေ့ကျသော သို့မဟုတ် ယူဆချက်အခြေအနေပြဝါကျများ (Zero to Third conditionals) နှင့် နောင်တ သို့မဟုတ် ဆန္ဒဖော်ပြချက်ဝါကျများကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Conditional", ipa: "/kənˈdɪʃənl/", mm: "အခြေအနေပြ / ကန့်သတ်ချက်ရှိသော", example: "The offer is conditional on approval.", exampleMM: "ဤကမ်းလှမ်းချက်သည် အတည်ပြုချက်အပေါ် မူတည်သည်။" },
+        { word: "Hypothetical", ipa: "/ˌhaɪpəˈθetɪkl/", mm: "ယူဆချက်မျှသာဖြစ်သော / စိတ်ကူးယဉ်", example: "Let us discuss a hypothetical case.", exampleMM: "ယူဆချက်မျှသာဖြစ်သော အခြေအနေတစ်ခုကို ဆွေးနွေးကြပါစို့။" },
+        { word: "Regret", ipa: "/rɪˈɡret/", mm: "နောင်တ / ဝမ်းနည်းပူဆွေးမှု", example: "I have no regret for my decision.", exampleMM: "ကျွန်တော့် ဆုံးဖြတ်ချက်အပေါ် ကျွန်တော် နောင်တမရှိပါ။" },
+        { word: "Consequence", ipa: "/ˈkɒnsɪkwəns/", mm: "အကျိုးဆက် / ရလဒ်", example: "Every action has a consequence.", exampleMM: "လုပ်ရပ်တိုင်းတွင် အကျိုးဆက်တစ်ခု ရှိသည်။" },
+        { word: "Wish", ipa: "/wɪʃ/", mm: "ဆန္ဒရှိသည် / ဆုတောင်းသည်", example: "I wish I could fly.", exampleMM: "ကျွန်တော် ပျံသန်းနိုင်ခဲ့ရင် ကောင်းမှာပဲလို့ ဆန္ဒရှိမိသည်။" }
+      ],
+      listening: [
+        { id: "lis_adv9_1", text: "Every action has a consequence", audioText: "Every action has a consequence", options: ["လုပ်ရပ်တိုင်းတွင် အကျိုးဆက်တစ်ခု ရှိသည်", "နောင်တမရှိပါ", "ဆန္ဒရှိမိသည်"], answer: "လုပ်ရပ်တိုင်းတွင် အကျိုးဆက်တစ်ခု ရှိသည်" },
+        { id: "lis_adv9_2", text: "Let us discuss a hypothetical case", audioText: "Let us discuss a hypothetical case", options: ["ယူဆချက်မျှသာဖြစ်သော အခြေအနေတစ်ခုကို ဆွေးနွေးကြပါစို့", "ကမ်းလှမ်းချက်ကို အတည်ပြုပါ", "အာမခံချက်ရှိသည်"], answer: "ယူဆချက်မျှသာဖြစ်သော အခြေအနေတစ်ခုကို ဆွေးနွေးကြပါစို့" },
+        { id: "lis_adv9_3", text: "The offer is conditional on approval", audioText: "The offer is conditional on approval", options: ["ဤကမ်းလှမ်းချက်သည် အတည်ပြုချက်အပေါ် မူတည်သည်", "ဆုံးဖြတ်ချက် မှန်ကန်သည်", "အကျိုးဆက် ရှိသည်"], answer: "ဤကမ်းလှမ်းချက်သည် အတည်ပြုချက်အပေါ် မူတည်သည်" }
+      ],
+      speaking: [
+        { id: "spe_adv9_1", text: "If they had invested more capital, they would have achieved synergy.", instruction: "Read the third conditional sentence with high clarity:", instructionMM: "တတိယအခြေအနေပြဝါကျကို အသံထွက်ရှင်းလင်းစွာ ဖတ်ပါ:" },
+        { id: "spe_adv9_2", text: "If I were the CEO, I would establish flexible policies.", instruction: "Read the second conditional sentence aloud:", instructionMM: "ဒုတိယအခြေအနေပြဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv9_3", text: "I wish we had hired more qualified experts.", instruction: "Read the regret expression aloud:", instructionMM: "အောက်ပါ နောင်တဖော်ပြချက်ကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "If I Were the CEO",
+        titleMM: "ကျွန်တော်သာ စီအီးအို ဖြစ်ခဲ့လျှင်",
+        content: "Kyaw Kyaw is analyzing company strategies. He thinks, 'If we recruit more global talents, we will increase our revenue. If I were the CEO, I would allocate assets to green technology. I wish we had made that decision last year. In that case, we would have avoided several operational consequences.'",
+        contentMM: "ကျော်ကျော်သည် ကုမ္ပဏီမဟာဗျူဟာများကို ဆန်းစစ်နေသည်။ သူက 'အကယ်၍ ကျွန်ုပ်တို့သည် ကမ္ဘာလုံးဆိုင်ရာ အရည်အချင်းရှိသူများကို ပိုမိုခေါ်ယူပါက ဝင်ငွေ တိုးတက်လာလိမ့်မည်။ ကျွန်တော်သာ စီအီးအို ဖြစ်ခဲ့လျှင် ပိုင်ဆိုင်မှုများကို စိမ်းလန်းသော နည်းပညာများတွင် ခွဲဝေပေးမည်ဖြစ်သည်။ ထိုဆုံးဖြတ်ချက်ကို ပြီးခဲ့သည့်နှစ်က ချမှတ်ခဲ့လျှင် ကောင်းမည်ဟု ဆန္ဒရှိမိသည်။ သို့ဆိုလျှင် ကျွန်ုပ်တို့သည် လုပ်ငန်းလည်ပတ်မှုဆိုင်ရာ အကျိုးဆက်များစွာကို ရှောင်ရှားနိုင်ခဲ့မည်ဖြစ်သည်။' ဟု တွေးတောနေသည်။",
+        questions: [
+          { question: "What would Kyaw Kyaw do if he were the CEO?", options: ["Hire more lawyers", "Allocate assets to green technology", "Reduce salaries"], answer: "Allocate assets to green technology" },
+          { question: "What does Kyaw Kyaw wish the company had done last year?", options: ["Made a decision to invest in green tech", "Sold the company", "Fired workers"], answer: "Made a decision to invest in green tech" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv9_1", question: "Rearrange the words: [had / invested / they / synergy / would / achieved / have]", correct: "they would have achieved synergy", prompt: "Translate: ၎င်းတို့သည် ပူးပေါင်းလုပ်ဆောင်မှု အကျိုးသက်ရောက်မှုကို ရရှိခဲ့ကြလိမ့်မည်" },
+        { id: "wri_adv9_2", question: "Rearrange the words: [were / CEO / the / I / would / assets / allocate / I]", correct: "if I were the CEO I would allocate assets", prompt: "Translate: ကျွန်တော်သာ စီအီးအိုဖြစ်ခဲ့လျှင် ပိုင်ဆိုင်မှုများကို ခွဲဝေပေးမည်" },
+        { id: "wri_adv9_3", question: "Rearrange the words: [wish / we / had / made / decision / that / I]", correct: "I wish we had made that decision", prompt: "Translate: ထိုဆုံးဖြတ်ချက်ကို ကျွန်ုပ်တို့ ချမှတ်ခဲ့လျှင် ကောင်းမည်ဟု ကျွန်တော် ဆန္ဒရှိမိသည်" }
+      ]
+    },
+    {
+      id: "adv_10",
+      title: "Passive Voice & Relative Clauses",
+      titleMM: "ကံပဓာနဝါကျနှင့် ဆက်စပ်ဝါကျများ",
+      description: "Learn to shift focus to the action or object (Passive Voice) and define nouns using relative clauses (who, which, that).",
+      descriptionMM: "လုပ်ဆောင်ချက် သို့မဟုတ် ကံပုဒ်ကို ဦးစားပေးဖော်ပြပုံ (ကံပဓာနဝါကျ) နှင့် နာမ်များကို ဝါကျခွဲဖြင့် ဆက်စပ်ဖော်ပြပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Passive", ipa: "/ˈpæsɪv/", mm: "ကံပဓာန / မတက်ကြွသော", example: "The book is written in passive voice.", exampleMM: "စာအုပ်ကို ကံပဓာနဝါကျပုံစံဖြင့် ရေးသားထားသည်။" },
+        { word: "Agent", ipa: "/ˈeɪdʒənt/", mm: "ပြုလုပ်သူ / ကိုယ်စားလှယ်", example: "The active agent is missing from the sentence.", exampleMM: "ဝါကျတွင် တက်ကြွစွာ ပြုလုပ်သူ ပျောက်ဆုံးနေသည်။" },
+        { word: "Relative", ipa: "/ˈrelətɪv/", mm: "ဆက်စပ်သော / ဆွေမျိုး", example: "Relative pronouns connect clauses.", exampleMM: "ဆက်စပ်နာမ်စားများသည် ဝါကျခွဲများကို ချိတ်ဆက်ပေးသည်။" },
+        { word: "Clause", ipa: "/klɔːz/", mm: "ဝါကျခွဲ", example: "This is a defining relative clause.", exampleMM: "ဒါဟာ အဓိပ္ပာယ်သတ်မှတ်ချက်ပေးတဲ့ ဆက်စပ်ဝါကျခွဲ ဖြစ်ပါတယ်။" },
+        { word: "Define", ipa: "/dɪˈfaɪn/", mm: "အဓိပ္ပာယ်ဖွင့်ဆိုသည် / သတ်မှတ်သည်", example: "Dictionaries define the meanings of words.", exampleMM: "အဘိဓာန်များသည် စကားလုံးများ၏ အဓိပ္ပာယ်ကို ဖွင့်ဆိုကြသည်။" }
+      ],
+      listening: [
+        { id: "lis_adv10_1", text: "The book is written in passive voice", audioText: "The book is written in passive voice", options: ["စာအုပ်ကို ကံပဓာနဝါကျပုံစံဖြင့် ရေးသားထားသည်", "ပြုလုပ်သူ ပျောက်ဆုံးနေသည်", "ဝါကျခွဲများကို ချိတ်ဆက်ပါ"], answer: "စာအုပ်ကို ကံပဓာနဝါကျပုံစံဖြင့် ရေးသားထားသည်" },
+        { id: "lis_adv10_2", text: "Dictionaries define the meanings of words", audioText: "Dictionaries define the meanings of words", options: ["အဘိဓာန်များသည် စကားလုံးများ၏ အဓိပ္ပာယ်ကို ဖွင့်ဆိုကြသည်", "အဓိပ္ပာယ်သတ်မှတ်ချက် ဖြစ်သည်", "ဆွေမျိုးကလပ် ဖြစ်သည်"], answer: "အဘိဓာန်များသည် စကားလုံးများ၏ အဓိပ္ပာယ်ကို ဖွင့်ဆိုကြသည်" },
+        { id: "lis_adv10_3", text: "Relative pronouns connect clauses", audioText: "Relative pronouns connect clauses", options: ["ဆက်စပ်နာမ်စားများသည် ဝါကျခွဲများကို ချိတ်ဆက်ပေးသည်", "ကံပဓာနဝါကျဖြစ်သည်", "ကိုယ်စားလှယ်ကို ရှာဖွေပါ"], answer: "ဆက်စပ်နာမ်စားများသည် ဝါကျခွဲများကို ချိတ်ဆက်ပေးသည်" }
+      ],
+      speaking: [
+        { id: "spe_adv10_1", text: "The coffee, which is imported from Brazil, is roasted by local workers.", instruction: "Read the complex passive sentence with relative clause aloud:", instructionMM: "ဆက်စပ်ဝါကျခွဲပါဝင်သော ကံပဓာနဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv10_2", text: "The active agent is often omitted in scientific reports.", instruction: "Read the grammar explanation clearly:", instructionMM: "အောက်ပါ သဒ္ဒါရှင်းလင်းချက်ကို အသံထွက်ဖတ်ကြားပါ:" },
+        { id: "spe_adv10_3", text: "The law was established by the parliament last year.", instruction: "Read the passive sentence clearly:", instructionMM: "အောက်ပါ ကံပဓာနဝါကျကို ရှင်းလင်းစွာ အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "How Coffee is Produced",
+        titleMM: "ကော်ဖီ ထုတ်လုပ်ပုံ အဆင့်ဆင့်",
+        content: "Coffee is consumed by millions of people daily. The beans, which are harvested by local farmers, are carefully selected. After that, they are processed in factories where they are roasted to perfection. Finally, the packages are distributed to markets worldwide, showing a complex supply chain.",
+        contentMM: "ကော်ဖီကို နေ့စဉ် လူသန်းပေါင်းများစွာ သောက်သုံးကြသည်။ ဒေသခံတောင်သူများ ရိတ်သိမ်းသော ကော်ဖီစေ့များကို ဂရုတစိုက် ရွေးချယ်သည်။ ထို့နောက် ၎င်းတို့ကို စက်ရုံများတွင် ပြုပြင်ပြီး အကောင်းဆုံးဖြစ်အောင် လှော်ကြသည်။ နောက်ဆုံးတွင် ထုပ်ပိုးမှုများကို ကမ္ဘာတစ်ဝန်းရှိ စျေးကွက်များသို့ ဖြန့်ဖြူးရောင်းချပြီး ရှုပ်ထွေးသော ထောက်ပံ့ရေးကွင်းဆက်ကို ဖော်ပြနေသည်။",
+        questions: [
+          { question: "Who harvests the coffee beans?", options: ["Factory workers", "Local farmers", "The consumers"], answer: "Local farmers" },
+          { question: "Where are the beans roasted?", options: ["In local markets", "In factories", "In coffee shops"], answer: "In factories" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv10_1", question: "Rearrange the words: [coffee / which / is / imported / is / roasted / local / by]", correct: "the coffee which is imported is roasted by local", prompt: "Translate: တင်သွင်းလာသော ကော်ဖီကို ဒေသခံများက လှော်သည်" },
+        { id: "wri_adv10_2", question: "Rearrange the words: [written / passive / is / in / book / the / voice]", correct: "the book is written in passive voice", prompt: "Translate: စာအုပ်ကို ကံပဓာနဝါကျဖြင့် ရေးသားထားသည်" },
+        { id: "wri_adv10_3", question: "Rearrange the words: [harvested / by / beans / are / local / farmers]", correct: "beans are harvested by local farmers", prompt: "Translate: ကော်ဖီစေ့များကို ဒေသခံတောင်သူများက ရိတ်သိမ်းကြသည်" }
+      ]
+    },
+    {
+      id: "adv_11",
+      title: "Reported Speech & Gerunds/Infinitives",
+      titleMM: "တစ်ဆင့်စကားပြောဆိုခြင်းနှင့် ကြိယာနာမ်/ကြိယာဝိသေသနများ",
+      description: "Learn how to report other people's statements (Indirect Speech) and use correct verb complements (Gerunds vs Infinitives).",
+      descriptionMM: "အခြားသူများ၏ ပြောစကားကို တစ်ဆင့်ပြန်လည်ပြောဆိုပုံ (သွယ်ဝိုက်ပြောဆိုနည်း) နှင့် မှန်ကန်သော ကြိယာနောက်ဆက်တွဲများ (Gerund vs Infinitive) အသုံးပြုပုံကို လေ့လာပါ။",
+      vocabulary: [
+        { word: "Report", ipa: "/rɪˈpɔːrt/", mm: "သတင်းပို့သည် / တစ်ဆင့်ပြန်ပြောသည်", example: "She went to report the suspect statements.", exampleMM: "သူမ သံသယရှိသူ၏ ပြောကြားချက်များကို သတင်းပို့ရန် သွားခဲ့သည်။" },
+        { word: "Indirect", ipa: "/ˌaɪndɪˈrekt/", mm: "သွယ်ဝိုက်သော / တစ်ဆင့်ပြန်လည်ပြောသော", example: "Reported speech is also called indirect speech.", exampleMM: "တစ်ဆင့်ပြန်လည်ပြောဆိုခြင်းကို သွယ်ဝိုက်ပြောဆိုနည်းဟုလည်း ခေါ်သည်။" },
+        { word: "Gerund", ipa: "/ˈdʒerənd/", mm: "ကြိယာနာမ် (ing ပုံစံ)", example: "'Reading' is a gerund in this sentence.", exampleMM: "ဤဝါကျတွင် 'Reading' သည် ကြိယာနာမ်တစ်ခုဖြစ်သည်။" },
+        { word: "Infinitive", ipa: "/ɪnˈfɪnətɪv/", mm: "အခြေခံကြိယာ (to + verb)", example: "He decided to study English.", exampleMM: "သူ အင်္ဂလိပ်စာ လေ့လာရန် ဆုံးဖြတ်ခဲ့သည်။" },
+        { word: "Preference", ipa: "/ˈprefrəns/", mm: "ပိုမိုကြိုက်နှစ်သက်မှု / ဦးစားပေးမှု", example: "State your scheduling preference clearly.", exampleMM: "သင့်အချိန်ဇယား ဦးစားပေးမှုကို ရှင်းလင်းစွာ ဖော်ပြပါ။" }
+      ],
+      listening: [
+        { id: "lis_adv11_1", text: "Reported speech is also called indirect speech", audioText: "Reported speech is also called indirect speech", options: ["တစ်ဆင့်ပြန်လည်ပြောဆိုခြင်းကို သွယ်ဝိုက်ပြောဆိုနည်းဟုလည်း ခေါ်သည်", "ကြိယာနာမ်ကို သုံးပါ", "ဦးစားပေးမှုကို ဖော်ပြပါ"], answer: "တစ်ဆင့်ပြန်လည်ပြောဆိုခြင်းကို သွယ်ဝိုက်ပြောဆိုနည်းဟုလည်း ခေါ်သည်" },
+        { id: "lis_adv11_2", text: "He decided to study English", audioText: "He decided to study English", options: ["သူ အင်္ဂလိပ်စာ လေ့လာရန် ဆုံးဖြတ်ခဲ့သည်", "သူမ သတင်းပို့ရန် သွားခဲ့သည်", "အင်္ဂလိပ်စာလေ့လာရတာ နှစ်သက်သည်"], answer: "သူ အင်္ဂလိပ်စာ လေ့လာရန် ဆုံးဖြတ်ခဲ့သည်" },
+        { id: "lis_adv11_3", text: "State your scheduling preference clearly", audioText: "State your scheduling preference clearly", options: ["သင့်အချိန်ဇယား ဦးစားပေးမှုကို ရှင်းလင်းစွာ ဖော်ပြပါ", "ဆုံးဖြတ်ချက် ချမှတ်ခဲ့သည်", "တစ်ဆင့်ပြန်ပြောပါ"], answer: "သင့်အချိန်ဇယား ဦးစားပေးမှုကို ရှင်းလင်းစွာ ဖော်ပြပါ" }
+      ],
+      speaking: [
+        { id: "spe_adv11_1", text: "He admitted stealing the document, but denied trying to sell it.", instruction: "Read the complex gerund sentence aloud clearly:", instructionMM: "ကြိယာနာမ်အများအပြားပါဝင်သော အောက်ပါဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv11_2", text: "She said that she had already finished her assignment.", instruction: "Read the reported speech sentence aloud:", instructionMM: "အောက်ပါ တစ်ဆင့်ပြန်ပြောဝါကျကို အသံထွက်ဖတ်ပါ:" },
+        { id: "spe_adv11_3", text: "We decided to postpone the meeting until next Monday.", instruction: "Read the infinitive verb pattern sentence aloud:", instructionMM: "အခြေခံကြိယာပုံစံပါဝင်သော အောက်ပါဝါကျကို အသံထွက်ဖတ်ပါ:" }
+      ],
+      reading: {
+        title: "The Courtroom Testimony",
+        titleMM: "တရားခွင် ထွက်ဆိုချက်",
+        content: "The witness entered to report the events. She said that she had seen the suspect near the bank. He admitted trying to open the security gate but denied stealing any cash. The defense attorney suggested postponing the trial, but the judge decided to proceed without delay.",
+        contentMM: "သက်သေသည် ဖြစ်ရပ်များကို သတင်းပို့ရန် ဝင်ရောက်လာခဲ့သည်။ သူမက သံသယရှိသူကို ဘဏ်အနီးတွင် တွေ့ခဲ့ရသည်ဟု ပြောကြားခဲ့သည်။ သူသည် လုံခြုံရေးတံခါးကို ဖွင့်ရန် ကြိုးစားခဲ့ကြောင်း ဝန်ခံခဲ့သော်လည်း ငွေကြေးခိုးယူခဲ့ခြင်းကို ငြင်းဆိုခဲ့သည်။ ခုခံကာကွယ်ရေးရှေ့နေက တရားခွင်ကို ရွှေ့ဆိုင်းရန် အကြံပြုခဲ့သော်လည်း တရားသူကြီးက နှောင့်နှေးမှုမရှိဘဲ ဆက်လက်ဆောင်ရွက်ရန် ဆုံးဖြတ်ခဲ့သည်။",
+        questions: [
+          { question: "Where did the witness see the suspect?", options: ["Near the school", "Near the bank", "At the airport"], answer: "Near the bank" },
+          { question: "What did the suspect admit to doing?", options: ["Stealing cash", "Trying to open the security gate", "Fleeing the city"], answer: "Trying to open the security gate" }
+        ]
+      },
+      writing: [
+        { id: "wri_adv11_1", question: "Rearrange the words: [stealing / admitted / document / he / the]", correct: "he admitted stealing the document", prompt: "Translate: သူ စာရွက်စာတမ်းခိုးယူခဲ့ကြောင်း ဝန်ခံခဲ့သည်" },
+        { id: "wri_adv11_2", question: "Rearrange the words: [that / had / finished / she / said / she]", correct: "she said that she had finished", prompt: "Translate: သူမ ပြီးစီးခဲ့ပြီဟု ပြောကြားခဲ့သည်" },
+        { id: "wri_adv11_3", question: "Rearrange the words: [postpone / meeting / decided / they / to / the]", correct: "they decided to postpone the meeting", prompt: "Translate: ၎င်းတို့သည် အစည်းအဝေးကို ရွှေ့ဆိုင်းရန် ဆုံးဖြတ်ခဲ့ကြသည်" }
       ]
     }
   ]
